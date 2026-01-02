@@ -27,7 +27,7 @@
         <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee" />
 
         <label for="quiz-mode">Type de quiz :</label>
-        <select id="quiz-mode" onchange="toggleThemeSelector()">
+        <select id="quiz-mode">
           <option value="simulation">Simulation d'examen (40 questions)</option>
           <option value="theme">Entraînement par thème</option>
         </select>
@@ -38,6 +38,19 @@
             <option value="no" selected>Non</option>
             <option value="yes">Oui (45 minutes)</option>
           </select>
+        </div>
+
+        <div id="mise-en-situation-container" style="margin-top: 15px;">
+          <label for="mise-en-situation-choice">Questions "Mise en situation" (IA) :</label>
+          <select id="mise-en-situation-choice">
+            <option value="no" selected>Non</option>
+            <option value="yes">Oui</option>
+          </select>
+        </div>
+
+        <div id="api-key-container" style="display: none; margin-top: 15px;">
+          <label for="api-key">Votre clé API Gemini :</label>
+          <input type="password" id="api-key" placeholder="Entrez votre clé API" />
         </div>
 
         <div
