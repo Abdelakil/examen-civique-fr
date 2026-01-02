@@ -32,6 +32,14 @@
           <option value="theme">Entraînement par thème</option>
         </select>
 
+        <div id="timed-exam-container" style="margin-top: 15px;">
+          <label for="timed-exam-choice">Examen chronométré :</label>
+          <select id="timed-exam-choice">
+            <option value="no" selected>Non</option>
+            <option value="yes">Oui (45 minutes)</option>
+          </select>
+        </div>
+
         <div
           id="theme-selector-container"
           style="display: none; margin-top: 15px"
@@ -109,6 +117,10 @@
           <tr>
             <th>Total restant</th>
             <td id="stat-total-left">-</td>
+          </tr>
+          <tr id="timer-row" style="display: none;">
+            <th>Temps restant</th>
+            <td id="stat-timer">-</td>
           </tr>
           <tr>
             <th>Correct</th>
