@@ -1,6 +1,6 @@
-# 🇫🇷 Préparation à l'Examen de Citoyenneté Française
+# 🇫🇷 Préparation à l'Examen Civique 
 
-Une application web moderne, interactive et responsive pour s'entraîner aux examens de la **Carte de Séjour Pluriannuelle (CSP)** et de la **Carte de Résident (CR)**.
+Une application web moderne, interactive et responsive pour s'entraîner au examen civique de la **Carte de Séjour Pluriannuelle (CSP)** et de la **Carte de Résident (CR)**.
 
 ## 🚀 Fonctionnalités
 
