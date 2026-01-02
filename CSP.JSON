@@ -1,0 +1,1940 @@
+{
+  "bloc1_principes_valeurs": {
+    "devise_symboles": [
+      {
+        "question": "À quoi correspond la date du 14 juillet ?",
+        "choix": [
+          "La signature de l'Armistice",
+          "La fête nationale (prise de la Bastille et Fête de la Fédération)",
+          "Le sacre de Napoléon Ier",
+          "La création de la Ve République"
+        ],
+        "reponse_correcte": "La fête nationale (prise de la Bastille et Fête de la Fédération)"
+      },
+      {
+        "question": "Quel est l’un des symboles de la République française ?",
+        "choix": [
+          "La Tour Eiffel",
+          "Marianne",
+          "Le Mont Saint-Michel",
+          "Le Louvre"
+        ],
+        "reponse_correcte": "Marianne"
+      },
+      {
+        "question": "Le principe d’égalité signifie que :",
+        "choix": [
+          "Tous les citoyens ont les mêmes droits et devoirs",
+          "Tous les citoyens doivent être riches",
+          "Tous les citoyens doivent voter de la même façon",
+          "Certains citoyens ont plus de droits que d'autres"
+        ],
+        "reponse_correcte": "Tous les citoyens ont les mêmes droits et devoirs"
+      },
+      {
+        "question": "« Liberté, égalité, fraternité », c’est :",
+        "choix": [
+          "Une devise de la République française",
+          "Une chanson populaire",
+          "Une loi scolaire",
+          "Une devise de l'Union européenne"
+        ],
+        "reponse_correcte": "Une devise de la République française"
+      },
+      {
+        "question": "Certains métiers peuvent-ils être réservés aux hommes ?",
+        "choix": [
+          "Oui, certains métiers restent réservés aux hommes",
+          "Non, tous les métiers sont ouverts à tous",
+          "Seulement dans les grandes villes",
+          "Seulement si l’entreprise le décide"
+        ],
+        "reponse_correcte": "Non, tous les métiers sont ouverts à tous"
+      },
+      {
+        "question": "De quand date la Constitution de la Ve République ?",
+        "choix": [
+          "1789",
+          "1848",
+          "1875",
+          "1958"
+        ],
+        "reponse_correcte": "1958"
+      },
+      {
+        "question": "Le régime de la France est :",
+        "choix": [
+          "Une monarchie",
+          "Une république",
+          "Un empire",
+          "Une dictature"
+        ],
+        "reponse_correcte": "Une république"
+      },
+      {
+        "question": "Lequel de ces symboles représente officiellement la République française ?",
+        "choix": [
+          "La Tour Eiffel",
+          "Le coq gaulois",
+          "Marianne",
+          "La Joconde"
+        ],
+        "reponse_correcte": "Marianne"
+      },
+      {
+        "question": "Où peut-on voir la devise de la République ?",
+        "choix": [
+          "Sur les bâtiments publics",
+          "Sur les billets de banque uniquement",
+          "Dans les musées privés",
+          "Sur les tickets de métro"
+        ],
+        "reponse_correcte": "Sur les bâtiments publics"
+      },
+      {
+        "question": "Quels sont des symboles officiels de la République française ?",
+        "choix": [
+          "Marianne, le drapeau tricolore, la Marseillaise",
+          "La Tour Eiffel, le Louvre, Notre-Dame",
+          "Le coq, la baguette, le vin",
+          "Le Mont Saint-Michel, la Joconde, le drapeau bleu"
+        ],
+        "reponse_correcte": "Marianne, le drapeau tricolore, la Marseillaise"
+      },
+      {
+        "question": "Qu’est-ce que l’égalité ?",
+        "choix": [
+          "Le fait que chacun ait les mêmes droits et chances",
+          "Le fait de recevoir le même salaire quel que soit le travail",
+          "Le fait de voter pour la même personne",
+          "Le fait de pratiquer la même religion"
+        ],
+        "reponse_correcte": "Le fait que chacun ait les mêmes droits et chances"
+      },
+      {
+        "question": "Que signifie la liberté ?",
+        "choix": [
+          "Pouvoir agir et penser sans nuire aux autres",
+          "Pouvoir faire ce qu’on veut sans aucune règle",
+          "Pouvoir contrôler les autres",
+          "Pouvoir avoir beaucoup d’argent"
+        ],
+        "reponse_correcte": "Pouvoir agir et penser sans nuire aux autres"
+      },
+      {
+        "question": "Que signifie le mot « fraternité » dans la devise française ?",
+        "choix": [
+          "Solidarité et entraide entre tous les citoyens",
+          "Vivre uniquement avec sa famille",
+          "Aider seulement ses amis proches",
+          "Respecter les lois uniquement"
+        ],
+        "reponse_correcte": "Solidarité et entraide entre tous les citoyens"
+      },
+      {
+        "question": "Quel animal est un symbole de la France ?",
+        "choix": [
+          "Le coq",
+          "Le lion",
+          "L’aigle",
+          "Le cheval"
+        ],
+        "reponse_correcte": "Le coq"
+      },
+      {
+        "question": "Quel est l’un des rôles des associations ?",
+        "choix": [
+          "Organiser des activités pour le bien commun",
+          "Gérer les élections",
+          "Imposer des lois",
+          "Contrôler les entreprises"
+        ],
+        "reponse_correcte": "Organiser des activités pour le bien commun"
+      },
+      {
+        "question": "Quel est le nom de l'hymne national ?",
+        "choix": [
+          "La Marseillaise",
+          "Le Chant des Partisans",
+          "La Vie en Rose",
+          "Le Chant du Départ"
+        ],
+        "reponse_correcte": "La Marseillaise"
+      },
+      {
+        "question": "Quel symbole de la République française est tricolore ?",
+        "choix": [
+          "Le drapeau français",
+          "Marianne",
+          "Le coq",
+          "La Tour Eiffel"
+        ],
+        "reponse_correcte": "Le drapeau français"
+      },
+      {
+        "question": "Quelle est la date de la fête nationale française ?",
+        "choix": [
+          "14 juillet",
+          "1er mai",
+          "11 novembre",
+          "25 décembre"
+        ],
+        "reponse_correcte": "14 juillet"
+      },
+      {
+        "question": "Quelle est la devise de la République française ?",
+        "choix": [
+          "Liberté, égalité, fraternité",
+          "Unité, travail, progrès",
+          "Justice et paix",
+          "Fraternité, loyauté, courage"
+        ],
+        "reponse_correcte": "Liberté, égalité, fraternité"
+      },
+      {
+        "question": "Quelle est la langue officielle de la République française ?",
+        "choix": [
+          "Le français",
+          "L’anglais",
+          "L’espagnol",
+          "L’allemand"
+        ],
+        "reponse_correcte": "Le français"
+      },
+      {
+        "question": "Quelle est la place de la langue française dans la République ?",
+        "choix": [
+          "C’est la langue officielle et obligatoire pour l’administration et l’école",
+          "C’est une langue optionnelle",
+          "C’est une langue réservée aux médias",
+          "C’est uniquement une langue culturelle"
+        ],
+        "reponse_correcte": "C’est la langue officielle et obligatoire pour l’administration et l’école"
+      },
+      {
+        "question": "Quelle liberté permet à chacun d’exprimer ses idées ?",
+        "choix": [
+          "La liberté d’expression",
+          "La liberté de circulation",
+          "La liberté économique",
+          "La liberté religieuse"
+        ],
+        "reponse_correcte": "La liberté d’expression"
+      },
+      {
+        "question": "Quelle proposition est correcte ? La liberté d'expression :",
+        "choix": [
+          "Permet de donner son avis sans nuire aux autres",
+          "Permet d’insulter tout le monde sans conséquence",
+          "Est limitée aux débats politiques",
+          "Est réservée aux journalistes"
+        ],
+        "reponse_correcte": "Permet de donner son avis sans nuire aux autres"
+      },
+      {
+        "question": "Quelles sont les couleurs du drapeau français ?",
+        "choix": [
+          "Bleu, blanc, rouge",
+          "Vert, blanc, rouge",
+          "Bleu, jaune, rouge",
+          "Rouge, blanc, noir"
+        ],
+        "reponse_correcte": "Bleu, blanc, rouge"
+      },
+      {
+        "question": "Qu'est-ce que la Marseillaise ?",
+        "choix": [
+          "L’hymne national français",
+          "Une dance traditionnelle",
+          "Un poème historique",
+          "Un monument à Paris"
+        ],
+        "reponse_correcte": "L’hymne national français"
+      },
+      {
+        "question": "Qu'est-ce qui est traditionnellement organisé sur les Champs-Élysées le 14 juillet pour célébrer la fête nationale ?",
+        "choix": [
+          "Un défilé militaire",
+          "Une course cycliste",
+          "Une foire commerciale",
+          "Un concert privé"
+        ],
+        "reponse_correcte": "Un défilé militaire"
+      },
+      {
+        "question": "Qui est Marianne ?",
+        "choix": [
+          "Le symbole de la République française et de la liberté",
+          "La première présidente de France",
+          "Une héroïne de la Révolution française",
+          "Une déesse romaine"
+        ],
+        "reponse_correcte": "Le symbole de la République française et de la liberté"
+      },
+      {
+        "question": "« La France est une République indivisible, ..., démocratique et sociale ». Complétez cette phrase extraite de l'article 1er de la Constitution :",
+        "choix": [
+          "laïque",
+          "libre",
+          "puissante",
+          "unifiée"
+        ],
+        "reponse_correcte": "laïque"
+      }
+    ],
+    "laicite": [
+      {
+        "question": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+        "choix": [
+          "Oui, si c’est dans la rue",
+          "Non, c’est interdit par la loi",
+          "Oui, seulement sur internet",
+          "Oui, si c’est entre amis"
+        ],
+        "reponse_correcte": "Non, c’est interdit par la loi"
+      },
+      {
+        "question": "Une personne peut-elle changer librement de religion ?",
+        "choix": [
+          "Oui, la loi le permet",
+          "Non, la religion est imposée",
+          "Oui, mais seulement à l’âge de 18 ans",
+          "Non, sauf si elle se marie"
+        ],
+        "reponse_correcte": "Oui, la loi le permet"
+      },
+      {
+        "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
+        "choix": [
+          "1789",
+          "1804",
+          "1905",
+          "1958"
+        ],
+        "reponse_correcte": "1905"
+      },
+      {
+        "question": "Que permet le principe de laïcité ?",
+        "choix": [
+          "Liberté de religion et neutralité de l'État",
+          "De choisir sa couleur préférée",
+          "De voter plusieurs fois",
+          "D’imposer une religion à l’école"
+        ],
+        "reponse_correcte": "Liberté de religion et neutralité de l'État"
+      },
+      {
+        "question": "Quel droit est garanti par la laïcité ?",
+        "choix": [
+          "Le droit de travailler",
+          "Le droit de croire ou de ne pas croire",
+          "Le droit de posséder une maison",
+          "Le droit de voyager"
+        ],
+        "reponse_correcte": "Le droit de croire ou de ne pas croire"
+      },
+      {
+        "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+        "choix": [
+          "Pour que l’école reste neutre et ouverte à tous",
+          "Pour favoriser une religion spécifique",
+          "Pour interdire certaines langues",
+          "Pour choisir les enseignants selon leur religion"
+        ],
+        "reponse_correcte": "Pour que l’école reste neutre et ouverte à tous"
+      },
+      {
+        "question": "Qu'est-ce que la laïcité ?",
+        "choix": [
+          "La séparation des religions et de l’État",
+          "Une loi sur les impôts",
+          "Un festival national",
+          "Une marque française"
+        ],
+        "reponse_correcte": "La séparation des religions et de l’État"
+      },
+      {
+        "question": "Un enfant peut-il refuser d’aller à l’école pour une raison religieuse ?",
+        "choix": [
+          "Oui, si ses parents le demandent",
+          "Non, l’école est obligatoire pour tous",
+          "Oui, seulement le vendredi",
+          "Oui, à partir de 16 ans"
+        ],
+        "reponse_correcte": "Non, l’école est obligatoire pour tous"
+      },
+      {
+        "question": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+        "choix": [
+          "Oui, la loi le garantit",
+          "Non, tous doivent avoir une religion",
+          "Oui, mais seulement dans certaines régions",
+          "Non, sauf si elle est mineure"
+        ],
+        "reponse_correcte": "Oui, la loi le garantit"
+      }
+    ]
+  },
+  "bloc2_institutionnel_politique": {
+    "democratie_vote": [
+      {
+        "question": "Les dirigeants sont élus par les citoyens dans :",
+        "choix": [
+          "Une démocratie",
+          "Une monarchie",
+          "Une dictature",
+          "Un empire"
+        ],
+        "reponse_correcte": "Une démocratie"
+      },
+      {
+        "question": "A-t-on le droit de ne pas respecter une loi ?",
+        "choix": [
+          "Oui, si on n’est pas d’accord",
+          "Non, tous doivent respecter la loi",
+          "Oui, seulement pour certaines lois",
+          "Oui, si on est élu"
+        ],
+        "reponse_correcte": "Non, tous doivent respecter la loi"
+      },
+      {
+        "question": "Qui doit respecter la loi ?",
+        "choix": [
+          "Tous les citoyens",
+          "Seulement les fonctionnaires",
+          "Seulement le président",
+          "Seulement les adultes"
+        ],
+        "reponse_correcte": "Tous les citoyens"
+      },
+      {
+        "question": "Qui est élu lors des élections législatives ?",
+        "choix": [
+          "Les députés",
+          "Le président",
+          "Les sénateurs",
+          "Les maires"
+        ],
+        "reponse_correcte": "Les députés"
+      },
+      {
+        "question": "Qui est élu lors des élections municipales ?",
+        "choix": [
+          "Le maire et le conseil municipal",
+          "Le président",
+          "Les députés",
+          "Les sénateurs"
+        ],
+        "reponse_correcte": "Le maire et le conseil municipal"
+      },
+      {
+        "question": "Qui est élu lors des élections présidentielles ?",
+        "choix": [
+          "Le président de la République",
+          "Le maire",
+          "Les députés",
+          "Les sénateurs"
+        ],
+        "reponse_correcte": "Le président de la République"
+      },
+      {
+        "question": "À partir de quel âge a-t-on le droit de voter ?",
+        "choix": [
+          "16 ans",
+          "18 ans",
+          "21 ans",
+          "25 ans"
+        ],
+        "reponse_correcte": "18 ans"
+      },
+      {
+        "question": "Pour combien de temps est élu le président de la République française ?",
+        "choix": [
+          "4 ans",
+          "5 ans",
+          "6 ans",
+          "7 ans"
+        ],
+        "reponse_correcte": "5 ans"
+      },
+      {
+        "question": "Pour combien de temps sont élus les députés ?",
+        "choix": [
+          "4 ans",
+          "5 ans",
+          "6 ans",
+          "7 ans"
+        ],
+        "reponse_correcte": "5 ans"
+      },
+      {
+        "question": "Pour combien de temps sont élus les sénateurs ?",
+        "choix": [
+          "3 ans",
+          "6 ans",
+          "5 ans",
+          "7 ans"
+        ],
+        "reponse_correcte": "6 ans"
+      },
+      {
+        "question": "Quelle condition est nécessaire pour voter aux élections ?",
+        "choix": [
+          "Être majeur et inscrit sur les listes électorales",
+          "Avoir un diplôme",
+          "Être propriétaire d’une maison",
+          "Être marié"
+        ],
+        "reponse_correcte": "Être majeur et inscrit sur les listes électorales"
+      },
+      {
+        "question": "Qui peut voter aux élections en France ?",
+        "choix": [
+          "Tous les citoyens français majeurs inscrits sur les listes électorales",
+          "Tous les habitants de France",
+          "Seulement les fonctionnaires",
+          "Les étrangers vivant en France"
+        ],
+        "reponse_correcte": "Tous les citoyens français majeurs inscrits sur les listes électorales"
+      },
+      {
+        "question": "Que signifie « suffrage universel » ?",
+        "choix": [
+          "Tous les citoyens majeurs peuvent voter",
+          "Seules certaines catégories de citoyens votent",
+          "Le vote est obligatoire",
+          "Le vote est limité aux riches"
+        ],
+        "reponse_correcte": "Tous les citoyens majeurs peuvent voter"
+      },
+      {
+        "question": "Concernant les partis politiques, quelle proposition est correcte ?",
+        "choix": [
+          "Ils présentent des candidats aux élections et participent à la vie politique",
+          "Ils décident des lois sans élection",
+          "Ils n’ont aucun rôle dans les élections",
+          "Ils sont interdits en France"
+        ],
+        "reponse_correcte": "Ils présentent des candidats aux élections et participent à la vie politique"
+      },
+      {
+        "question": "Qui élit les députés ?",
+        "choix": [
+          "Les citoyens français inscrits sur les listes électorales",
+          "Le président",
+          "Les sénateurs",
+          "Le conseil municipal"
+        ],
+        "reponse_correcte": "Les citoyens français inscrits sur les listes électorales"
+      },
+      {
+        "question": "Est-ce que le président de la République ha tous les pouvoirs ?",
+        "choix": [
+          "Non, il partage le pouvoir avec le Parlement et le gouvernement",
+          "Oui, il décide de tout seul",
+          "Oui, sauf pour les lois locales",
+          "Non, il ne peut rien décider"
+        ],
+        "reponse_correcte": "Non, il partage le pouvoir avec le Parlement et le gouvernement"
+      }
+    ],
+    "organisation_republique": [
+      {
+        "question": "Qui nomme le Premier ministre ?",
+        "choix": [
+          "Le président de la République",
+          "Le Parlement",
+          "Le Conseil constitutionnel",
+          "Le Premier ministre sortant"
+        ],
+        "reponse_correcte": "Le président de la République"
+      },
+      {
+        "question": "Le Parlement est composé :",
+        "choix": [
+          "De l’Assemblée nationale et du Sénat",
+          "Du Conseil constitutionnel et du Sénat",
+          "Du président et du gouvernement",
+          "Des maires et des députés"
+        ],
+        "reponse_correcte": "De l’Assemblée nationale et du Sénat"
+      },
+      {
+        "question": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+        "choix": [
+          "De faire appliquer les lois",
+          "De voter les lois",
+          "De juger les affaires",
+          "De contrôler les communes"
+        ],
+        "reponse_correcte": "De faire appliquer les lois"
+      },
+      {
+        "question": "Quel est le rôle de l'autorité judiciaire ?",
+        "choix": [
+          "Rendre la justice et sanctionner les infractions",
+          "Écrire les lois",
+          "Diriger le gouvernement",
+          "Nommer le président"
+        ],
+        "reponse_correcte": "Rendre la justice et sanctionner les infractions"
+      },
+      {
+        "question": "Quel pouvoir détient un juge ? Le pouvoir :",
+        "choix": [
+          "Judiciaire",
+          "Législatif",
+          "Exécutif",
+          "Administratif"
+        ],
+        "reponse_correcte": "Judiciaire"
+      },
+      {
+        "question": "L'autorité judiciaire est exercée par :",
+        "choix": [
+          "Les juges et magistrats",
+          "Le président et les ministres",
+          "Les députés et sénateurs",
+          "Les maires et préfets"
+        ],
+        "reponse_correcte": "Les juges et magistrats"
+      },
+      {
+        "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+        "choix": [
+          "Il peut être poursuivi devant la justice",
+          "Il est automatiquement réélu",
+          "Il perd son droit de vote",
+          "Il reçoit une simple réprimande"
+        ],
+        "reponse_correcte": "Il peut être poursuivi devant la justice"
+      },
+      {
+        "question": "Combien de députés composent l’Assemblée nationale ?",
+        "choix": [
+          "577",
+          "348",
+          "100",
+          "750"
+        ],
+        "reponse_correcte": "577"
+      },
+      {
+        "question": "Quand sont élus les sénateurs ?",
+        "choix": [
+          "Tous les 6 ans",
+          "Tous les 5 ans",
+          "Tous les 4 ans",
+          "Tous les 3 ans"
+        ],
+        "reponse_correcte": "Tous les 6 ans"
+      },
+      {
+        "question": "Qui possède le pouvoir exécutif ?",
+        "choix": [
+          "Le président de la République et le gouvernement",
+          "Le Parlement",
+          "Le Conseil constitutionnel",
+          "Les juges"
+        ],
+        "reponse_correcte": "Le président de la République et le gouvernement"
+      },
+      {
+        "question": "Quel est le rôle des députés ?",
+        "choix": [
+          "Voter les lois et contrôler le gouvernement",
+          "Nommer le président",
+          "Sanctionner les crimes",
+          "Diriger les communes"
+        ],
+        "reponse_correcte": "Voter les lois et contrôler le gouvernement"
+      },
+      {
+        "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+        "choix": [
+          "Législatif, exécutif, judiciaire",
+          "Législatif, éducatif, administratif",
+          "Exécutif, militaire, économique",
+          "Judiciaire, parlementaire, gouvernemental"
+        ],
+        "reponse_correcte": "Législatif, exécutif, judiciaire"
+      },
+      {
+        "question": "Qui possède le pouvoir législatif ?",
+        "choix": [
+          "Le Parlement",
+          "Le président",
+          "Les juges",
+          "Le Premier ministre"
+        ],
+        "reponse_correcte": "Le Parlement"
+      },
+      {
+        "question": "Qui sanctionne l'auteur d'un vol ?",
+        "choix": [
+          "Le juge",
+          "Le président",
+          "Le maire",
+          "Le préfet"
+        ],
+        "reponse_correcte": "Le juge"
+      },
+      {
+        "question": "Qui vote les lois ?",
+        "choix": [
+          "Les députés et les sénateurs",
+          "Le président",
+          "Le Premier ministre",
+          "Le Conseil constitutionnel"
+        ],
+        "reponse_correcte": "Les députés et les sénateurs"
+      },
+      {
+        "question": "Qui réside au palais de l'Élysée ?",
+        "choix": [
+          "Le président de la République",
+          "Le Premier ministre",
+          "Le président du Sénat",
+          "Le maire de Paris"
+        ],
+        "reponse_correcte": "Le président de la République"
+      },
+      {
+        "question": "Combien y a-t-il de départements en France ?",
+        "choix": [
+          "101",
+          "75",
+          "96",
+          "120"
+        ],
+        "reponse_correcte": "101"
+      },
+      {
+        "question": "Qui représente l'État dans un département ?",
+        "choix": [
+          "Le préfet",
+          "Le maire",
+          "Le député",
+          "Le président du conseil départemental"
+        ],
+        "reponse_correcte": "Le préfet"
+      },
+      {
+        "question": "Qui dirige la commune ?",
+        "choix": [
+          "Le maire",
+          "Le préfet",
+          "Le député",
+          "Le président du conseil municipal"
+        ],
+        "reponse_correcte": "Le maire"
+      },
+      {
+        "question": "Qui est le préfet ?",
+        "choix": [
+          "Le représentant de l'État dans un département",
+          "Le chef du Parlement",
+          "Le président de la République",
+          "Le juge principal d’un tribunal"
+        ],
+        "reponse_correcte": "Le représentant de l'État dans un département"
+      },
+      {
+        "question": "Quel est le rôle du Parlement ?",
+        "choix": [
+          "Voter les lois et contrôler le gouvernement",
+          "Faire appliquer les lois",
+          "Sanctionner les infractions",
+          "Nommer le président"
+        ],
+        "reponse_correcte": "Voter les lois et contrôler le gouvernement"
+      },
+      {
+        "question": "Quel est le régime politique de la France aujourd'hui ?",
+        "choix": [
+          "République",
+          "Monarchie",
+          "Empire",
+          "Dictature"
+        ],
+        "reponse_correcte": "République"
+      }
+    ],
+    "institutions_europeennes": [
+      {
+        "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+        "choix": [
+          "27",
+          "28",
+          "30",
+          "25"
+        ],
+        "reponse_correcte": "27"
+      },
+      {
+        "question": "Quel État n'est pas membre de l'Union européenne ?",
+        "choix": [
+          "Norvège",
+          "France",
+          "Allemagne",
+          "Italie"
+        ],
+        "reponse_correcte": "Norvège"
+      },
+      {
+        "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+        "choix": [
+          "Être citoyen européen et inscrit sur les listes électorales",
+          "Avoir plus de 25 ans",
+          "Être résident dans la capitale",
+          "Avoir un emploi"
+        ],
+        "reponse_correcte": "Être citoyen européen et inscrit sur les listes électorales"
+      },
+      {
+        "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+        "choix": [
+          "Tous les 5 ans",
+          "Tous les 4 ans",
+          "Tous les 6 ans",
+          "Tous les 3 ans"
+        ],
+        "reponse_correcte": "Tous les 5 ans"
+      },
+      {
+        "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+        "choix": [
+          "France",
+          "Norvège",
+          "Suède",
+          "Portugal"
+        ],
+        "reponse_correcte": "France"
+      },
+      {
+        "question": "Quelle est la monnaie utilisée en France ?",
+        "choix": [
+          "Euro",
+          "Franc suisse",
+          "Livre sterling",
+          "Dollar"
+        ],
+        "reponse_correcte": "Euro"
+      },
+      {
+        "question": "Qui élit les députés européens ?",
+        "choix": [
+          "Les citoyens européens inscrits sur les listes électorales",
+          "Le président de la Commission européenne",
+          "Les ministres des États membres",
+          "Les chefs d'État"
+        ],
+        "reponse_correcte": "Les citoyens européens inscrits sur les listes électorales"
+      },
+      {
+        "question": "Quand célèbre-t-on la journée de l'Europe ?",
+        "choix": [
+          "9 mai",
+          "1er janvier",
+          "14 juillet",
+          "25 décembre"
+        ],
+        "reponse_correcte": "9 mai"
+      }
+    ]
+  },
+  "bloc3_droits_et_devoirs": {
+    "droits_et_libertes_fondamentales": [
+      {
+        "question": "Comment s’appelle la Constitution actuelle de la France ?",
+        "choix": [
+          "La Constitution de la IVe République",
+          "La Constitution de 1958",
+          "La Charte de 1830",
+          "Le Code civil"
+        ],
+        "reponse_correcte": "La Constitution de 1958"
+      },
+      {
+        "question": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+        "choix": [
+          "Le livret de famille",
+          "La Charte des droits et devoirs du citoyen français",
+          "Le règlement intérieur",
+          "Le Code de la route"
+        ],
+        "reponse_correcte": "La Charte des droits et devoirs du citoyen français"
+      },
+      {
+        "question": "Concernant les droits individuels, quelle proposition est correcte ?",
+        "choix": [
+          "Ils sont les mêmes pour tous et garantis par la loi",
+          "Ils dépendent de la richesse",
+          "Ils sont réservés aux hommes",
+          "Ils changent chaque année"
+        ],
+        "reponse_correcte": "Ils sont les mêmes pour tous et garantis par la loi"
+      },
+      {
+        "question": "De quelle année date la Déclaration des droits de l’homme et du citoyen ?",
+        "choix": [
+          "1789",
+          "1804",
+          "1918",
+          "1945"
+        ],
+        "reponse_correcte": "1789"
+      },
+      {
+        "question": "Lequel de ces droits est un droit fondamental ?",
+        "choix": [
+          "Le droit de ne pas travailler",
+          "La liberté d'aller et venir",
+          "Le droit de ne pas payer d'impôts",
+          "Le droit de doubler dans les files d'attente"
+        ],
+        "reponse_correcte": "La liberté d'aller et venir"
+      },
+      {
+        "question": "Parmi ces textes, lequel garantit les droits et libertés en France ?",
+        "choix": [
+          "Le journal local",
+          "La Constitution",
+          "Le guide Michelin",
+          "Le dictionnaire"
+        ],
+        "reponse_correcte": "La Constitution"
+      },
+      {
+        "question": "Qu’est-ce que la liberté d’expression ?",
+        "choix": [
+          "Le droit de dire tout ce qu'on veut, même insulter",
+          "Le droit d'exprimer ses idées dans le respect de la loi",
+          "L'interdiction de parler en public",
+          "Le droit de mentir devant un juge"
+        ],
+        "reponse_correcte": "Le droit d'exprimer ses idées dans le respect de la loi"
+      },
+      {
+        "question": "Quel droit permet à une personne de se défendre devant la justice ?",
+        "choix": [
+          "Le droit à un procès équitable et à un avocat",
+          "Le droit de se venger soi-même",
+          "Le droit d'ignorer la police",
+          "Le droit de choisir son juge"
+        ],
+        "reponse_correcte": "Le droit à un procès équitable et à un avocat"
+      },
+      {
+        "question": "Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?",
+        "choix": [
+          "Le Code du travail",
+          "La Déclaration des droits de l’homme et du citoyen",
+          "Le règlement de la mairie",
+          "La Constitution européenne"
+        ],
+        "reponse_correcte": "La Déclaration des droits de l’homme et du citoyen"
+      },
+      {
+        "question": "Quel texte a été adopté pendant la Révolution française ?",
+        "choix": [
+          "Le traité de Versailles",
+          "La Déclaration des droits de l’homme et du citoyen",
+          "La Constitution de la Ve République",
+          "Le Code de l'environnement"
+        ],
+        "reponse_correcte": "La Déclaration des droits de l’homme et du citoyen"
+      },
+      {
+        "question": "Quelle liberté permet à une personne de ne pas avoir de religion ?",
+        "choix": [
+          "La liberté de circulation",
+          "La liberté de conscience",
+          "La liberté d'association",
+          "La liberté de réunion"
+        ],
+        "reponse_correcte": "La liberté de conscience"
+      },
+      {
+        "question": "Une femme peut avorter :",
+        "choix": [
+          "C'est interdit en France",
+          "C'est un droit garanti par la loi (IVG)",
+          "Seulement si elle a l'accord de son mari",
+          "Seulement si elle a plus de 30 ans"
+        ],
+        "reponse_correcte": "C'est un droit garanti par la loi (IVG)"
+      },
+      {
+        "question": "Est-il toujours possible de divorcer ?",
+        "choix": [
+          "Non, c'est interdit",
+          "Oui, la loi permet de rompre un mariage",
+          "Seulement après 20 ans de mariage",
+          "Seulement si le maire est d'accord"
+        ],
+        "reponse_correcte": "Oui, la loi permet de rompre un mariage"
+      },
+      {
+        "question": "La peine de mort est :",
+        "choix": [
+          "Autorisée pour les crimes graves",
+          "Abolie en France depuis 1981",
+          "Encore pratiquée dans certaines régions",
+          "Remplacée par le travail forcé"
+        ],
+        "reponse_correcte": "Abolie en France depuis 1981"
+      }
+    ],
+    "obligations_et_devoirs_du_citoyen": [
+      {
+        "question": "Concernant les limites aux libertés individuelles, quelle proposition est correcte ?",
+        "choix": [
+          "La liberté s'arrête là où commence celle d'autrui",
+          "Il n'y a aucune limite à la liberté",
+          "Seul le président peut limiter les libertés",
+          "La liberté dépend de la religion"
+        ],
+        "reponse_correcte": "La liberté s'arrête là où commence celle d'autrui"
+      },
+      {
+        "question": "En France, est-ce légal d'être marié à plusieurs personnes en même temps ?",
+        "choix": [
+          "Oui, c'est autorisé",
+          "Non, la polygamie est interdite",
+          "Seulement pour les étrangers",
+          "Oui, si les conjoints sont d'accord"
+        ],
+        "reponse_correcte": "Non, la polygamie est interdite"
+      },
+      {
+        "question": "Faut-il réduire ses déchets ?",
+        "choix": [
+          "Oui, c'est une responsabilité écologique et citoyenne",
+          "Non, ce n'est pas nécessaire",
+          "Seulement si on a de la place",
+          "Non, l'État s'en occupe tout seul"
+        ],
+        "reponse_correcte": "Oui, c'est une responsabilité écologique et citoyenne"
+      },
+      {
+        "question": "Jeter une bouteille dans la rue est :",
+        "choix": [
+          "Un geste normal",
+          "Une infraction passible d'amende",
+          "Autorisé s'il n'y a pas de poubelle",
+          "Un droit du citoyen"
+        ],
+        "reponse_correcte": "Une infraction passible d'amende"
+      },
+      {
+        "question": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
+        "choix": [
+          "Pour nuire aux citoyens",
+          "Pour garantir l'ordre public et la sécurité",
+          "Pour économiser de l'argent",
+          "Pour favoriser un parti politique"
+        ],
+        "reponse_correcte": "Pour garantir l'ordre public et la sécurité"
+      },
+      {
+        "question": "Que doit faire une personne en cas d’accident ?",
+        "choix": [
+          "Prendre une photo et partir",
+          "Porter assistance et prévenir les secours",
+          "Attendre que quelqu'un d'autre appelle",
+          "Continuer sa route"
+        ],
+        "reponse_correcte": "Porter assistance et prévenir les secours"
+      },
+      {
+        "question": "Que permet la citoyenneté française ?",
+        "choix": [
+          "Le droit de vote et l'éligibilité",
+          "Le droit de ne pas respecter les lois",
+          "La gratuité totale de tous les magasins",
+          "Le droit de voyager sans passeport partout dans le monde"
+        ],
+        "reponse_correcte": "Le droit de vote et l'éligibilité"
+      },
+      {
+        "question": "Que risque une personne qui ne respecte pas la loi ?",
+        "choix": [
+          "Rien du tout",
+          "Des sanctions pénales (amende, prison)",
+          "Un simple avertissement oral",
+          "L'exil"
+        ],
+        "reponse_correcte": "Des sanctions pénales (amende, prison)"
+      },
+      {
+        "question": "Quel est le rôle de la gendarmerie ?",
+        "choix": [
+          "Vendre des timbres",
+          "Assurer la sécurité et l'ordre public",
+          "Gérer les écoles",
+          "Construire des routes"
+        ],
+        "reponse_correcte": "Assurer la sécurité et l'ordre public"
+      },
+      {
+        "question": "Quel est le rôle de la police ?",
+        "choix": [
+          "Protéger les citoyens et faire respecter la loi",
+          "Organiser les élections",
+          "Distribuer le courrier",
+          "Soigner les malades"
+        ],
+        "reponse_correcte": "Protéger les citoyens et faire respecter la loi"
+      },
+      {
+        "question": "Qu'est-ce qu'une infraction ?",
+        "choix": [
+          "Un acte conforme à la loi",
+          "Un acte interdit par la loi et sanctionné",
+          "Une nouvelle loi",
+          "Une récompense civique"
+        ],
+        "reponse_correcte": "Un acte interdit par la loi et sanctionné"
+      },
+      {
+        "question": "Comment peut-on réduire ses déchets ?",
+        "choix": [
+          "En jetant tout dans la même poubelle",
+          "En pratiquant le tri sélectif et le recyclage",
+          "En achetant plus de plastique",
+          "En brûlant ses déchets dans son jardin"
+        ],
+        "reponse_correcte": "En pratiquant le tri sélectif et le recyclage"
+      },
+      {
+        "question": "Déposer une machine à laver cassée sur le trottoir est :",
+        "choix": [
+          "Autorisé le lundi",
+          "Un dépôt sauvage interdit et sanctionné",
+          "Un cadeau pour les voisins",
+          "Obligatoire pour le recyclage"
+        ],
+        "reponse_correcte": "Un dépôt sauvage interdit et sanctionné"
+      },
+      {
+        "question": "En quoi consiste la traite des êtres humains ?",
+        "choix": [
+          "Un contrat de travail normal",
+          "Une exploitation grave de la personne humaine",
+          "Une aide au voyage",
+          "Un sport de compétition"
+        ],
+        "reponse_correcte": "Une exploitation grave de la personne humaine"
+      },
+      {
+        "question": "Que doit faire une victime de violences ?",
+        "choix": [
+          "Se taire",
+          "Déposer plainte au commissariat ou à la gendarmerie",
+          "Attendre que ça passe",
+          "Partir dans un autre pays"
+        ],
+        "reponse_correcte": "Déposer plainte au commissariat ou à la gendarmerie"
+      },
+      {
+        "question": "Quelle est l'infraction la plus grave ?",
+        "choix": [
+          "La contravention",
+          "Le délit",
+          "Le crime",
+          "L'incivilité"
+        ],
+        "reponse_correcte": "Le crime"
+      }
+    ]
+  },
+  "bloc4_histoire_geo_culture": {
+    "grandes_periodes_et_personnages_historiques": [
+      {
+        "question": "En quelle année a débuté la Révolution française ?",
+        "choix": [
+          "1789",
+          "1799",
+          "1776",
+          "1804"
+        ],
+        "reponse_correcte": "1789"
+      },
+      {
+        "question": "Qui était Napoléon Ier ?",
+        "choix": [
+          "Empereur des Français",
+          "Roi de France",
+          "Président de la République",
+          "Un général anglais"
+        ],
+        "reponse_correcte": "Empereur des Français"
+      },
+      {
+        "question": "Lequel de ces personnages historiques est français ?",
+        "choix": [
+          "Louis XIV",
+          "George Washington",
+          "Elizabeth I",
+          "Otto von Bismarck"
+        ],
+        "reponse_correcte": "Louis XIV"
+      },
+      {
+        "question": "Dans quelle République est-on aujourd'hui ?",
+        "choix": [
+          "Ve République",
+          "IVe République",
+          "IIIe République",
+          "IIe République"
+        ],
+        "reponse_correcte": "Ve République"
+      },
+      {
+        "question": "Qu'est-ce que la Shoah ?",
+        "choix": [
+          "Le génocide des Juifs pendant la Seconde Guerre mondiale",
+          "La Révolution française",
+          "La guerre de 1914",
+          "La conquête de Napoléon"
+        ],
+        "reponse_correcte": "Le génocide des Juifs pendant la Seconde Guerre mondiale"
+      },
+      {
+        "question": "Quel pays ou région du monde a été colonisé par la France ?",
+        "choix": [
+          "Algérie",
+          "Brésil",
+          "Angleterre",
+          "Australie"
+        ],
+        "reponse_correcte": "Algérie"
+      },
+      {
+        "question": "Qui a rendu l’école gratuite, laïque et obligatoire ?",
+        "choix": [
+          "Jules Ferry",
+          "Napoléon Bonaparte",
+          "Louis XIV",
+          "Charles de Gaulle"
+        ],
+        "reponse_correcte": "Jules Ferry"
+      },
+      {
+        "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
+        "choix": [
+          "1939-1945",
+          "1914-1918",
+          "1789-1799",
+          "1950-1953"
+        ],
+        "reponse_correcte": "1939-1945"
+      },
+      {
+        "question": "Quand a eu lieu la Première Guerre mondiale ?",
+        "choix": [
+          "1914-1918",
+          "1939-1945",
+          "1804-1815",
+          "1870-1871"
+        ],
+        "reponse_correcte": "1914-1918"
+      },
+      {
+        "question": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+        "choix": [
+          "1957",
+          "1945",
+          "1969",
+          "1973"
+        ],
+        "reponse_correcte": "1957"
+      },
+      {
+        "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+        "choix": [
+          "Armistice de la Première Guerre mondiale",
+          "Fête nationale",
+          "Libération de Paris",
+          "Débarquement en Normandie"
+        ],
+        "reponse_correcte": "Armistice de la Première Guerre mondiale"
+      },
+      {
+        "question": "Qui a été le premier Président élu sous la Ve République ?",
+        "choix": [
+          "Charles de Gaulle",
+          "François Mitterrand",
+          "Valéry Giscard d'Estaing",
+          "Georges Pompidou"
+        ],
+        "reponse_correcte": "Charles de Gaulle"
+      },
+      {
+        "question": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+        "choix": [
+          "1848",
+          "1789",
+          "1830",
+          "1794"
+        ],
+        "reponse_correcte": "1848"
+      },
+      {
+        "question": "Depuis quelle année l'école publique est-elle gratuite ?",
+        "choix": [
+          "1881",
+          "1905",
+          "1870",
+          "1958"
+        ],
+        "reponse_correcte": "1881"
+      },
+      {
+        "question": "Combien y a-t-il eu de républiques en France ?",
+        "choix": [
+          "Cinq",
+          "Quatre",
+          "Trois",
+          "Six"
+        ],
+        "reponse_correcte": "Cinq"
+      },
+      {
+        "question": "Qui était le roi de France au moment de la Révolution française ?",
+        "choix": [
+          "Louis XVI",
+          "Louis XIV",
+          "Louis XV",
+          "Napoléon Ier"
+        ],
+        "reponse_correcte": "Louis XVI"
+      },
+      {
+        "question": "Qui a fondé la Ve République ?",
+        "choix": [
+          "Charles de Gaulle",
+          "Napoléon Bonaparte",
+          "François Mitterrand",
+          "Louis XVI"
+        ],
+        "reponse_correcte": "Charles de Gaulle"
+      },
+      {
+        "question": "Que célèbre-t-on le 14 juillet ?",
+        "choix": [
+          "La fête nationale française",
+          "La fin de la Seconde Guerre mondiale",
+          "L’armistice de 1918",
+          "La création de l’Union européenne"
+        ],
+        "reponse_correcte": "La fête nationale française"
+      },
+      {
+        "question": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+        "choix": [
+          "La Première Guerre mondiale",
+          "La Seconde Guerre mondiale",
+          "La guerre de Cent Ans",
+          "La guerre de 1870"
+        ],
+        "reponse_correcte": "La Première Guerre mondiale"
+      },
+      {
+        "question": "Pourquoi l’année 1958 est importante pour la France ?",
+        "choix": [
+          "Création de la Ve République",
+          "Abolition de l’esclavage",
+          "Fin de la Première Guerre mondiale",
+          "Fondation de l’Union européenne"
+        ],
+        "reponse_correcte": "Création de la Ve République"
+      }
+    ],
+    "territoires_et_geographie": [
+      {
+        "question": "Quel fleuve coule en France ?",
+        "choix": [
+          "La Seine",
+          "Le Danube",
+          "Le Nil",
+          "Le Mississippi"
+        ],
+        "reponse_correcte": "La Seine"
+      },
+      {
+        "question": "Quelle ville est française ?",
+        "choix": [
+          "Lyon",
+          "Madrid",
+          "Berlin",
+          "Rome"
+        ],
+        "reponse_correcte": "Lyon"
+      },
+      {
+        "question": "Quel océan borde la côte ouest française ?",
+        "choix": [
+          "Océan Atlantique",
+          "Océan Pacifique",
+          "Océan Indien",
+          "Océan Arctique"
+        ],
+        "reponse_correcte": "Océan Atlantique"
+      },
+      {
+        "question": "Qu'est-ce que Paris ?",
+        "choix": [
+          "La capitale de la France",
+          "Un fleuve",
+          "Une région",
+          "Un océan"
+        ],
+        "reponse_correcte": "La capitale de la France"
+      },
+      {
+        "question": "Quelle est la capitale de la France ?",
+        "choix": [
+          "Paris",
+          "Lyon",
+          "Marseille",
+          "Bordeaux"
+        ],
+        "reponse_correcte": "Paris"
+      },
+      {
+        "question": "Sur quel continent se situe la France métropolitaine ?",
+        "choix": [
+          "Europe",
+          "Amérique",
+          "Afrique",
+          "Asie"
+        ],
+        "reponse_correcte": "Europe"
+      },
+      {
+        "question": "Quelle île est un département d'outre-mer français ?",
+        "choix": [
+          "La Réunion",
+          "Madagascar",
+          "Sicile",
+          "Tasmanie"
+        ],
+        "reponse_correcte": "La Réunion"
+      },
+      {
+        "question": "Combien y a-t-il de régions en France métropolitaine ?",
+        "choix": [
+          "13",
+          "12",
+          "15",
+          "10"
+        ],
+        "reponse_correcte": "13"
+      },
+      {
+        "question": "Quelle ville est un grand port maritime ?",
+        "choix": [
+          "Marseille",
+          "Lyon",
+          "Paris",
+          "Toulouse"
+        ],
+        "reponse_correcte": "Marseille"
+      },
+      {
+        "question": "Quelle est la mer au sud de la France métropolitaine ?",
+        "choix": [
+          "Mer Méditerranée",
+          "Mer du Nord",
+          "Océan Atlantique",
+          "Mer Noire"
+        ],
+        "reponse_correcte": "Mer Méditerranée"
+      },
+      {
+        "question": "Quelle ville est située au bord de la mer Méditerranée ?",
+        "choix": [
+          "Nice",
+          "Lille",
+          "Strasbourg",
+          "Nantes"
+        ],
+        "reponse_correcte": "Nice"
+      },
+      {
+        "question": "Où se situe la Corse ?",
+        "choix": [
+          "Dans la mer Méditerranée",
+          "Dans l’océan Atlantique",
+          "Dans la mer du Nord",
+          "Dans la mer Noire"
+        ],
+        "reponse_correcte": "Dans la mer Méditerranée"
+      },
+      {
+        "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+        "choix": [
+          "Les Alpes",
+          "Les Pyrénées",
+          "Le Massif central",
+          "Le Jura"
+        ],
+        "reponse_correcte": "Les Alpes"
+      }
+    ],
+    "patrimoine_francais": [
+      {
+        "question": "Qui était Molière ?",
+        "choix": [
+          "Un dramaturge et comédien français",
+          "Un peintre italien",
+          "Un explorateur anglais",
+          "Un musicien allemand"
+        ],
+        "reponse_correcte": "Un dramaturge et comédien français"
+      },
+      {
+        "question": "Qui était Charles Baudelaire ?",
+        "choix": [
+          "Un poète français",
+          "Un roi de France",
+          "Un peintre espagnol",
+          "Un scientifique suisse"
+        ],
+        "reponse_correcte": "Un poète français"
+      },
+      {
+        "question": "Qui était George Sand ?",
+        "choix": [
+          "Une écrivaine française",
+          "Une peintre italienne",
+          "Une actrice anglaise",
+          "Une chanteuse allemande"
+        ],
+        "reponse_correcte": "Une écrivaine française"
+      },
+      {
+        "question": "Qui était Simone de Beauvoir ?",
+        "choix": [
+          "Une écrivaine et philosophe française",
+          "Une peintre française",
+          "Une chanteuse française",
+          "Une scientifique française"
+        ],
+        "reponse_correcte": "Une écrivaine et philosophe française"
+      },
+      {
+        "question": "Qui était Albert Camus ?",
+        "choix": [
+          "Un écrivain et philosophe français",
+          "Un peintre italien",
+          "Un roi de France",
+          "Un musicien allemand"
+        ],
+        "reponse_correcte": "Un écrivain et philosophe français"
+      },
+      {
+        "question": "Qui était Paul Cézanne ?",
+        "choix": [
+          "Un peintre français",
+          "Un écrivain français",
+          "Un compositeur français",
+          "Un philosophe français"
+        ],
+        "reponse_correcte": "Un peintre français"
+      },
+      {
+        "question": "Qui était Marc Chagall ?",
+        "choix": [
+          "Un peintre d'origine russe ayant travaillé en France",
+          "Un écrivain français",
+          "Un musicien français",
+          "Un poète français"
+        ],
+        "reponse_correcte": "Un peintre d'origine russe ayant travaillé en France"
+      },
+      {
+        "question": "Qui était Joséphine Baker ?",
+        "choix": [
+          "Une chanteuse et danseuse française",
+          "Une peintre française",
+          "Une écrivaine française",
+          "Une scientifique française"
+        ],
+        "reponse_correcte": "Une chanteuse et danseuse française"
+      },
+      {
+        "question": "Qui était une chanteuse française célèbre ?",
+        "choix": [
+          "Édith Piaf",
+          "Simone de Beauvoir",
+          "Paul Cézanne",
+          "Molière"
+        ],
+        "reponse_correcte": "Édith Piaf"
+      },
+      {
+        "question": "Qu'est-ce que le Louvre ?",
+        "choix": [
+          "Un musée à Paris",
+          "Un château en Normandie",
+          "Un fleuve en France",
+          "Un opéra à Lyon"
+        ],
+        "reponse_correcte": "Un musée à Paris"
+      },
+      {
+        "question": "Qui était Jean de la Fontaine ?",
+        "choix": [
+          "Un fabuliste et écrivain français",
+          "Un peintre français",
+          "Un philosophe anglais",
+          "Un compositeur italien"
+        ],
+        "reponse_correcte": "Un fabuliste et écrivain français"
+      },
+      {
+        "question": "Quel écrivain est français ?",
+        "choix": [
+          "Victor Hugo",
+          "William Shakespeare",
+          "Leo Tolstoï",
+          "Mark Twain"
+        ],
+        "reponse_correcte": "Victor Hugo"
+      },
+      {
+        "question": "Dans quelle ville se trouve la tour Eiffel ?",
+        "choix": [
+          "Paris",
+          "Lyon",
+          "Marseille",
+          "Bordeaux"
+        ],
+        "reponse_correcte": "Paris"
+      },
+      {
+        "question": "Quand célèbre-t-on Noël ?",
+        "choix": [
+          "25 décembre",
+          "1er janvier",
+          "14 juillet",
+          "31 octobre"
+        ],
+        "reponse_correcte": "25 décembre"
+      }
+    ]
+  },
+  "bloc5_vivre_en_societe": {
+    "sinstaller_et_resider_en_france": [
+      {
+        "question": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+        "choix": [
+          "S'assurer que le véhicule est assuré et immatriculé",
+          "Acheter du carburant seulement",
+          "Porter un gilet jaune en permanence",
+          "Rien, on peut conduire immédiatement"
+        ],
+        "reponse_correcte": "S'assurer que le véhicule est assuré et immatriculé"
+      },
+      {
+        "question": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+        "choix": [
+          "Être majeur, consentir librement et le faire célébrer par la mairie",
+          "Être riche, posséder une maison, et avoir des témoins",
+          "Être de la même religion et avoir un contrat signé",
+          "Être parrainé par un juge"
+        ],
+        "reponse_correcte": "Être majeur, consentir librement et le faire célébrer par la mairie"
+      },
+      {
+        "question": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+        "choix": [
+          "Dans les 5 jours suivant la naissance",
+          "Dans le mois suivant la naissance",
+          "Après le premier anniversaire",
+          "Lors de l'inscription à l'école"
+        ],
+        "reponse_correcte": "Dans les 5 jours suivant la naissance"
+      },
+      {
+        "question": "Qu’est-ce qu’un numéro d’urgence ?",
+        "choix": [
+          "Un numéro permettant de contacter rapidement les services de secours",
+          "Un numéro de téléphone ordinaire",
+          "Un numéro pour les informations touristiques",
+          "Un numéro de banque"
+        ],
+        "reponse_correcte": "Un numéro permettant de contacter rapidement les services de secours"
+      }
+    ],
+    "acces_aux_soins": [
+      {
+        "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+        "choix": [
+          "15",
+          "17",
+          "18",
+          "112"
+        ],
+        "reponse_correcte": "15"
+      },
+      {
+        "question": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+        "choix": [
+          "18",
+          "15",
+          "17",
+          "112"
+        ],
+        "reponse_correcte": "18"
+      },
+      {
+        "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+        "choix": [
+          "La sécurité sociale",
+          "La mairie",
+          "Le SAMU",
+          "La police"
+        ],
+        "reponse_correcte": "La sécurité sociale"
+      },
+      {
+        "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+        "choix": [
+          "Chacun peut consulter un médecin, hospitalisation selon besoin",
+          "On ne peut voir un médecin qu’avec un rendez-vous spécial",
+          "Il faut payer avant chaque consultation",
+          "Seuls les français peuvent consulter un médecin"
+        ],
+        "reponse_correcte": "Chacun peut consulter un médecin, hospitalisation selon besoin"
+      },
+      {
+        "question": "En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?",
+        "choix": [
+          "Au médecin traitant",
+          "Au SAMU",
+          "Aux pompiers",
+          "À la police"
+        ],
+        "reponse_correcte": "Au médecin traitant"
+      },
+      {
+        "question": "Quel est le rôle du médecin traitant ?",
+        "choix": [
+          "Suivre la santé du patient et orienter vers des spécialistes si nécessaire",
+          "Seule consultation en urgence",
+          "Assurer les interventions chirurgicales uniquement",
+          "Écrire les ordonnances sans suivi"
+        ],
+        "reponse_correcte": "Suivre la santé du patient et orienter vers des spécialistes si nécessaire"
+      },
+      {
+        "question": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
+        "choix": [
+          "En cas de problème de santé grave ou urgent",
+          "Pour un contrôle annuel",
+          "Pour obtenir une ordonnance",
+          "Pour un vaccin de routine"
+        ],
+        "reponse_correcte": "En cas de problème de santé grave ou urgent"
+      },
+      {
+        "question": "Quel est l’objectif des vaccinations obligatoires ?",
+        "choix": [
+          "Protéger l’enfant et la population contre certaines maladies",
+          "Protéger uniquement les adultes",
+          "Réduire le coût des soins",
+          "Identifier les maladies génétiques"
+        ],
+        "reponse_correcte": "Protéger l’enfant et la population contre certaines maladies"
+      },
+      {
+        "question": "À quoi sert la carte Vitale ?",
+        "choix": [
+          "À faciliter le remboursement des frais de santé",
+          "À s’identifier à l’école",
+          "À voyager gratuitement",
+          "À voter aux élections"
+        ],
+        "reponse_correcte": "À faciliter le remboursement des frais de santé"
+      },
+      {
+        "question": "À quoi sert une mutuelle santé ?",
+        "choix": [
+          "À compléter le remboursement de la sécurité sociale",
+          "À remplacer la sécurité sociale",
+          "À payer les impôts",
+          "À obtenir un logement"
+        ],
+        "reponse_correcte": "À compléter le remboursement de la sécurité sociale"
+      }
+    ],
+    "travailler_en_france": [
+      {
+        "question": "Le travail non déclaré est :",
+        "choix": [
+          "Illégal et non protégé",
+          "Autorisé sous certaines conditions",
+          "Récompensé par des aides fiscales",
+          "Recommandé pour les mineurs"
+        ],
+        "reponse_correcte": "Illégal et non protégé"
+      },
+      {
+        "question": "Que doit faire un employeur pour fixer un salaire ?",
+        "choix": [
+          "Respecter le SMIC et les conventions collectives",
+          "Fixer le salaire librement sans limite",
+          "Ne jamais augmenter le salaire",
+          "Demander l’avis du gouvernement"
+        ],
+        "reponse_correcte": "Respecter le SMIC et les conventions collectives"
+      },
+      {
+        "question": "Qu'est-ce que le SMIC ?",
+        "choix": [
+          "Le salaire minimum légal en France",
+          "Une allocation chômage",
+          "Une prime de fin d’année",
+          "Une aide pour étudiant"
+        ],
+        "reponse_correcte": "Le salaire minimum légal en France"
+      },
+      {
+        "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+        "choix": [
+          "S’inscrire auprès d’un service d’emploi ou France Travail",
+          "Se rendre directement à l’entreprise",
+          "Attendre d’être contacté",
+          "Publier une annonce personnelle"
+        ],
+        "reponse_correcte": "S’inscrire auprès d’un service d’emploi ou France Travail"
+      },
+      {
+        "question": "Quelle est la durée légale du temps de travail par semaine ?",
+        "choix": [
+          "35 heures",
+          "40 heures",
+          "30 heures",
+          "45 heures"
+        ],
+        "reponse_correcte": "35 heures"
+      },
+      {
+        "question": "Qui est aidé par France Travail ?",
+        "choix": [
+          "Les personnes cherchant un emploi",
+          "Les retraités uniquement",
+          "Les employeurs seulement",
+          "Les enfants scolarisés"
+        ],
+        "reponse_correcte": "Les personnes cherchant un emploi"
+      },
+      {
+        "question": "Une personne étrangère en situation régulière peut créer son entreprise :",
+        "choix": [
+          "Oui, sous certaines conditions",
+          "Non, jamais",
+          "Seulement si elle est mariée à un français",
+          "Seulement après 10 ans de résidence"
+        ],
+        "reponse_correcte": "Oui, sous certaines conditions"
+      },
+      {
+        "question": "Une femme peut-elle créer son entreprise ?",
+        "choix": [
+          "Oui, librement",
+          "Non, c’est interdit",
+          "Oui, mais avec autorisation spéciale",
+          "Seulement si elle est mariée"
+        ],
+        "reponse_correcte": "Oui, librement"
+      },
+      {
+        "question": "À partir de quel âge un mineur peut-il travailler ?",
+        "choix": [
+          "16 ans",
+          "14 ans",
+          "18 ans",
+          "12 ans"
+        ],
+        "reponse_correcte": "16 ans"
+      }
+    ],
+    "autorite_parentale_et_systeme_educatif": [
+      {
+        "question": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+        "choix": [
+          "16 ans",
+          "14 ans",
+          "18 ans",
+          "12 ans"
+        ],
+        "reponse_correcte": "16 ans"
+      },
+      {
+        "question": "L'autorité parentale prévoit l'obligation :",
+        "choix": [
+          "D’assurer l’éducation et la protection de l’enfant",
+          "De travailler pour l’État",
+          "De payer des impôts pour l’école",
+          "D’enseigner personnellement à l’enfant"
+        ],
+        "reponse_correcte": "D’assurer l’éducation et la protection de l’enfant"
+      },
+      {
+        "question": "Pour qui l'école est-elle obligatoire ?",
+        "choix": [
+          "Pour tous les enfants résidant en France",
+          "Seulement pour les enfants français",
+          "Pour les enfants des grandes villes",
+          "Pour les enfants dès 6 ans uniquement"
+        ],
+        "reponse_correcte": "Pour tous les enfants résidant en France"
+      },
+      {
+        "question": "Quel diplôme obtient-on à la fin du lycée ?",
+        "choix": [
+          "Le baccalauréat",
+          "Le brevet",
+          "Le CAP",
+          "Le BTS"
+        ],
+        "reponse_correcte": "Le baccalauréat"
+      },
+      {
+        "question": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+        "choix": [
+          "Au collège",
+          "Au lycée",
+          "À l’université",
+          "À l’école maternelle"
+        ],
+        "reponse_correcte": "Au collège"
+      },
+      {
+        "question": "Un enfant inscrit à l'école :",
+        "choix": [
+          "Doit y assister régulièrement",
+          "Peut ne venir qu’une fois par semaine",
+          "Ne peut pas être évalué",
+          "N’a pas besoin de suivre les règles"
+        ],
+        "reponse_correcte": "Doit y assister régulièrement"
+      },
+      {
+        "question": "Les enfants qui ne parlent pas français :",
+        "choix": [
+          "Sont accueillis à l’école et accompagnés pour apprendre le français",
+          "Ne peuvent pas être scolarisés",
+          "Doivent attendre l’âge de 12 ans",
+          "Se voient interdire l’accès aux livres"
+        ],
+        "reponse_correcte": "Sont accueillis à l’école et accompagnés pour apprendre le français"
+      }
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+/* Variables de couleurs optimisées */
+:root {
+  --blue-france: #000091;
+  --blue-france-light: #1212ff;
+  --red-france: #e1000f;
+  --light-bg: #f6f6f6;
+  --white: #ffffff;
+  --text-main: #242424;
+  --success: #27a658;
+  --error: #e1000f;
+  --border-color: #e5e5e5;
+  --shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--light-bg);
+  color: var(--text-main);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Header avec liseré tricolore */
+header {
+  background-color: var(--white);
+  width: 100%;
+  padding: 25px 0;
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, #002157 33.3%, #ffffff 33.3%, #ffffff 66.6%, #e1000f 66.6%);
+}
+
+header h1 {
+  margin: 0;
+  color: var(--blue-france);
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+/* Conteneur principal (transparent pour laisser les blocs se séparer) */
+main {
+  width: 95%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- DESIGN DES CARTES (Menu et Résultats) --- */
+#menu, #results {
+  background: var(--white);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+}
+
+h2 {
+  color: var(--blue-france);
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 25px;
+  border-bottom: 2px solid var(--light-bg);
+  padding-bottom: 10px;
+}
+
+/* --- FORMULAIRES --- */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #444;
+}
+
+select, input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 25px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border-color 0.2s;
+}
+
+select:focus {
+  border-color: var(--blue-france);
+  outline: none;
+}
+
+/* --- LAYOUT DU QUIZ (DEUX BLOCS SÉPARÉS) --- */
+.quiz-layout {
+  display: flex;
+  gap: 30px;
+  align-items: center; /* Centrage vertical du tableau par rapport au quiz */
+}
+
+.quiz-main-content {
+  flex: 1.6;
+  background: var(--white);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+}
+
+.quiz-sidebar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* --- BOUTONS QCM --- */
+.btn-choix {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  margin: 15px 0;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  background: var(--white);
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-align: left;
+  transition: all 0.25s ease;
+}
+
+.btn-choix:hover {
+  border-color: var(--blue-france);
+  background-color: #f8faff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 33, 87, 0.08);
+}
+
+.correct {
+  background-color: #eafaf1 !important;
+  border-color: var(--success) !important;
+  color: #1b5e20 !important;
+  font-weight: 700;
+}
+
+.wrong {
+  background-color: #fff5f5 !important;
+  border-color: var(--error) !important;
+  color: #c62828 !important;
+}
+
+/* --- TABLEAU DE STATS --- */
+#quiz-stats {
+  width: 100%;
+  max-width: 320px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+#quiz-stats th {
+  background-color: #fcfcfc;
+  color: #666;
+  text-align: left;
+  padding: 15px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border-color);
+}
+
+#quiz-stats td {
+  text-align: right;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* --- BOUTONS D'ACTION --- */
+button[onclick="initiateQuiz()"], #next-btn, button[onclick="location.reload()"] {
+  background: var(--blue-france);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #000060;
+  transform: translateY(-1px);
+}
+
+#next-btn {
+  float: right;
+  margin-top: 20px;
+}
+
+.stat-correct { color: var(--success); }
+.stat-wrong { color: var(--error); }
+
+/* --- RESPONSIVE --- */
+@media (max-width: 850px) {
+  .quiz-layout {
+    flex-direction: column;
+  }
+  .quiz-sidebar { order: -1; width: 100%; }
+  #menu, #results, .quiz-main-content { padding: 25px; }
+}
