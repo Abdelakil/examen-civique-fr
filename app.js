@@ -126,12 +126,16 @@ async function initiateQuiz() {
             localStorage.setItem('apiKey', apiKey); // Save API key
             
             // Show loading indicator
-            document.getElementById('menu').innerHTML = '<h2>Génération des questions en cours...</h2>';
+            document.getElementById('menu').style.display = 'none';
+            document.getElementById('loader').style.display = 'block';
 
             const aiQuestions = await generateMiseEnSituationQuestions(apiKey);
+
+            document.getElementById('loader').style.display = 'none';
+
             if (aiQuestions.length === 0) {
-                // Reload if AI questions fail
-                location.reload(); 
+                // Show menu again if AI questions fail
+                document.getElementById('menu').style.display = 'block';
                 return;
             }
             currentQuestions.push(...aiQuestions);

@@ -30,12 +30,11 @@ Comme le projet utilise des fichiers JSON pour les questions, un serveur local e
 ---
 
 ### 🔴 Priorité Critique (IA & Innovation)
-- [ ] **Générateur de "Mises en Situation" (Gemini API)** : Utiliser l'IA pour créer des questions contextuelles qui ne sont pas dans la base de données fixe.
-    - *Objectif* : Sortir du par cœur et tester la compréhension réelle des valeurs (Laïcité, Égalité, Fraternité) à travers des scénarios de la vie courante.
+- [X] **Générateur de "Mises en Situation" (Gemini API)** : Utiliser l'IA pour créer des questions contextuelles qui ne sont pas dans la base de données fixe.
 
 ### 🟢 Priorité Haute
-- [ ] **Sauvegarde locale** : Utiliser `localStorage` pour enregistrer le dernier score et reprendre un quiz en cours.
-- [ ] **Correction détaillée** : Ajouter une explication historique ou juridique après chaque réponse pour approfondir les connaissances.
+- [X] **Sauvegarde locale** : Utiliser `localStorage` pour enregistrer le mode sombre et l'API key.
+- [X] **Indices** : Ajouter des indices pour chaque question dans la base de donnée.
 
 ### 🟡 Priorité Moyenne
 - [X] **Chronomètre** : Ajouter un temps limité pour le mode "Simulation d'examen" (comme en conditions réelles).
