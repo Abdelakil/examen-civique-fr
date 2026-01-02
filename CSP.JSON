@@ -9,7 +9,8 @@
           "Le sacre de Napoléon Ier",
           "La création de la Ve République"
         ],
-        "reponse_correcte": "La fête nationale (prise de la Bastille et Fête de la Fédération)"
+        "reponse_correcte": "La fête nationale (prise de la Bastille et Fête de la Fédération)",
+        "indice": "Cet événement est lié à la Révolution française."
       },
       {
         "question": "Quel est l’un des symboles de la République française ?",
@@ -19,7 +20,8 @@
           "Le Mont Saint-Michel",
           "Le Louvre"
         ],
-        "reponse_correcte": "Marianne"
+        "reponse_correcte": "Marianne",
+        "indice": "C'est une figure féminine qui représente la liberté."
       },
       {
         "question": "Le principe d’égalité signifie que :",
@@ -29,7 +31,8 @@
           "Tous les citoyens doivent voter de la même façon",
           "Certains citoyens ont plus de droits que d'autres"
         ],
-        "reponse_correcte": "Tous les citoyens ont les mêmes droits et devoirs"
+        "reponse_correcte": "Tous les citoyens ont les mêmes droits et devoirs",
+        "indice": "C'est un des trois mots de la devise française."
       },
       {
         "question": "« Liberté, égalité, fraternité », c’est :",
@@ -39,7 +42,8 @@
           "Une loi scolaire",
           "Une devise de l'Union européenne"
         ],
-        "reponse_correcte": "Une devise de la République française"
+        "reponse_correcte": "Une devise de la République française",
+        "indice": "On peut la voir sur les bâtiments publics."
       },
       {
         "question": "Certains métiers peuvent-ils être réservés aux hommes ?",
@@ -49,7 +53,8 @@
           "Seulement dans les grandes villes",
           "Seulement si l’entreprise le décide"
         ],
-        "reponse_correcte": "Non, tous les métiers sont ouverts à tous"
+        "reponse_correcte": "Non, tous les métiers sont ouverts à tous",
+        "indice": "Le principe d'égalité s'applique aussi au travail."
       },
       {
         "question": "De quand date la Constitution de la Ve République ?",
@@ -59,7 +64,8 @@
           "1875",
           "1958"
         ],
-        "reponse_correcte": "1958"
+        "reponse_correcte": "1958",
+        "indice": "Elle a été fondée par Charles de Gaulle."
       },
       {
         "question": "Le régime de la France est :",
@@ -69,7 +75,8 @@
           "Un empire",
           "Une dictature"
         ],
-        "reponse_correcte": "Une république"
+        "reponse_correcte": "Une république",
+        "indice": "Le chef de l'État est un président élu."
       },
       {
         "question": "Lequel de ces symboles représente officiellement la République française ?",
@@ -79,7 +86,8 @@
           "Marianne",
           "La Joconde"
         ],
-        "reponse_correcte": "Marianne"
+        "reponse_correcte": "Marianne",
+        "indice": "Son buste est présent dans les mairies."
       },
       {
         "question": "Où peut-on voir la devise de la République ?",
@@ -89,7 +97,8 @@
           "Dans les musées privés",
           "Sur les tickets de métro"
         ],
-        "reponse_correcte": "Sur les bâtiments publics"
+        "reponse_correcte": "Sur les bâtiments publics",
+        "indice": "Pensez aux écoles ou aux mairies."
       },
       {
         "question": "Quels sont des symboles officiels de la République française ?",
@@ -99,7 +108,8 @@
           "Le coq, la baguette, le vin",
           "Le Mont Saint-Michel, la Joconde, le drapeau bleu"
         ],
-        "reponse_correcte": "Marianne, le drapeau tricolore, la Marseillaise"
+        "reponse_correcte": "Marianne, le drapeau tricolore, la Marseillaise",
+        "indice": "L'un est un chant, l'autre un drapeau, et la troisième une figure féminine."
       },
       {
         "question": "Qu’est-ce que l’égalité ?",
@@ -109,7 +119,8 @@
           "Le fait de voter pour la même personne",
           "Le fait de pratiquer la même religion"
         ],
-        "reponse_correcte": "Le fait que chacun ait les mêmes droits et chances"
+        "reponse_correcte": "Le fait que chacun ait les mêmes droits et chances",
+        "indice": "Ce principe est au cœur de la Déclaration des Droits de l'Homme."
       },
       {
         "question": "Que signifie la liberté ?",
@@ -119,7 +130,8 @@
           "Pouvoir contrôler les autres",
           "Pouvoir avoir beaucoup d’argent"
         ],
-        "reponse_correcte": "Pouvoir agir et penser sans nuire aux autres"
+        "reponse_correcte": "Pouvoir agir et penser sans nuire aux autres",
+        "indice": "Ma liberté s'arrête là où commence celle des autres."
       },
       {
         "question": "Que signifie le mot « fraternité » dans la devise française ?",
@@ -129,7 +141,8 @@
           "Aider seulement ses amis proches",
           "Respecter les lois uniquement"
         ],
-        "reponse_correcte": "Solidarité et entraide entre tous les citoyens"
+        "reponse_correcte": "Solidarité et entraide entre tous les citoyens",
+        "indice": "C'est l'idée d'une grande famille de citoyens."
       },
       {
         "question": "Quel animal est un symbole de la France ?",
@@ -139,7 +152,8 @@
           "L’aigle",
           "Le cheval"
         ],
-        "reponse_correcte": "Le coq"
+        "reponse_correcte": "Le coq",
+        "indice": "On l'associe souvent au sport et aux équipes nationales."
       },
       {
         "question": "Quel est l’un des rôles des associations ?",
@@ -149,7 +163,8 @@
           "Imposer des lois",
           "Contrôler les entreprises"
         ],
-        "reponse_correcte": "Organiser des activités pour le bien commun"
+        "reponse_correcte": "Organiser des activités pour le bien commun",
+        "indice": "Elles sont souvent basées sur le volontariat."
       },
       {
         "question": "Quel est le nom de l'hymne national ?",
@@ -159,7 +174,8 @@
           "La Vie en Rose",
           "Le Chant du Départ"
         ],
-        "reponse_correcte": "La Marseillaise"
+        "reponse_correcte": "La Marseillaise",
+        "indice": "C'est un chant de guerre de la Révolution française."
       },
       {
         "question": "Quel symbole de la République française est tricolore ?",
@@ -169,7 +185,8 @@
           "Le coq",
           "La Tour Eiffel"
         ],
-        "reponse_correcte": "Le drapeau français"
+        "reponse_correcte": "Le drapeau français",
+        "indice": "Il a trois bandes verticales."
       },
       {
         "question": "Quelle est la date de la fête nationale française ?",
@@ -179,7 +196,8 @@
           "11 novembre",
           "25 décembre"
         ],
-        "reponse_correcte": "14 juillet"
+        "reponse_correcte": "14 juillet",
+        "indice": "Elle commémore un événement de la Révolution française."
       },
       {
         "question": "Quelle est la devise de la République française ?",
@@ -189,7 +207,8 @@
           "Justice et paix",
           "Fraternité, loyauté, courage"
         ],
-        "reponse_correcte": "Liberté, égalité, fraternité"
+        "reponse_correcte": "Liberté, égalité, fraternité",
+        "indice": "Ces trois mots sont inscrits sur les mairies."
       },
       {
         "question": "Quelle est la langue officielle de la République française ?",
@@ -199,7 +218,8 @@
           "L’espagnol",
           "L’allemand"
         ],
-        "reponse_correcte": "Le français"
+        "reponse_correcte": "Le français",
+        "indice": "C'est la langue de Molière."
       },
       {
         "question": "Quelle est la place de la langue française dans la République ?",
@@ -209,7 +229,8 @@
           "C’est une langue réservée aux médias",
           "C’est uniquement une langue culturelle"
         ],
-        "reponse_correcte": "C’est la langue officielle et obligatoire pour l’administration et l’école"
+        "reponse_correcte": "C’est la langue officielle et obligatoire pour l’administration et l’école",
+        "indice": "La Constitution la définit comme la langue de la République."
       },
       {
         "question": "Quelle liberté permet à chacun d’exprimer ses idées ?",
@@ -219,7 +240,8 @@
           "La liberté économique",
           "La liberté religieuse"
         ],
-        "reponse_correcte": "La liberté d’expression"
+        "reponse_correcte": "La liberté d’expression",
+        "indice": "Elle est fondamentale en démocratie, mais a des limites."
       },
       {
         "question": "Quelle proposition est correcte ? La liberté d'expression :",
@@ -229,7 +251,8 @@
           "Est limitée aux débats politiques",
           "Est réservée aux journalistes"
         ],
-        "reponse_correcte": "Permet de donner son avis sans nuire aux autres"
+        "reponse_correcte": "Permet de donner son avis sans nuire aux autres",
+        "indice": "Elle ne doit pas porter atteinte à la dignité des personnes."
       },
       {
         "question": "Quelles sont les couleurs du drapeau français ?",
@@ -239,7 +262,8 @@
           "Bleu, jaune, rouge",
           "Rouge, blanc, noir"
         ],
-        "reponse_correcte": "Bleu, blanc, rouge"
+        "reponse_correcte": "Bleu, blanc, rouge",
+        "indice": "Ces couleurs sont disposées en bandes verticales."
       },
       {
         "question": "Qu'est-ce que la Marseillaise ?",
@@ -249,7 +273,8 @@
           "Un poème historique",
           "Un monument à Paris"
         ],
-        "reponse_correcte": "L’hymne national français"
+        "reponse_correcte": "L’hymne national français",
+        "indice": "On l'entend lors des cérémonies officielles et des matchs sportifs."
       },
       {
         "question": "Qu'est-ce qui est traditionnellement organisé sur les Champs-Élysées le 14 juillet pour célébrer la fête nationale ?",
@@ -259,7 +284,8 @@
           "Une foire commerciale",
           "Un concert privé"
         ],
-        "reponse_correcte": "Un défilé militaire"
+        "reponse_correcte": "Un défilé militaire",
+        "indice": "Les forces armées y présentent leurs troupes et équipements."
       },
       {
         "question": "Qui est Marianne ?",
@@ -280,7 +306,8 @@
           "puissante",
           "unifiée"
         ],
-        "reponse_correcte": "laïque"
+        "reponse_correcte": "laïque",
+        "indice": "Ce principe assure la séparation de l'État et des religions."
       }
     ],
     "laicite": [
@@ -292,7 +319,8 @@
           "Oui, seulement sur internet",
           "Oui, si c’est entre amis"
         ],
-        "reponse_correcte": "Non, c’est interdit par la loi"
+        "reponse_correcte": "Non, c’est interdit par la loi",
+        "indice": "La loi protège contre la discrimination et les discours de haine."
       },
       {
         "question": "Une personne peut-elle changer librement de religion ?",
@@ -302,7 +330,8 @@
           "Oui, mais seulement à l’âge de 18 ans",
           "Non, sauf si elle se marie"
         ],
-        "reponse_correcte": "Oui, la loi le permet"
+        "reponse_correcte": "Oui, la loi le permet",
+        "indice": "Cela fait partie de la liberté de conscience."
       },
       {
         "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
@@ -312,7 +341,8 @@
           "1905",
           "1958"
         ],
-        "reponse_correcte": "1905"
+        "reponse_correcte": "1905",
+        "indice": "Cette loi est un pilier de la laïcité en France."
       },
       {
         "question": "Que permet le principe de laïcité ?",
@@ -322,7 +352,8 @@
           "De voter plusieurs fois",
           "D’imposer une religion à l’école"
         ],
-        "reponse_correcte": "Liberté de religion et neutralité de l'État"
+        "reponse_correcte": "Liberté de religion et neutralité de l'État",
+        "indice": "L'État ne favorise aucune religion."
       },
       {
         "question": "Quel droit est garanti par la laïcité ?",
@@ -332,7 +363,8 @@
           "Le droit de posséder une maison",
           "Le droit de voyager"
         ],
-        "reponse_correcte": "Le droit de croire ou de ne pas croire"
+        "reponse_correcte": "Le droit de croire ou de ne pas croire",
+        "indice": "C'est la liberté de conscience."
       },
       {
         "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
@@ -342,7 +374,8 @@
           "Pour interdire certaines langues",
           "Pour choisir les enseignants selon leur religion"
         ],
-        "reponse_correcte": "Pour que l’école reste neutre et ouverte à tous"
+        "reponse_correcte": "Pour que l’école reste neutre et ouverte à tous",
+        "indice": "L'école publique accueille tous les enfants, quelles que soient leurs croyances."
       },
       {
         "question": "Qu'est-ce que la laïcité ?",
@@ -352,7 +385,8 @@
           "Un festival national",
           "Une marque française"
         ],
-        "reponse_correcte": "La séparation des religions et de l’État"
+        "reponse_correcte": "La séparation des religions et de l’État",
+        "indice": "L'État ne s'occupe pas des affaires religieuses."
       },
       {
         "question": "Un enfant peut-il refuser d’aller à l’école pour une raison religieuse ?",
@@ -362,7 +396,8 @@
           "Oui, seulement le vendredi",
           "Oui, à partir de 16 ans"
         ],
-        "reponse_correcte": "Non, l’école est obligatoire pour tous"
+        "reponse_correcte": "Non, l’école est obligatoire pour tous",
+        "indice": "L'instruction est obligatoire en France jusqu'à 16 ans."
       },
       {
         "question": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
@@ -372,7 +407,8 @@
           "Oui, mais seulement dans certaines régions",
           "Non, sauf si elle est mineure"
         ],
-        "reponse_correcte": "Oui, la loi le garantit"
+        "reponse_correcte": "Oui, la loi le garantit",
+        "indice": "C'est ce qu'on appelle l'athéisme ou l'agnosticisme, et c'est un droit."
       }
     ]
   },
@@ -386,7 +422,8 @@
           "Une dictature",
           "Un empire"
         ],
-        "reponse_correcte": "Une démocratie"
+        "reponse_correcte": "Une démocratie",
+        "indice": "Ce mot vient du grec et signifie 'le pouvoir au peuple'."
       },
       {
         "question": "A-t-on le droit de ne pas respecter une loi ?",
@@ -396,7 +433,8 @@
           "Oui, seulement pour certaines lois",
           "Oui, si on est élu"
         ],
-        "reponse_correcte": "Non, tous doivent respecter la loi"
+        "reponse_correcte": "Non, tous doivent respecter la loi",
+        "indice": "Nul n'est censé ignorer la loi."
       },
       {
         "question": "Qui doit respecter la loi ?",
@@ -406,7 +444,8 @@
           "Seulement le président",
           "Seulement les adultes"
         ],
-        "reponse_correcte": "Tous les citoyens"
+        "reponse_correcte": "Tous les citoyens",
+        "indice": "Le principe d'égalité s'applique devant la loi."
       },
       {
         "question": "Qui est élu lors des élections législatives ?",
@@ -416,7 +455,8 @@
           "Les sénateurs",
           "Les maires"
         ],
-        "reponse_correcte": "Les députés"
+        "reponse_correcte": "Les députés",
+        "indice": "Ils siègent à l'Assemblée nationale."
       },
       {
         "question": "Qui est élu lors des élections municipales ?",
@@ -426,7 +466,8 @@
           "Les députés",
           "Les sénateurs"
         ],
-        "reponse_correcte": "Le maire et le conseil municipal"
+        "reponse_correcte": "Le maire et le conseil municipal",
+        "indice": "Ces élections concernent la gestion de votre ville ou village."
       },
       {
         "question": "Qui est élu lors des élections présidentielles ?",
@@ -436,7 +477,8 @@
           "Les députés",
           "Les sénateurs"
         ],
-        "reponse_correcte": "Le président de la République"
+        "reponse_correcte": "Le président de la République",
+        "indice": "C'est l'élection du chef de l'État."
       },
       {
         "question": "À partir de quel âge a-t-on le droit de voter ?",
@@ -446,7 +488,8 @@
           "21 ans",
           "25 ans"
         ],
-        "reponse_correcte": "18 ans"
+        "reponse_correcte": "18 ans",
+        "indice": "C'est l'âge de la majorité légale en France."
       },
       {
         "question": "Pour combien de temps est élu le président de la République française ?",
@@ -456,7 +499,8 @@
           "6 ans",
           "7 ans"
         ],
-        "reponse_correcte": "5 ans"
+        "reponse_correcte": "5 ans",
+        "indice": "C'est un quinquennat."
       },
       {
         "question": "Pour combien de temps sont élus les députés ?",
@@ -466,7 +510,8 @@
           "6 ans",
           "7 ans"
         ],
-        "reponse_correcte": "5 ans"
+        "reponse_correcte": "5 ans",
+        "indice": "Leur mandat est de la même durée que celui du président."
       },
       {
         "question": "Pour combien de temps sont élus les sénateurs ?",
@@ -476,7 +521,8 @@
           "5 ans",
           "7 ans"
         ],
-        "reponse_correcte": "6 ans"
+        "reponse_correcte": "6 ans",
+        "indice": "Leur mandat est plus long que celui des députés."
       },
       {
         "question": "Quelle condition est nécessaire pour voter aux élections ?",
@@ -486,7 +532,8 @@
           "Être propriétaire d’une maison",
           "Être marié"
         ],
-        "reponse_correcte": "Être majeur et inscrit sur les listes électorales"
+        "reponse_correcte": "Être majeur et inscrit sur les listes électorales",
+        "indice": "Il faut s'inscrire à la mairie de sa commune."
       },
       {
         "question": "Qui peut voter aux élections en France ?",
@@ -496,7 +543,8 @@
           "Seulement les fonctionnaires",
           "Les étrangers vivant en France"
         ],
-        "reponse_correcte": "Tous les citoyens français majeurs inscrits sur les listes électorales"
+        "reponse_correcte": "Tous les citoyens français majeurs inscrits sur les listes électorales",
+        "indice": "La nationalité française est une condition."
       },
       {
         "question": "Que signifie « suffrage universel » ?",
@@ -506,7 +554,8 @@
           "Le vote est obligatoire",
           "Le vote est limité aux riches"
         ],
-        "reponse_correcte": "Tous les citoyens majeurs peuvent voter"
+        "reponse_correcte": "Tous les citoyens majeurs peuvent voter",
+        "indice": "'Universel' signifie que cela s'applique à tous."
       },
       {
         "question": "Concernant les partis politiques, quelle proposition est correcte ?",
@@ -516,7 +565,8 @@
           "Ils n’ont aucun rôle dans les élections",
           "Ils sont interdits en France"
         ],
-        "reponse_correcte": "Ils présentent des candidats aux élections et participent à la vie politique"
+        "reponse_correcte": "Ils présentent des candidats aux élections et participent à la vie politique",
+        "indice": "Ils représentent différents courants d'idées."
       },
       {
         "question": "Qui élit les députés ?",
@@ -526,7 +576,8 @@
           "Les sénateurs",
           "Le conseil municipal"
         ],
-        "reponse_correcte": "Les citoyens français inscrits sur les listes électorales"
+        "reponse_correcte": "Les citoyens français inscrits sur les listes électorales",
+        "indice": "C'est un vote direct."
       },
       {
         "question": "Est-ce que le président de la République ha tous les pouvoirs ?",
@@ -536,7 +587,8 @@
           "Oui, sauf pour les lois locales",
           "Non, il ne peut rien décider"
         ],
-        "reponse_correcte": "Non, il partage le pouvoir avec le Parlement et le gouvernement"
+        "reponse_correcte": "Non, il partage le pouvoir avec le Parlement et le gouvernement",
+        "indice": "C'est le principe de la séparation des pouvoirs."
       }
     ],
     "organisation_republique": [
@@ -548,7 +600,8 @@
           "Le Conseil constitutionnel",
           "Le Premier ministre sortant"
         ],
-        "reponse_correcte": "Le président de la République"
+        "reponse_correcte": "Le président de la République",
+        "indice": "C'est une des prérogatives du chef de l'État."
       },
       {
         "question": "Le Parlement est composé :",
@@ -558,7 +611,8 @@
           "Du président et du gouvernement",
           "Des maires et des députés"
         ],
-        "reponse_correcte": "De l’Assemblée nationale et du Sénat"
+        "reponse_correcte": "De l’Assemblée nationale et du Sénat",
+        "indice": "Il est bicaméral, c'est-à-dire qu'il a deux chambres."
       },
       {
         "question": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
@@ -568,7 +622,8 @@
           "De juger les affaires",
           "De contrôler les communes"
         ],
-        "reponse_correcte": "De faire appliquer les lois"
+        "reponse_correcte": "De faire appliquer les lois",
+        "indice": "Il 'exécute' les lois votées par le Parlement."
       },
       {
         "question": "Quel est le rôle de l'autorité judiciaire ?",
@@ -578,7 +633,8 @@
           "Diriger le gouvernement",
           "Nommer le président"
         ],
-        "reponse_correcte": "Rendre la justice et sanctionner les infractions"
+        "reponse_correcte": "Rendre la justice et sanctionner les infractions",
+        "indice": "Elle est exercée par les juges et les magistrats."
       },
       {
         "question": "Quel pouvoir détient un juge ? Le pouvoir :",
@@ -588,7 +644,8 @@
           "Exécutif",
           "Administratif"
         ],
-        "reponse_correcte": "Judiciaire"
+        "reponse_correcte": "Judiciaire",
+        "indice": "Le mot 'juge' vient de 'judiciaire'."
       },
       {
         "question": "L'autorité judiciaire est exercée par :",
@@ -598,7 +655,8 @@
           "Les députés et sénateurs",
           "Les maires et préfets"
         ],
-        "reponse_correcte": "Les juges et magistrats"
+        "reponse_correcte": "Les juges et magistrats",
+        "indice": "Ils sont les gardiens de la loi."
       },
       {
         "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
@@ -608,7 +666,8 @@
           "Il perd son droit de vote",
           "Il reçoit une simple réprimande"
         ],
-        "reponse_correcte": "Il peut être poursuivi devant la justice"
+        "reponse_correcte": "Il peut être poursuivi devant la justice",
+        "indice": "Personne n'est au-dessus de la loi."
       },
       {
         "question": "Combien de députés composent l’Assemblée nationale ?",
@@ -618,7 +677,8 @@
           "100",
           "750"
         ],
-        "reponse_correcte": "577"
+        "reponse_correcte": "577",
+        "indice": "Ils représentent les circonscriptions législatives."
       },
       {
         "question": "Quand sont élus les sénateurs ?",
@@ -628,7 +688,8 @@
           "Tous les 4 ans",
           "Tous les 3 ans"
         ],
-        "reponse_correcte": "Tous les 6 ans"
+        "reponse_correcte": "Tous les 6 ans",
+        "indice": "Ils ne sont pas élus directement par les citoyens."
       },
       {
         "question": "Qui possède le pouvoir exécutif ?",
@@ -638,7 +699,8 @@
           "Le Conseil constitutionnel",
           "Les juges"
         ],
-        "reponse_correcte": "Le président de la République et le gouvernement"
+        "reponse_correcte": "Le président de la République et le gouvernement",
+        "indice": "C'est un pouvoir à deux têtes."
       },
       {
         "question": "Quel est le rôle des députés ?",
@@ -648,7 +710,8 @@
           "Sanctionner les crimes",
           "Diriger les communes"
         ],
-        "reponse_correcte": "Voter les lois et contrôler le gouvernement"
+        "reponse_correcte": "Voter les lois et contrôler le gouvernement",
+        "indice": "Ils représentent la nation à l'Assemblée nationale."
       },
       {
         "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
@@ -658,7 +721,8 @@
           "Exécutif, militaire, économique",
           "Judiciaire, parlementaire, gouvernemental"
         ],
-        "reponse_correcte": "Législatif, exécutif, judiciaire"
+        "reponse_correcte": "Législatif, exécutif, judiciaire",
+        "indice": "Ce principe a été théorisé par Montesquieu."
       },
       {
         "question": "Qui possède le pouvoir législatif ?",
@@ -668,7 +732,8 @@
           "Les juges",
           "Le Premier ministre"
         ],
-        "reponse_correcte": "Le Parlement"
+        "reponse_correcte": "Le Parlement",
+        "indice": "C'est le pouvoir de 'légiférer', c'est-à-dire de faire les lois."
       },
       {
         "question": "Qui sanctionne l'auteur d'un vol ?",
@@ -678,7 +743,8 @@
           "Le maire",
           "Le préfet"
         ],
-        "reponse_correcte": "Le juge"
+        "reponse_correcte": "Le juge",
+        "indice": "C'est le rôle du pouvoir judiciaire."
       },
       {
         "question": "Qui vote les lois ?",
@@ -688,7 +754,8 @@
           "Le Premier ministre",
           "Le Conseil constitutionnel"
         ],
-        "reponse_correcte": "Les députés et les sénateurs"
+        "reponse_correcte": "Les députés et les sénateurs",
+        "indice": "Ils composent le Parlement."
       },
       {
         "question": "Qui réside au palais de l'Élysée ?",
@@ -698,7 +765,8 @@
           "Le président du Sénat",
           "Le maire de Paris"
         ],
-        "reponse_correcte": "Le président de la République"
+        "reponse_correcte": "Le président de la République",
+        "indice": "C'est la résidence officielle du chef de l'État."
       },
       {
         "question": "Combien y a-t-il de départements en France ?",
@@ -708,7 +776,8 @@
           "96",
           "120"
         ],
-        "reponse_correcte": "101"
+        "reponse_correcte": "101",
+        "indice": "Ce chiffre inclut les départements d'outre-mer."
       },
       {
         "question": "Qui représente l'État dans un département ?",
@@ -718,7 +787,8 @@
           "Le député",
           "Le président du conseil départemental"
         ],
-        "reponse_correcte": "Le préfet"
+        "reponse_correcte": "Le préfet",
+        "indice": "Il est nommé par le Président de la République."
       },
       {
         "question": "Qui dirige la commune ?",
@@ -728,7 +798,8 @@
           "Le député",
           "Le président du conseil municipal"
         ],
-        "reponse_correcte": "Le maire"
+        "reponse_correcte": "Le maire",
+        "indice": "Il est élu par le conseil municipal."
       },
       {
         "question": "Qui est le préfet ?",
@@ -738,7 +809,8 @@
           "Le président de la République",
           "Le juge principal d’un tribunal"
         ],
-        "reponse_correcte": "Le représentant de l'État dans un département"
+        "reponse_correcte": "Le représentant de l'État dans un département",
+        "indice": "Il a autorité sur les services de police et de gendarmerie."
       },
       {
         "question": "Quel est le rôle du Parlement ?",
@@ -748,7 +820,8 @@
           "Sanctionner les infractions",
           "Nommer le président"
         ],
-        "reponse_correcte": "Voter les lois et contrôler le gouvernement"
+        "reponse_correcte": "Voter les lois et contrôler le gouvernement",
+        "indice": "Il est composé de l'Assemblée nationale et du Sénat."
       },
       {
         "question": "Quel est le régime politique de la France aujourd'hui ?",
@@ -758,7 +831,8 @@
           "Empire",
           "Dictature"
         ],
-        "reponse_correcte": "République"
+        "reponse_correcte": "République",
+        "indice": "Le pouvoir n'est pas héréditaire."
       }
     ],
     "institutions_europeennes": [
@@ -770,7 +844,8 @@
           "30",
           "25"
         ],
-        "reponse_correcte": "27"
+        "reponse_correcte": "27",
+        "indice": "Le Royaume-Uni a quitté l'Union en 2020."
       },
       {
         "question": "Quel État n'est pas membre de l'Union européenne ?",
@@ -780,7 +855,8 @@
           "Allemagne",
           "Italie"
         ],
-        "reponse_correcte": "Norvège"
+        "reponse_correcte": "Norvège",
+        "indice": "Ce pays scandinave a refusé l'adhésion par référendum."
       },
       {
         "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
@@ -790,7 +866,8 @@
           "Être résident dans la capitale",
           "Avoir un emploi"
         ],
-        "reponse_correcte": "Être citoyen européen et inscrit sur les listes électorales"
+        "reponse_correcte": "Être citoyen européen et inscrit sur les listes électorales",
+        "indice": "Les citoyens de l'UE résidant en France peuvent y voter."
       },
       {
         "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
@@ -800,7 +877,8 @@
           "Tous les 6 ans",
           "Tous les 3 ans"
         ],
-        "reponse_correcte": "Tous les 5 ans"
+        "reponse_correcte": "Tous les 5 ans",
+        "indice": "C'est la même durée que le mandat présidentiel français."
       },
       {
         "question": "Quel pays est un pays fondateur de l'Union européenne ?",
@@ -810,7 +888,8 @@
           "Suède",
           "Portugal"
         ],
-        "reponse_correcte": "France"
+        "reponse_correcte": "France",
+        "indice": "Il fait partie des six pays qui ont signé le traité de Rome en 1957."
       },
       {
         "question": "Quelle est la monnaie utilisée en France ?",
@@ -820,7 +899,8 @@
           "Livre sterling",
           "Dollar"
         ],
-        "reponse_correcte": "Euro"
+        "reponse_correcte": "Euro",
+        "indice": "Cette monnaie est partagée par de nombreux pays de l'Union Européenne."
       },
       {
         "question": "Qui élit les députés européens ?",
@@ -830,7 +910,8 @@
           "Les ministres des États membres",
           "Les chefs d'État"
         ],
-        "reponse_correcte": "Les citoyens européens inscrits sur les listes électorales"
+        "reponse_correcte": "Les citoyens européens inscrits sur les listes électorales",
+        "indice": "C'est un vote direct, comme pour les députés nationaux."
       },
       {
         "question": "Quand célèbre-t-on la journée de l'Europe ?",
@@ -840,7 +921,8 @@
           "14 juillet",
           "25 décembre"
         ],
-        "reponse_correcte": "9 mai"
+        "reponse_correcte": "9 mai",
+        "indice": "Elle commémore la déclaration Schuman de 1950."
       }
     ]
   },
@@ -854,7 +936,8 @@
           "La Charte de 1830",
           "Le Code civil"
         ],
-        "reponse_correcte": "La Constitution de 1958"
+        "reponse_correcte": "La Constitution de 1958",
+        "indice": "Elle a été instaurée par Charles de Gaulle et fonde la Ve République."
       },
       {
         "question": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
@@ -864,7 +947,8 @@
           "Le règlement intérieur",
           "Le Code de la route"
         ],
-        "reponse_correcte": "La Charte des droits et devoirs du citoyen français"
+        "reponse_correcte": "La Charte des droits et devoirs du citoyen français",
+        "indice": "Ce document est remis lors de la cérémonie d'accueil dans la citoyenneté française."
       },
       {
         "question": "Concernant les droits individuels, quelle proposition est correcte ?",
@@ -874,7 +958,8 @@
           "Ils sont réservés aux hommes",
           "Ils changent chaque année"
         ],
-        "reponse_correcte": "Ils sont les mêmes pour tous et garantis par la loi"
+        "reponse_correcte": "Ils sont les mêmes pour tous et garantis par la loi",
+        "indice": "C'est le principe d'égalité devant la loi."
       },
       {
         "question": "De quelle année date la Déclaration des droits de l’homme et du citoyen ?",
@@ -884,7 +969,8 @@
           "1918",
           "1945"
         ],
-        "reponse_correcte": "1789"
+        "reponse_correcte": "1789",
+        "indice": "Elle a été rédigée au début de la Révolution française."
       },
       {
         "question": "Lequel de ces droits est un droit fondamental ?",
@@ -894,7 +980,8 @@
           "Le droit de ne pas payer d'impôts",
           "Le droit de doubler dans les files d'attente"
         ],
-        "reponse_correcte": "La liberté d'aller et venir"
+        "reponse_correcte": "La liberté d'aller et venir",
+        "indice": "Ce droit permet de se déplacer librement sur le territoire."
       },
       {
         "question": "Parmi ces textes, lequel garantit les droits et libertés en France ?",
@@ -904,7 +991,8 @@
           "Le guide Michelin",
           "Le dictionnaire"
         ],
-        "reponse_correcte": "La Constitution"
+        "reponse_correcte": "La Constitution",
+        "indice": "C'est la loi fondamentale de l'État."
       },
       {
         "question": "Qu’est-ce que la liberté d’expression ?",
@@ -914,7 +1002,8 @@
           "L'interdiction de parler en public",
           "Le droit de mentir devant un juge"
         ],
-        "reponse_correcte": "Le droit d'exprimer ses idées dans le respect de la loi"
+        "reponse_correcte": "Le droit d'exprimer ses idées dans le respect de la loi",
+        "indice": "Elle a des limites, comme l'incitation à la haine ou la diffamation."
       },
       {
         "question": "Quel droit permet à une personne de se défendre devant la justice ?",
@@ -924,7 +1013,8 @@
           "Le droit d'ignorer la police",
           "Le droit de choisir son juge"
         ],
-        "reponse_correcte": "Le droit à un procès équitable et à un avocat"
+        "reponse_correcte": "Le droit à un procès équitable et à un avocat",
+        "indice": "C'est un des piliers de l'État de droit."
       },
       {
         "question": "Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?",
@@ -934,7 +1024,8 @@
           "Le règlement de la mairie",
           "La Constitution européenne"
         ],
-        "reponse_correcte": "La Déclaration des droits de l’homme et du citoyen"
+        "reponse_correcte": "La Déclaration des droits de l’homme et du citoyen",
+        "indice": "Ce texte de 1789 est encore une référence aujourd'hui."
       },
       {
         "question": "Quel texte a été adopté pendant la Révolution française ?",
@@ -944,7 +1035,8 @@
           "La Constitution de la Ve République",
           "Le Code de l'environnement"
         ],
-        "reponse_correcte": "La Déclaration des droits de l’homme et du citoyen"
+        "reponse_correcte": "La Déclaration des droits de l’homme et du citoyen",
+        "indice": "Il proclame que 'les hommes naissent et demeurent libres et égaux en droits'."
       },
       {
         "question": "Quelle liberté permet à une personne de ne pas avoir de religion ?",
@@ -954,7 +1046,8 @@
           "La liberté d'association",
           "La liberté de réunion"
         ],
-        "reponse_correcte": "La liberté de conscience"
+        "reponse_correcte": "La liberté de conscience",
+        "indice": "C'est le droit d'avoir ses propres croyances, ou de n'en avoir aucune."
       },
       {
         "question": "Une femme peut avorter :",
@@ -964,7 +1057,8 @@
           "Seulement si elle a l'accord de son mari",
           "Seulement si elle a plus de 30 ans"
         ],
-        "reponse_correcte": "C'est un droit garanti par la loi (IVG)"
+        "reponse_correcte": "C'est un droit garanti par la loi (IVG)",
+        "indice": "L'IVG signifie Interruption Volontaire de Grossesse."
       },
       {
         "question": "Est-il toujours possible de divorcer ?",
@@ -974,7 +1068,8 @@
           "Seulement après 20 ans de mariage",
           "Seulement si le maire est d'accord"
         ],
-        "reponse_correcte": "Oui, la loi permet de rompre un mariage"
+        "reponse_correcte": "Oui, la loi permet de rompre un mariage",
+        "indice": "Le mariage n'est pas une union indissoluble en droit français."
       },
       {
         "question": "La peine de mort est :",
@@ -984,7 +1079,8 @@
           "Encore pratiquée dans certaines régions",
           "Remplacée par le travail forcé"
         ],
-        "reponse_correcte": "Abolie en France depuis 1981"
+        "reponse_correcte": "Abolie en France depuis 1981",
+        "indice": "L'abolition a été portée par le ministre de la Justice Robert Badinter."
       }
     ],
     "obligations_et_devoirs_du_citoyen": [
@@ -996,7 +1092,8 @@
           "Seul le président peut limiter les libertés",
           "La liberté dépend de la religion"
         ],
-        "reponse_correcte": "La liberté s'arrête là où commence celle d'autrui"
+        "reponse_correcte": "La liberté s'arrête là où commence celle d'autrui",
+        "indice": "Mes droits ne doivent pas empiéter sur les droits des autres."
       },
       {
         "question": "En France, est-ce légal d'être marié à plusieurs personnes en même temps ?",
@@ -1006,7 +1103,8 @@
           "Seulement pour les étrangers",
           "Oui, si les conjoints sont d'accord"
         ],
-        "reponse_correcte": "Non, la polygamie est interdite"
+        "reponse_correcte": "Non, la polygamie est interdite",
+        "indice": "Le mariage est monogame en France."
       },
       {
         "question": "Faut-il réduire ses déchets ?",
@@ -1016,7 +1114,8 @@
           "Seulement si on a de la place",
           "Non, l'État s'en occupe tout seul"
         ],
-        "reponse_correcte": "Oui, c'est une responsabilité écologique et citoyenne"
+        "reponse_correcte": "Oui, c'est une responsabilité écologique et citoyenne",
+        "indice": "Pensez à la protection de l'environnement."
       },
       {
         "question": "Jeter une bouteille dans la rue est :",
@@ -1026,7 +1125,8 @@
           "Autorisé s'il n'y a pas de poubelle",
           "Un droit du citoyen"
         ],
-        "reponse_correcte": "Une infraction passible d'amende"
+        "reponse_correcte": "Une infraction passible d'amende",
+        "indice": "C'est un acte d'incivilité qui pollue."
       },
       {
         "question": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
@@ -1036,7 +1136,8 @@
           "Pour économiser de l'argent",
           "Pour favoriser un parti politique"
         ],
-        "reponse_correcte": "Pour garantir l'ordre public et la sécurité"
+        "reponse_correcte": "Pour garantir l'ordre public et la sécurité",
+        "indice": "Par exemple, lors d'une crise sanitaire ou d'une menace terroriste."
       },
       {
         "question": "Que doit faire une personne en cas d’accident ?",
@@ -1046,7 +1147,8 @@
           "Attendre que quelqu'un d'autre appelle",
           "Continuer sa route"
         ],
-        "reponse_correcte": "Porter assistance et prévenir les secours"
+        "reponse_correcte": "Porter assistance et prévenir les secours",
+        "indice": "La non-assistance à personne en danger est un délit."
       },
       {
         "question": "Que permet la citoyenneté française ?",
@@ -1056,7 +1158,8 @@
           "La gratuité totale de tous les magasins",
           "Le droit de voyager sans passeport partout dans le monde"
         ],
-        "reponse_correcte": "Le droit de vote et l'éligibilité"
+        "reponse_correcte": "Le droit de vote et l'éligibilité",
+        "indice": "Elle donne des droits politiques."
       },
       {
         "question": "Que risque une personne qui ne respecte pas la loi ?",
@@ -1066,7 +1169,8 @@
           "Un simple avertissement oral",
           "L'exil"
         ],
-        "reponse_correcte": "Des sanctions pénales (amende, prison)"
+        "reponse_correcte": "Des sanctions pénales (amende, prison)",
+        "indice": "Les sanctions dépendent de la gravité de l'infraction."
       },
       {
         "question": "Quel est le rôle de la gendarmerie ?",
@@ -1076,7 +1180,8 @@
           "Gérer les écoles",
           "Construire des routes"
         ],
-        "reponse_correcte": "Assurer la sécurité et l'ordre public"
+        "reponse_correcte": "Assurer la sécurité et l'ordre public",
+        "indice": "C'est une force de sécurité à statut militaire, souvent présente en zone rurale."
       },
       {
         "question": "Quel est le rôle de la police ?",
@@ -1086,7 +1191,8 @@
           "Distribuer le courrier",
           "Soigner les malades"
         ],
-        "reponse_correcte": "Protéger les citoyens et faire respecter la loi"
+        "reponse_correcte": "Protéger les citoyens et faire respecter la loi",
+        "indice": "Elle est généralement présente dans les villes."
       },
       {
         "question": "Qu'est-ce qu'une infraction ?",
@@ -1096,7 +1202,8 @@
           "Une nouvelle loi",
           "Une récompense civique"
         ],
-        "reponse_correcte": "Un acte interdit par la loi et sanctionné"
+        "reponse_correcte": "Un acte interdit par la loi et sanctionné",
+        "indice": "Il en existe trois types : contravention, délit et crime."
       },
       {
         "question": "Comment peut-on réduire ses déchets ?",
@@ -1106,7 +1213,8 @@
           "En achetant plus de plastique",
           "En brûlant ses déchets dans son jardin"
         ],
-        "reponse_correcte": "En pratiquant le tri sélectif et le recyclage"
+        "reponse_correcte": "En pratiquant le tri sélectif et le recyclage",
+        "indice": "Séparer le verre, le plastique, le papier..."
       },
       {
         "question": "Déposer une machine à laver cassée sur le trottoir est :",
@@ -1116,7 +1224,8 @@
           "Un cadeau pour les voisins",
           "Obligatoire pour le recyclage"
         ],
-        "reponse_correcte": "Un dépôt sauvage interdit et sanctionné"
+        "reponse_correcte": "Un dépôt sauvage interdit et sanctionné",
+        "indice": "Il faut l'apporter à la déchetterie."
       },
       {
         "question": "En quoi consiste la traite des êtres humains ?",
@@ -1126,7 +1235,8 @@
           "Une aide au voyage",
           "Un sport de compétition"
         ],
-        "reponse_correcte": "Une exploitation grave de la personne humaine"
+        "reponse_correcte": "Une exploitation grave de la personne humaine",
+        "indice": "C'est une forme moderne d'esclavage."
       },
       {
         "question": "Que doit faire une victime de violences ?",
@@ -1136,7 +1246,8 @@
           "Attendre que ça passe",
           "Partir dans un autre pays"
         ],
-        "reponse_correcte": "Déposer plainte au commissariat ou à la gendarmerie"
+        "reponse_correcte": "Déposer plainte au commissariat ou à la gendarmerie",
+        "indice": "Il existe aussi des numéros d'urgence pour se faire aider, comme le 3919."
       },
       {
         "question": "Quelle est l'infraction la plus grave ?",
@@ -1146,7 +1257,8 @@
           "Le crime",
           "L'incivilité"
         ],
-        "reponse_correcte": "Le crime"
+        "reponse_correcte": "Le crime",
+        "indice": "Le meurtre est un exemple de ce type d'infraction."
       }
     ]
   },
@@ -1160,7 +1272,8 @@
           "1776",
           "1804"
         ],
-        "reponse_correcte": "1789"
+        "reponse_correcte": "1789",
+        "indice": "C'est l'année de la prise de la Bastille."
       },
       {
         "question": "Qui était Napoléon Ier ?",
@@ -1170,7 +1283,8 @@
           "Président de la République",
           "Un général anglais"
         ],
-        "reponse_correcte": "Empereur des Français"
+        "reponse_correcte": "Empereur des Français",
+        "indice": "Il a conquis une grande partie de l'Europe au début du 19ème siècle."
       },
       {
         "question": "Lequel de ces personnages historiques est français ?",
@@ -1180,7 +1294,8 @@
           "Elizabeth I",
           "Otto von Bismarck"
         ],
-        "reponse_correcte": "Louis XIV"
+        "reponse_correcte": "Louis XIV",
+        "indice": "Il était surnommé le 'Roi-Soleil'."
       },
       {
         "question": "Dans quelle République est-on aujourd'hui ?",
@@ -1190,7 +1305,8 @@
           "IIIe République",
           "IIe République"
         ],
-        "reponse_correcte": "Ve République"
+        "reponse_correcte": "Ve République",
+        "indice": "Elle a été fondée en 1958."
       },
       {
         "question": "Qu'est-ce que la Shoah ?",
@@ -1200,7 +1316,8 @@
           "La guerre de 1914",
           "La conquête de Napoléon"
         ],
-        "reponse_correcte": "Le génocide des Juifs pendant la Seconde Guerre mondiale"
+        "reponse_correcte": "Le génocide des Juifs pendant la Seconde Guerre mondiale",
+        "indice": "C'est un crime contre l'humanité."
       },
       {
         "question": "Quel pays ou région du monde a été colonisé par la France ?",
@@ -1210,7 +1327,8 @@
           "Angleterre",
           "Australie"
         ],
-        "reponse_correcte": "Algérie"
+        "reponse_correcte": "Algérie",
+        "indice": "Ce pays d'Afrique du Nord a été français pendant plus de 130 ans."
       },
       {
         "question": "Qui a rendu l’école gratuite, laïque et obligatoire ?",
@@ -1220,7 +1338,8 @@
           "Louis XIV",
           "Charles de Gaulle"
         ],
-        "reponse_correcte": "Jules Ferry"
+        "reponse_correcte": "Jules Ferry",
+        "indice": "C'était un ministre de l'Instruction publique sous la IIIe République."
       },
       {
         "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
@@ -1230,7 +1349,8 @@
           "1789-1799",
           "1950-1953"
         ],
-        "reponse_correcte": "1939-1945"
+        "reponse_correcte": "1939-1945",
+        "indice": "Elle a opposé les Alliés aux forces de l'Axe."
       },
       {
         "question": "Quand a eu lieu la Première Guerre mondiale ?",
@@ -1240,7 +1360,8 @@
           "1804-1815",
           "1870-1871"
         ],
-        "reponse_correcte": "1914-1918"
+        "reponse_correcte": "1914-1918",
+        "indice": "On l'appelle aussi la 'Grande Guerre'."
       },
       {
         "question": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
@@ -1250,7 +1371,8 @@
           "1969",
           "1973"
         ],
-        "reponse_correcte": "1957"
+        "reponse_correcte": "1957",
+        "indice": "C'est l'ancêtre de l'Union Européenne."
       },
       {
         "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
@@ -1260,7 +1382,8 @@
           "Libération de Paris",
           "Débarquement en Normandie"
         ],
-        "reponse_correcte": "Armistice de la Première Guerre mondiale"
+        "reponse_correcte": "Armistice de la Première Guerre mondiale",
+        "indice": "Il marque la fin des combats de la 'Grande Guerre'."
       },
       {
         "question": "Qui a été le premier Président élu sous la Ve République ?",
@@ -1270,7 +1393,8 @@
           "Valéry Giscard d'Estaing",
           "Georges Pompidou"
         ],
-        "reponse_correcte": "Charles de Gaulle"
+        "reponse_correcte": "Charles de Gaulle",
+        "indice": "C'est un général célèbre de la Seconde Guerre mondiale."
       },
       {
         "question": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
@@ -1280,7 +1404,8 @@
           "1830",
           "1794"
         ],
-        "reponse_correcte": "1848"
+        "reponse_correcte": "1848",
+        "indice": "L'abolition a été portée par Victor Schœlcher."
       },
       {
         "question": "Depuis quelle année l'école publique est-elle gratuite ?",
@@ -1290,7 +1415,8 @@
           "1870",
           "1958"
         ],
-        "reponse_correcte": "1881"
+        "reponse_correcte": "1881",
+        "indice": "Cette réforme a été menée par Jules Ferry."
       },
       {
         "question": "Combien y a-t-il eu de républiques en France ?",
@@ -1300,7 +1426,8 @@
           "Trois",
           "Six"
         ],
-        "reponse_correcte": "Cinq"
+        "reponse_correcte": "Cinq",
+        "indice": "La première a été proclamée en 1792."
       },
       {
         "question": "Qui était le roi de France au moment de la Révolution française ?",
@@ -1310,7 +1437,8 @@
           "Louis XV",
           "Napoléon Ier"
         ],
-        "reponse_correcte": "Louis XVI"
+        "reponse_correcte": "Louis XVI",
+        "indice": "Il a été guillotiné en 1793."
       },
       {
         "question": "Qui a fondé la Ve République ?",
@@ -1320,7 +1448,8 @@
           "François Mitterrand",
           "Louis XVI"
         ],
-        "reponse_correcte": "Charles de Gaulle"
+        "reponse_correcte": "Charles de Gaulle",
+        "indice": "Il en a été le premier président en 1958."
       },
       {
         "question": "Que célèbre-t-on le 14 juillet ?",
@@ -1330,7 +1459,8 @@
           "L’armistice de 1918",
           "La création de l’Union européenne"
         ],
-        "reponse_correcte": "La fête nationale française"
+        "reponse_correcte": "La fête nationale française",
+        "indice": "Cela commémore la prise de la Bastille en 1789."
       },
       {
         "question": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
@@ -1340,7 +1470,8 @@
           "La guerre de Cent Ans",
           "La guerre de 1870"
         ],
-        "reponse_correcte": "La Première Guerre mondiale"
+        "reponse_correcte": "La Première Guerre mondiale",
+        "indice": "Elle est aussi appelée la 'Grande Guerre'."
       },
       {
         "question": "Pourquoi l’année 1958 est importante pour la France ?",
@@ -1350,7 +1481,8 @@
           "Fin de la Première Guerre mondiale",
           "Fondation de l’Union européenne"
         ],
-        "reponse_correcte": "Création de la Ve République"
+        "reponse_correcte": "Création de la Ve République",
+        "indice": "C'est le régime politique actuel de la France."
       }
     ],
     "territoires_et_geographie": [
@@ -1362,7 +1494,8 @@
           "Le Nil",
           "Le Mississippi"
         ],
-        "reponse_correcte": "La Seine"
+        "reponse_correcte": "La Seine",
+        "indice": "Il traverse Paris."
       },
       {
         "question": "Quelle ville est française ?",
@@ -1372,7 +1505,8 @@
           "Berlin",
           "Rome"
         ],
-        "reponse_correcte": "Lyon"
+        "reponse_correcte": "Lyon",
+        "indice": "Les autres sont les capitales de l'Espagne, de l'Allemagne et de l'Italie."
       },
       {
         "question": "Quel océan borde la côte ouest française ?",
@@ -1382,7 +1516,8 @@
           "Océan Indien",
           "Océan Arctique"
         ],
-        "reponse_correcte": "Océan Atlantique"
+        "reponse_correcte": "Océan Atlantique",
+        "indice": "Les plages de Biarritz et de La Rochelle sont sur cette côte."
       },
       {
         "question": "Qu'est-ce que Paris ?",
@@ -1392,7 +1527,8 @@
           "Une région",
           "Un océan"
         ],
-        "reponse_correcte": "La capitale de la France"
+        "reponse_correcte": "La capitale de la France",
+        "indice": "C'est la ville la plus peuplée du pays."
       },
       {
         "question": "Quelle est la capitale de la France ?",
@@ -1402,7 +1538,8 @@
           "Marseille",
           "Bordeaux"
         ],
-        "reponse_correcte": "Paris"
+        "reponse_correcte": "Paris",
+        "indice": "La Tour Eiffel s'y trouve."
       },
       {
         "question": "Sur quel continent se situe la France métropolitaine ?",
@@ -1412,7 +1549,8 @@
           "Afrique",
           "Asie"
         ],
-        "reponse_correcte": "Europe"
+        "reponse_correcte": "Europe",
+        "indice": "Elle a des frontières avec l'Espagne, l'Italie, la Suisse, l'Allemagne, le Luxembourg et la Belgique."
       },
       {
         "question": "Quelle île est un département d'outre-mer français ?",
@@ -1422,7 +1560,8 @@
           "Sicile",
           "Tasmanie"
         ],
-        "reponse_correcte": "La Réunion"
+        "reponse_correcte": "La Réunion",
+        "indice": "Elle est située dans l'océan Indien."
       },
       {
         "question": "Combien y a-t-il de régions en France métropolitaine ?",
@@ -1432,7 +1571,8 @@
           "15",
           "10"
         ],
-        "reponse_correcte": "13"
+        "reponse_correcte": "13",
+        "indice": "Ce nombre a été réduit par une réforme territoriale en 2016."
       },
       {
         "question": "Quelle ville est un grand port maritime ?",
@@ -1442,7 +1582,8 @@
           "Paris",
           "Toulouse"
         ],
-        "reponse_correcte": "Marseille"
+        "reponse_correcte": "Marseille",
+        "indice": "Elle se situe sur la côte méditerranéenne."
       },
       {
         "question": "Quelle est la mer au sud de la France métropolitaine ?",
@@ -1452,7 +1593,8 @@
           "Océan Atlantique",
           "Mer Noire"
         ],
-        "reponse_correcte": "Mer Méditerranée"
+        "reponse_correcte": "Mer Méditerranée",
+        "indice": "La Côte d'Azur s'y trouve."
       },
       {
         "question": "Quelle ville est située au bord de la mer Méditerranée ?",
@@ -1462,7 +1604,8 @@
           "Strasbourg",
           "Nantes"
         ],
-        "reponse_correcte": "Nice"
+        "reponse_correcte": "Nice",
+        "indice": "Elle est célèbre pour sa Promenade des Anglais."
       },
       {
         "question": "Où se situe la Corse ?",
@@ -1472,7 +1615,8 @@
           "Dans la mer du Nord",
           "Dans la mer Noire"
         ],
-        "reponse_correcte": "Dans la mer Méditerranée"
+        "reponse_correcte": "Dans la mer Méditerranée",
+        "indice": "C'est une île surnommée 'l'île de Beauté'."
       },
       {
         "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
@@ -1482,7 +1626,8 @@
           "Le Massif central",
           "Le Jura"
         ],
-        "reponse_correcte": "Les Alpes"
+        "reponse_correcte": "Les Alpes",
+        "indice": "Le Mont Blanc, plus haut sommet d'Europe occidentale, s'y trouve."
       }
     ],
     "patrimoine_francais": [
@@ -1494,7 +1639,8 @@
           "Un explorateur anglais",
           "Un musicien allemand"
         ],
-        "reponse_correcte": "Un dramaturge et comédien français"
+        "reponse_correcte": "Un dramaturge et comédien français",
+        "indice": "Il a écrit 'Le Misanthrope' et 'L'Avare'."
       },
       {
         "question": "Qui était Charles Baudelaire ?",
@@ -1504,7 +1650,8 @@
           "Un peintre espagnol",
           "Un scientifique suisse"
         ],
-        "reponse_correcte": "Un poète français"
+        "reponse_correcte": "Un poète français",
+        "indice": "Il est l'auteur du recueil 'Les Fleurs du Mal'."
       },
       {
         "question": "Qui était George Sand ?",
@@ -1514,7 +1661,8 @@
           "Une actrice anglaise",
           "Une chanteuse allemande"
         ],
-        "reponse_correcte": "Une écrivaine française"
+        "reponse_correcte": "Une écrivaine française",
+        "indice": "C'est le pseudonyme d'Amantine Aurore Lucile Dupin."
       },
       {
         "question": "Qui était Simone de Beauvoir ?",
@@ -1524,7 +1672,8 @@
           "Une chanteuse française",
           "Une scientifique française"
         ],
-        "reponse_correcte": "Une écrivaine et philosophe française"
+        "reponse_correcte": "Une écrivaine et philosophe française",
+        "indice": "Elle a écrit 'Le Deuxième Sexe', un ouvrage majeur du féminisme."
       },
       {
         "question": "Qui était Albert Camus ?",
@@ -1534,7 +1683,8 @@
           "Un roi de France",
           "Un musicien allemand"
         ],
-        "reponse_correcte": "Un écrivain et philosophe français"
+        "reponse_correcte": "Un écrivain et philosophe français",
+        "indice": "Il a écrit 'L'Étranger' et 'La Peste'."
       },
       {
         "question": "Qui était Paul Cézanne ?",
@@ -1544,7 +1694,8 @@
           "Un compositeur français",
           "Un philosophe français"
         ],
-        "reponse_correcte": "Un peintre français"
+        "reponse_correcte": "Un peintre français",
+        "indice": "Il est considéré comme l'un des pères de l'art moderne."
       },
       {
         "question": "Qui était Marc Chagall ?",
@@ -1554,7 +1705,8 @@
           "Un musicien français",
           "Un poète français"
         ],
-        "reponse_correcte": "Un peintre d'origine russe ayant travaillé en France"
+        "reponse_correcte": "Un peintre d'origine russe ayant travaillé en France",
+        "indice": "Il a notamment décoré le plafond de l'Opéra Garnier."
       },
       {
         "question": "Qui était Joséphine Baker ?",
@@ -1564,7 +1716,8 @@
           "Une écrivaine française",
           "Une scientifique française"
         ],
-        "reponse_correcte": "Une chanteuse et danseuse française"
+        "reponse_correcte": "Une chanteuse et danseuse française",
+        "indice": "D'origine américaine, elle est aussi une figure de la Résistance."
       },
       {
         "question": "Qui était une chanteuse française célèbre ?",
@@ -1574,7 +1727,8 @@
           "Paul Cézanne",
           "Molière"
         ],
-        "reponse_correcte": "Édith Piaf"
+        "reponse_correcte": "Édith Piaf",
+        "indice": "Elle est connue pour sa chanson 'La Vie en rose'."
       },
       {
         "question": "Qu'est-ce que le Louvre ?",
@@ -1584,7 +1738,8 @@
           "Un fleuve en France",
           "Un opéra à Lyon"
         ],
-        "reponse_correcte": "Un musée à Paris"
+        "reponse_correcte": "Un musée à Paris",
+        "indice": "La Joconde y est exposée."
       },
       {
         "question": "Qui était Jean de la Fontaine ?",
@@ -1594,7 +1749,8 @@
           "Un philosophe anglais",
           "Un compositeur italien"
         ],
-        "reponse_correcte": "Un fabuliste et écrivain français"
+        "reponse_correcte": "Un fabuliste et écrivain français",
+        "indice": "Il est célèbre pour ses fables mettant en scène des animaux."
       },
       {
         "question": "Quel écrivain est français ?",
@@ -1604,7 +1760,8 @@
           "Leo Tolstoï",
           "Mark Twain"
         ],
-        "reponse_correcte": "Victor Hugo"
+        "reponse_correcte": "Victor Hugo",
+        "indice": "Il a écrit 'Les Misérables' et 'Notre-Dame de Paris'."
       },
       {
         "question": "Dans quelle ville se trouve la tour Eiffel ?",
@@ -1614,7 +1771,8 @@
           "Marseille",
           "Bordeaux"
         ],
-        "reponse_correcte": "Paris"
+        "reponse_correcte": "Paris",
+        "indice": "C'est la capitale de la France."
       },
       {
         "question": "Quand célèbre-t-on Noël ?",
@@ -1624,7 +1782,8 @@
           "14 juillet",
           "31 octobre"
         ],
-        "reponse_correcte": "25 décembre"
+        "reponse_correcte": "25 décembre",
+        "indice": "C'est une fête chrétienne qui célèbre la naissance de Jésus."
       }
     ]
   },
@@ -1638,7 +1797,8 @@
           "Porter un gilet jaune en permanence",
           "Rien, on peut conduire immédiatement"
         ],
-        "reponse_correcte": "S'assurer que le véhicule est assuré et immatriculé"
+        "reponse_correcte": "S'assurer que le véhicule est assuré et immatriculé",
+        "indice": "Il y a des obligations légales avant de prendre la route."
       },
       {
         "question": "À quelles conditions un mariage est-il reconnu juridiquement ?",
@@ -1648,7 +1808,8 @@
           "Être de la même religion et avoir un contrat signé",
           "Être parrainé par un juge"
         ],
-        "reponse_correcte": "Être majeur, consentir librement et le faire célébrer par la mairie"
+        "reponse_correcte": "Être majeur, consentir librement et le faire célébrer par la mairie",
+        "indice": "Le mariage civil est la seule forme de mariage reconnue par la loi française."
       },
       {
         "question": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
@@ -1658,7 +1819,8 @@
           "Après le premier anniversaire",
           "Lors de l'inscription à l'école"
         ],
-        "reponse_correcte": "Dans les 5 jours suivant la naissance"
+        "reponse_correcte": "Dans les 5 jours suivant la naissance",
+        "indice": "C'est une démarche administrative obligatoire et rapide."
       },
       {
         "question": "Qu’est-ce qu’un numéro d’urgence ?",
@@ -1668,7 +1830,8 @@
           "Un numéro pour les informations touristiques",
           "Un numéro de banque"
         ],
-        "reponse_correcte": "Un numéro permettant de contacter rapidement les services de secours"
+        "reponse_correcte": "Un numéro permettant de contacter rapidement les services de secours",
+        "indice": "Exemples : 15, 17, 18, 112."
       }
     ],
     "acces_aux_soins": [
@@ -1680,7 +1843,8 @@
           "18",
           "112"
         ],
-        "reponse_correcte": "15"
+        "reponse_correcte": "15",
+        "indice": "C'est le numéro pour les urgences médicales."
       },
       {
         "question": "Quel numéro d'urgence permet d'appeler les pompiers ?",
@@ -1690,7 +1854,8 @@
           "17",
           "112"
         ],
-        "reponse_correcte": "18"
+        "reponse_correcte": "18",
+        "indice": "On les appelle en cas d'incendie, d'accident ou d'inondation."
       },
       {
         "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
@@ -1700,7 +1865,8 @@
           "Le SAMU",
           "La police"
         ],
-        "reponse_correcte": "La sécurité sociale"
+        "reponse_correcte": "La sécurité sociale",
+        "indice": "C'est l'organisme de base de la protection sociale en France."
       },
       {
         "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
@@ -1710,7 +1876,8 @@
           "Il faut payer avant chaque consultation",
           "Seuls les français peuvent consulter un médecin"
         ],
-        "reponse_correcte": "Chacun peut consulter un médecin, hospitalisation selon besoin"
+        "reponse_correcte": "Chacun peut consulter un médecin, hospitalisation selon besoin",
+        "indice": "Le système de santé français est basé sur un principe de solidarité."
       },
       {
         "question": "En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?",
@@ -1720,7 +1887,8 @@
           "Aux pompiers",
           "À la police"
         ],
-        "reponse_correcte": "Au médecin traitant"
+        "reponse_correcte": "Au médecin traitant",
+        "indice": "Il coordonne le parcours de soins."
       },
       {
         "question": "Quel est le rôle du médecin traitant ?",
@@ -1730,7 +1898,8 @@
           "Assurer les interventions chirurgicales uniquement",
           "Écrire les ordonnances sans suivi"
         ],
-        "reponse_correcte": "Suivre la santé du patient et orienter vers des spécialistes si nécessaire"
+        "reponse_correcte": "Suivre la santé du patient et orienter vers des spécialistes si nécessaire",
+        "indice": "Il est le premier interlocuteur en matière de santé."
       },
       {
         "question": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
@@ -1740,7 +1909,8 @@
           "Pour obtenir une ordonnance",
           "Pour un vaccin de routine"
         ],
-        "reponse_correcte": "En cas de problème de santé grave ou urgent"
+        "reponse_correcte": "En cas de problème de santé grave ou urgent",
+        "indice": "Les urgences sont réservées aux situations qui ne peuvent pas attendre une consultation classique."
       },
       {
         "question": "Quel est l’objectif des vaccinations obligatoires ?",
@@ -1750,7 +1920,8 @@
           "Réduire le coût des soins",
           "Identifier les maladies génétiques"
         ],
-        "reponse_correcte": "Protéger l’enfant et la population contre certaines maladies"
+        "reponse_correcte": "Protéger l’enfant et la population contre certaines maladies",
+        "indice": "Cela permet d'éviter la propagation d'épidémies."
       },
       {
         "question": "À quoi sert la carte Vitale ?",
@@ -1760,7 +1931,8 @@
           "À voyager gratuitement",
           "À voter aux élections"
         ],
-        "reponse_correcte": "À faciliter le remboursement des frais de santé"
+        "reponse_correcte": "À faciliter le remboursement des frais de santé",
+        "indice": "Elle contient les informations administratives nécessaires au remboursement."
       },
       {
         "question": "À quoi sert une mutuelle santé ?",
@@ -1770,7 +1942,8 @@
           "À payer les impôts",
           "À obtenir un logement"
         ],
-        "reponse_correcte": "À compléter le remboursement de la sécurité sociale"
+        "reponse_correcte": "À compléter le remboursement de la sécurité sociale",
+        "indice": "Elle prend en charge une partie ou la totalité de ce qui n'est pas remboursé par la Sécurité Sociale."
       }
     ],
     "travailler_en_france": [
@@ -1782,7 +1955,8 @@
           "Récompensé par des aides fiscales",
           "Recommandé pour les mineurs"
         ],
-        "reponse_correcte": "Illégal et non protégé"
+        "reponse_correcte": "Illégal et non protégé",
+        "indice": "On parle aussi de 'travail au noir'."
       },
       {
         "question": "Que doit faire un employeur pour fixer un salaire ?",
@@ -1792,7 +1966,8 @@
           "Ne jamais augmenter le salaire",
           "Demander l’avis du gouvernement"
         ],
-        "reponse_correcte": "Respecter le SMIC et les conventions collectives"
+        "reponse_correcte": "Respecter le SMIC et les conventions collectives",
+        "indice": "Le salaire ne peut pas être inférieur à un certain montant."
       },
       {
         "question": "Qu'est-ce que le SMIC ?",
@@ -1802,7 +1977,8 @@
           "Une prime de fin d’année",
           "Une aide pour étudiant"
         ],
-        "reponse_correcte": "Le salaire minimum légal en France"
+        "reponse_correcte": "Le salaire minimum légal en France",
+        "indice": "SMIC signifie Salaire Minimum Interprofessionnel de Croissance."
       },
       {
         "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
@@ -1812,7 +1988,8 @@
           "Attendre d’être contacté",
           "Publier une annonce personnelle"
         ],
-        "reponse_correcte": "S’inscrire auprès d’un service d’emploi ou France Travail"
+        "reponse_correcte": "S’inscrire auprès d’un service d’emploi ou France Travail",
+        "indice": "Cet organisme aide les demandeurs d'emploi."
       },
       {
         "question": "Quelle est la durée légale du temps de travail par semaine ?",
@@ -1822,7 +1999,8 @@
           "30 heures",
           "45 heures"
         ],
-        "reponse_correcte": "35 heures"
+        "reponse_correcte": "35 heures",
+        "indice": "C'est une durée de référence, mais elle peut varier."
       },
       {
         "question": "Qui est aidé par France Travail ?",
@@ -1832,7 +2010,8 @@
           "Les employeurs seulement",
           "Les enfants scolarisés"
         ],
-        "reponse_correcte": "Les personnes cherchant un emploi"
+        "reponse_correcte": "Les personnes cherchant un emploi",
+        "indice": "Cet organisme a remplacé Pôle emploi en 2024."
       },
       {
         "question": "Une personne étrangère en situation régulière peut créer son entreprise :",
@@ -1842,7 +2021,8 @@
           "Seulement si elle est mariée à un français",
           "Seulement après 10 ans de résidence"
         ],
-        "reponse_correcte": "Oui, sous certaines conditions"
+        "reponse_correcte": "Oui, sous certaines conditions",
+        "indice": "Le type de titre de séjour peut être important."
       },
       {
         "question": "Une femme peut-elle créer son entreprise ?",
@@ -1852,7 +2032,8 @@
           "Oui, mais avec autorisation spéciale",
           "Seulement si elle est mariée"
         ],
-        "reponse_correcte": "Oui, librement"
+        "reponse_correcte": "Oui, librement",
+        "indice": "L'égalité professionnelle entre hommes et femmes est un principe fondamental."
       },
       {
         "question": "À partir de quel âge un mineur peut-il travailler ?",
@@ -1862,7 +2043,8 @@
           "18 ans",
           "12 ans"
         ],
-        "reponse_correcte": "16 ans"
+        "reponse_correcte": "16 ans",
+        "indice": "Il existe des règles spécifiques pour le travail des mineurs."
       }
     ],
     "autorite_parentale_et_systeme_educatif": [
@@ -1874,7 +2056,8 @@
           "18 ans",
           "12 ans"
         ],
-        "reponse_correcte": "16 ans"
+        "reponse_correcte": "16 ans",
+        "indice": "L'obligation d'instruction a été prolongée."
       },
       {
         "question": "L'autorité parentale prévoit l'obligation :",
@@ -1884,7 +2067,8 @@
           "De payer des impôts pour l’école",
           "D’enseigner personnellement à l’enfant"
         ],
-        "reponse_correcte": "D’assurer l’éducation et la protection de l’enfant"
+        "reponse_correcte": "D’assurer l’éducation et la protection de l’enfant",
+        "indice": "C'est un ensemble de droits et de devoirs des parents envers leur enfant."
       },
       {
         "question": "Pour qui l'école est-elle obligatoire ?",
@@ -1894,7 +2078,8 @@
           "Pour les enfants des grandes villes",
           "Pour les enfants dès 6 ans uniquement"
         ],
-        "reponse_correcte": "Pour tous les enfants résidant en France"
+        "reponse_correcte": "Pour tous les enfants résidant en France",
+        "indice": "Le droit à l'éducation s'applique à tous."
       },
       {
         "question": "Quel diplôme obtient-on à la fin du lycée ?",
@@ -1904,7 +2089,8 @@
           "Le CAP",
           "Le BTS"
         ],
-        "reponse_correcte": "Le baccalauréat"
+        "reponse_correcte": "Le baccalauréat",
+        "indice": "C'est le diplôme qui ouvre les portes de l'enseignement supérieur."
       },
       {
         "question": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
@@ -1914,7 +2100,8 @@
           "À l’université",
           "À l’école maternelle"
         ],
-        "reponse_correcte": "Au collège"
+        "reponse_correcte": "Au collège",
+        "indice": "La classe de 6ème est la première année de cet établissement."
       },
       {
         "question": "Un enfant inscrit à l'école :",
@@ -1924,7 +2111,8 @@
           "Ne peut pas être évalué",
           "N’a pas besoin de suivre les règles"
         ],
-        "reponse_correcte": "Doit y assister régulièrement"
+        "reponse_correcte": "Doit y assister régulièrement",
+        "indice": "L'absentéisme scolaire est contrôlé."
       },
       {
         "question": "Les enfants qui ne parlent pas français :",
@@ -1934,7 +2122,8 @@
           "Doivent attendre l’âge de 12 ans",
           "Se voient interdire l’accès aux livres"
         ],
-        "reponse_correcte": "Sont accueillis à l’école et accompagnés pour apprendre le français"
+        "reponse_correcte": "Sont accueillis à l’école et accompagnés pour apprendre le français",
+        "indice": "Il existe des dispositifs spécifiques pour les élèves allophones."
       }
     ]
   }
