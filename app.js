@@ -123,6 +123,7 @@ async function initiateQuiz() {
                 alert("Veuillez entrer votre clé API Gemini pour générer les questions 'Mise en situation'.");
                 return;
             }
+            localStorage.setItem('apiKey', apiKey); // Save API key
             
             // Show loading indicator
             document.getElementById('menu').innerHTML = '<h2>Génération des questions en cours...</h2>';
@@ -301,6 +302,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const themeToggle = document.getElementById('theme-toggle');
     const currentTheme = localStorage.getItem('theme') || 'light';
+    const savedApiKey = localStorage.getItem('apiKey');
+
+    if (savedApiKey) {
+        document.getElementById('api-key').value = savedApiKey;
+    }
 
     updateMenuVisibility(); // Set initial state of selectors
     applyTheme(currentTheme);
