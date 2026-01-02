@@ -42,7 +42,7 @@ Comme le projet utilise des fichiers JSON pour les questions, un serveur local e
 - [ ] **Générateur de PDF** : Permettre d'exporter ses erreurs en fin de quiz pour les réviser sur papier.
 
 ### 🔵 Priorité Basse / Bonus
-- [ ] **Mode Sombre (Dark Mode)** : Proposer une variante visuelle pour le confort nocturne.
+- [X] **Mode Sombre (Dark Mode)** : Proposer une variante visuelle pour le confort nocturne.
 - [ ] **Multilingue** : Interface en plusieurs langues pour aider à la compréhension des termes techniques.
 
 ---
