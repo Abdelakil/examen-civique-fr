@@ -33,9 +33,6 @@ Comme le projet utilise des fichiers JSON pour les questions, un serveur local e
 - [ ] **Générateur de "Mises en Situation" (Gemini API)** : Utiliser l'IA pour créer des questions contextuelles qui ne sont pas dans la base de données fixe.
     - *Objectif* : Sortir du par cœur et tester la compréhension réelle des valeurs (Laïcité, Égalité, Fraternité) à travers des scénarios de la vie courante.
 
-### 🔴 Priorité Critique (IA & Innovation)
-- [ ] **Mises en situation par IA (Gemini API)** : Intégrer un agent conversationnel pour simuler des entretiens de naturalisation ou des situations administratives réelles. L'IA évalue les réponses de l'utilisateur en fonction des valeurs républicaines.
-
 ### 🟢 Priorité Haute
 - [ ] **Sauvegarde locale** : Utiliser `localStorage` pour enregistrer le dernier score et reprendre un quiz en cours.
 - [ ] **Correction détaillée** : Ajouter une explication historique ou juridique après chaque réponse pour approfondir les connaissances.
