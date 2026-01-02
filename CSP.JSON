@@ -269,7 +269,8 @@
           "Une héroïne de la Révolution française",
           "Une déesse romaine"
         ],
-        "reponse_correcte": "Le symbole de la République française et de la liberté"
+        "reponse_correcte": "Le symbole de la République française et de la liberté",
+        "indice": "C'est une figure féminine portant un bonnet phrygien."
       },
       {
         "question": "« La France est une République indivisible, ..., démocratique et sociale ». Complétez cette phrase extraite de l'article 1er de la Constitution :",

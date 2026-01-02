@@ -225,3 +225,71 @@ button:hover {
   .quiz-sidebar { order: -1; width: 100%; }
   #menu, #results, .quiz-main-content { padding: 25px; }
 }
+
+.navigation-controls {
+  display: flex;
+  justify-content: space-between; /* Un à gauche, un à droite */
+  margin-top: 30px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+}
+
+#prev-btn {
+  background: #6c757d; /* Gris pour le bouton précédent */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#prev-btn:hover:not(:disabled) {
+  background: #5a6268;
+  transform: translateY(-1px);
+}
+
+#prev-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* On s'assure que le bouton suivant ne flotte plus à droite pour rester dans le flex */
+#next-btn {
+  float: none !important; 
+  margin-top: 0 !important;
+}
+
+#hint-container {
+  background-color: #fff9db;
+  border-left: 4px solid #fcc419;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #856404;
+  animation: fadeIn 0.3s ease;
+}
+
+#hint-btn {
+  background: transparent;
+  color: var(--blue-france);
+  border: 1px solid var(--blue-france);
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 10px;
+  transition: all 0.2s;
+}
+
+#hint-btn:hover {
+  background: #f0f7ff;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

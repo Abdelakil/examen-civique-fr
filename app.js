@@ -89,36 +89,66 @@ function updateStats() {
 function showQuestion() {
     updateStats();
     const q = currentQuestions[currentQuestionIndex];
+    
+    // Cacher l'indice de la question précédente
+    document.getElementById('hint-container').style.display = 'none';
+    
     document.getElementById('question-text').innerText = q.question;
     const container = document.getElementById('options-container');
     container.innerHTML = '';
+
+    // Gestion des boutons navigation
+    document.getElementById('prev-btn').disabled = (currentQuestionIndex === 0);
+    document.getElementById('next-btn').innerText = (currentQuestionIndex === currentQuestions.length - 1) ? "Terminer" : "Suivant";
 
     q.choix.forEach(choice => {
         const btn = document.createElement('button');
         btn.className = 'btn-choix';
         btn.innerText = choice;
+
+        if (q.userAnswer) {
+            if (choice === q.reponse_correcte) btn.classList.add('correct');
+            if (choice === q.userAnswer && q.userAnswer !== q.reponse_correcte) btn.classList.add('wrong');
+            btn.disabled = true;
+        }
+
         btn.onclick = () => validateAnswer(choice, q.reponse_correcte, btn);
         container.appendChild(btn);
     });
-    document.getElementById('next-btn').style.display = 'none';
 }
 
 function validateAnswer(selected, correct, btn) {
-    const buttons = document.querySelectorAll('.btn-choix');
-    buttons.forEach(b => b.disabled = true);
+    const q = currentQuestions[currentQuestionIndex];
+    
+    // 1. Si l'utilisateur a déjà répondu, on ne fait rien
+    if (q.userAnswer) return; 
 
-    if (selected === correct) {
-        btn.classList.add('correct');
-        score++;
-    } else {
+    // 2. On enregistre la réponse
+    q.userAnswer = selected; 
+
+    // 3. On récupère TOUS les boutons de réponse
+    const allButtons = document.querySelectorAll('.btn-choix');
+
+    // 4. On boucle sur tous les boutons pour les griser/désactiver
+    allButtons.forEach(b => {
+        b.disabled = true; // C'est ici que le "grisé" se produit
+        
+        // On affiche la bonne réponse en vert pour l'utilisateur
+        if (b.innerText === correct) {
+            b.classList.add('correct');
+        }
+    });
+
+    // 5. Si l'utilisateur a eu faux, on marque son bouton en rouge
+    if (selected !== correct) {
         btn.classList.add('wrong');
         errors++;
-        buttons.forEach(b => { if (b.innerText === correct) b.classList.add('correct'); });
+    } else {
+        score++;
     }
     
-    document.getElementById('stat-correct-count').innerText = score;
-    document.getElementById('stat-wrong-count').innerText = errors;
-    document.getElementById('next-btn').style.display = 'block';
+    // 6. Mise à jour immédiate du tableau de bord à droite
+    updateStats(); 
 }
 
 function nextQuestion() {
@@ -129,5 +159,41 @@ function nextQuestion() {
         document.getElementById('quiz-container').style.display = 'none';
         document.getElementById('results').style.display = 'block';
         document.getElementById('score-display').innerText = `Score Final : ${score} / ${currentQuestions.length}`;
+    }
+}
+
+function prevQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        showQuestion();
+    }
+}
+
+function nextQuestion() {
+    if (currentQuestionIndex < currentQuestions.length - 1) {
+        currentQuestionIndex++;
+        showQuestion();
+    } else {
+        // Si c'est la dernière question, on affiche les résultats
+        showFinalResults();
+    }
+}
+
+function showFinalResults() {
+    document.getElementById('quiz-container').style.display = 'none';
+    document.getElementById('results').style.display = 'block';
+    document.getElementById('score-display').innerText = `Score Final : ${score} / ${currentQuestions.length}`;
+}
+
+// Fonction pour afficher/masquer l'indice
+function toggleHint() {
+    const container = document.getElementById('hint-container');
+    const q = currentQuestions[currentQuestionIndex];
+    
+    if (container.style.display === 'none') {
+        document.getElementById('hint-text').innerText = q.indice || "Pas d'indice disponible pour cette question.";
+        container.style.display = 'block';
+    } else {
+        container.style.display = 'none';
     }
 }

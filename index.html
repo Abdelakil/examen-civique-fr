@@ -74,11 +74,23 @@
 <section id="quiz-container" style="display: none">
   <div class="quiz-layout">
     
-    <div class="quiz-main-content">
-      <h3 id="question-text"></h3>
-      <div id="options-container"></div>
-      <button id="next-btn" style="display: none" onclick="nextQuestion()">Suivant</button>
+<div class="quiz-main-content">
+  <h3 id="question-text"></h3>
+  
+  <div id="hint-container" style="display: none;">
+    <p id="hint-text"></p>
+  </div>
+
+  <div id="options-container"></div>
+  
+  <div class="navigation-controls">
+    <div>
+      <button id="prev-btn" onclick="prevQuestion()">Précédent</button>
+      <button id="hint-btn" onclick="toggleHint()">💡 Indice</button>
     </div>
+    <button id="next-btn" onclick="nextQuestion()">Suivant</button>
+  </div>
+</div>
 
     <aside class="quiz-sidebar">
       <table id="quiz-stats">
