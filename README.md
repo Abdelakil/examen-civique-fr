@@ -38,7 +38,7 @@ Comme le projet utilise des fichiers JSON pour les questions, un serveur local e
 - [ ] **Correction détaillée** : Ajouter une explication historique ou juridique après chaque réponse pour approfondir les connaissances.
 
 ### 🟡 Priorité Moyenne
-- [ ] **Chronomètre** : Ajouter un temps limité pour le mode "Simulation d'examen" (comme en conditions réelles).
+- [X] **Chronomètre** : Ajouter un temps limité pour le mode "Simulation d'examen" (comme en conditions réelles).
 - [ ] **Générateur de PDF** : Permettre d'exporter ses erreurs en fin de quiz pour les réviser sur papier.
 
 ### 🔵 Priorité Basse / Bonus

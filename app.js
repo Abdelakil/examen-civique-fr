@@ -67,7 +67,7 @@ async function initiateQuiz() {
 
         if (isTimed) {
             document.getElementById('timer-row').style.display = ''; // Show timer row
-            let timeLeft = 1 * 60; // 45 minutes in seconds
+            let timeLeft = 45 * 60; // 45 minutes in seconds
             const timerDisplay = document.getElementById('stat-timer');
 
             timerInterval = setInterval(() => {
