@@ -31,6 +31,7 @@ Comme le projet utilise des fichiers JSON pour les questions, un serveur local e
 
 ### 🔴 Priorité Critique (IA & Innovation)
 - [X] **Générateur de "Mises en Situation" (Gemini API)** : Utiliser l'IA pour créer des questions contextuelles qui ne sont pas dans la base de données fixe.
+- [ ] **Rédiger un tutorial pour la génération de l'API** : Rédaction d'un tutorial pour générer les questions de mise en situation en utilisant l'IA (Gemini).
 
 ### 🟢 Priorité Haute
 - [X] **Sauvegarde locale** : Utiliser `localStorage` pour enregistrer le mode sombre et l'API key.
