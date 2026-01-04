@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abdelakil.github.io/examen-civique-fr/index.html</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="https://abdelakil.github.io/examen-civique-en/index.html"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="fr"
+               href="https://abdelakil.github.io/examen-civique-fr/index.html"/>
+    <lastmod>2026-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://abdelakil.github.io/examen-civique-en/index.html</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="fr"
+               href="https://abdelakil.github.io/examen-civique-fr/index.html"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="https://abdelakil.github.io/examen-civique-en/index.html"/>
     <lastmod>2026-01-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>

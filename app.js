@@ -3,6 +3,67 @@ let currentQuestionIndex = 0;
 let score = 0;
 let errors = 0;
 let timerInterval = null;
+let translations = {};
+let currentLang = 'fr';
+
+function t(key, replacements = {}) {
+  let text = translations[key] || key;
+  for (const [k, v] of Object.entries(replacements)) {
+    text = text.replace(`{${k}}`, v);
+  }
+  return text;
+}
+
+async function loadTranslations(lang) {
+  try {
+    const response = await fetch(`${lang}.json`);
+    if (!response.ok) {
+      console.error(`Could not load ${lang}.json. Status: ${response.status}`);
+      throw new Error(`Could not load ${lang}.json`);
+    }
+    translations = await response.json();
+  } catch (error) {
+    console.error("Failed to load or parse translations:", error);
+    if (lang !== 'fr') {
+      await loadTranslations('fr');
+    }
+  }
+}
+
+function applyTranslations() {
+  document.querySelectorAll('[data-i18n-key]').forEach(el => {
+    const key = el.getAttribute('data-i18n-key');
+    const translation = t(key);
+    if (translation !== key) {
+      el.innerText = translation;
+    } else {
+      console.warn(`No translation found for key: ${key}`);
+    }
+  });
+   document.querySelectorAll('[data-i18n-key-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-i18n-key-placeholder');
+    const translation = t(key);
+    if (translation !== key) {
+        el.placeholder = translation;
+    } else {
+        console.warn(`No placeholder translation found for key: ${key}`);
+    }
+  });
+}
+
+async function setLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem('language', lang); // Save preference
+  document.documentElement.lang = lang;
+
+  document.getElementById('lang-fr').classList.toggle('selected', lang === 'fr');
+  document.getElementById('lang-en').classList.toggle('selected', lang === 'en');
+
+  await loadTranslations(lang);
+  applyTranslations();
+  const currentTheme = localStorage.getItem('theme') || 'light';
+  applyTheme(currentTheme);
+}
 
 function updateMenuVisibility() {
     const mode = document.getElementById('quiz-mode').value;
@@ -18,10 +79,10 @@ function updateMenuVisibility() {
 async function loadData(fileName) {
     try {
         const response = await fetch(`./${fileName}.JSON`);
-        if (!response.ok) throw new Error("Fichier non trouvé");
+        if (!response.ok) throw new Error(t('fileNotFound'));
         return await response.json();
     } catch (error) {
-        alert("Erreur de chargement du fichier JSON. Vérifiez qu'il s'appelle bien CSP.JSON ou CR.JSON");
+        alert(t('jsonLoadError'));
         return null;
     }
 }
@@ -33,18 +94,7 @@ function pick(list, count, themeName) {
 }
 
 async function generateMiseEnSituationQuestions(apiKey) {
-const prompt = `Générez 12 questions de type "mise en situation" pour un examen de citoyenneté française.
-- 6 questions pour le thème "Principes et valeurs de la République".
-- 6 questions pour le thème "Droits et devoirs".
- Il faut éviter les questions théoriques ou abstraites, les formulations générales qui parlent directement d’un principe (égalité, laïcité, liberté, etc.) sans situation précise, les phrases longues ou complexes, le vocabulaire difficile (au-delà du niveau A2), les questions avec plus d’une phrase ou plus de deux parties, les mises en situation sans conflit, ainsi que les questions vagues du type « quelle est la meilleure action » ou « quelle attitude est la plus appropriée ».-Je souhaite que les questions utilisent un vocabulaire simple, de niveau maximum A2, avec des phrases courtes et faciles à comprendre. Chaque question doit décrire un conflit clair, soit entre deux personnes (Monsieur X et Monsieur Y, ou Madame X et Madame Y), soit entre une personne et une administration, et demander directement ce que la personne peut faire, doit faire, ou si une action est autorisée. Les personnes doivent toujours être anonymisées en utilisant X et Y. Il faut également éviter les questions de type « vrai/faux » ou de définition légale, comme : « Est-ce que payer les impôts est un droit ou un devoir ? », « Est-ce que la loi demande d’aider une personne en danger ? », « Est-ce un devoir civique ? » ou « Est-ce que la loi oblige l’enfant à recevoir une instruction ? ». Les questions ne doivent pas demander de réciter la loi ni de qualifier un droit ou un devoir de manière abstraite, mais toujours s’appuyer sur une situation concrète, avec un conflit réel entre des personnes X et Y ou entre une personne et une administration, et demander ce que la personne peut ou doit faire dans ce contexte précis.
-Le format de sortie doit être un JSON contenant une liste d'objets. Chaque objet doit avoir les clés suivantes :
-- "theme": une chaîne de caractères ("Principes & Valeurs" ou "Droits & Devoirs").
-- "question": une chaîne de caractères contenant la question.
-- "choix": un tableau de 4 chaînes de caractères pour les options de réponse.
-- "reponse_correcte": une chaîne de caractères qui correspond exactement à l'une des chaînes du tableau "choix".
-- "indice": une chaîne de caractères fournissant un indice pour la question.
-
-Assurez-vous que la sortie est un JSON valide et rien d'autre.`;
+    const prompt = t('geminiPrompt');
 
     try {
         const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${apiKey}`, {
@@ -63,7 +113,6 @@ Assurez-vous que la sortie est un JSON valide et rien d'autre.`;
 
         const data = await response.json();
         const text = data.candidates[0].content.parts[0].text;
-        // Clean the text to remove the ```json and ``` at the beginning and end
         const cleanedText = text.replace(/```json/g, '').replace(/```/g, '');
         const questions = JSON.parse(cleanedText);
 
@@ -75,8 +124,8 @@ Assurez-vous que la sortie est un JSON valide et rien d'autre.`;
             indice: q.indice
         }));
     } catch (error) {
-        console.error("Erreur lors de la génération des questions :", error);
-        alert("Impossible de générer les questions. Vérifiez votre clé API et votre connexion Internet.");
+        console.error(t('questionGenerationError'), error);
+        alert(t('questionGenerationErrorAlert'));
         return [];
     }
 }
@@ -127,20 +176,20 @@ async function buildQuestions(data, settings) {
 
     if (settings.mode === 'simulation') {
         const simulationConfig = [
-            { key: 'devise_symboles', count: 3, theme: "Principes & Valeurs" },
-            { key: 'laicite', count: 2, theme: "Principes & Valeurs" },
-            { key: 'democratie_vote', count: 3, theme: "Institutions" },
-            { key: 'organisation_republique', count: 2, theme: "Institutions" },
-            { key: 'institutions_europeennes', count: 1, theme: "Institutions" },
-            { key: 'droits_et_libertes_fondamentales', count: 2, theme: "Droits & Devoirs" },
-            { key: 'obligations_et_devoirs_du_citoyen', count: 3, theme: "Droits & Devoirs" },
-            { key: 'grandes_periodes_et_personnages_historiques', count: 3, theme: "Histoire & Géo" },
-            { key: 'territoires_et_geographie', count: 3, theme: "Histoire & Géo" },
-            { key: 'patrimoine_francais', count: 2, theme: "Histoire & Géo" },
-            { key: 'sinstaller_et_resider_en_france', count: 1, theme: "Vivre en France" },
-            { key: 'acces_aux_soins', count: 1, theme: "Vivre en France" },
-            { key: 'travailler_en_france', count: 1, theme: "Vivre en France" },
-            { key: 'autorite_parentale_et_systeme_educatif', count: 1, theme: "Vivre en France" }
+            { key: 'devise_symboles', count: 3, theme: t('theme1') },
+            { key: 'laicite', count: 2, theme: t('theme1') },
+            { key: 'democratie_vote', count: 3, theme: t('theme2') },
+            { key: 'organisation_republique', count: 2, theme: t('theme2') },
+            { key: 'institutions_europeennes', count: 1, theme: t('theme2') },
+            { key: 'droits_et_libertes_fondamentales', count: 2, theme: t('theme3') },
+            { key: 'obligations_et_devoirs_du_citoyen', count: 3, theme: t('theme3') },
+            { key: 'grandes_periodes_et_personnages_historiques', count: 3, theme: t('theme4') },
+            { key: 'territoires_et_geographie', count: 3, theme: t('theme4') },
+            { key: 'patrimoine_francais', count: 2, theme: t('theme4') },
+            { key: 'sinstaller_et_resider_en_france', count: 1, theme: t('theme5') },
+            { key: 'acces_aux_soins', count: 1, theme: t('theme5') },
+            { key: 'travailler_en_france', count: 1, theme: t('theme5') },
+            { key: 'autorite_parentale_et_systeme_educatif', count: 1, theme: t('theme5') }
         ];
 
         for (const config of simulationConfig) {
@@ -153,10 +202,10 @@ async function buildQuestions(data, settings) {
         if (settings.useMiseEnSituation) {
             const apiKey = document.getElementById('api-key').value;
             if (!apiKey) {
-                alert("Veuillez entrer votre clé API Gemini pour générer les questions 'Mise en situation'.");
+                alert(t('geminiApiKeyError'));
                 return [];
             }
-            localStorage.setItem('apiKey', apiKey); // Save API key
+            localStorage.setItem('apiKey', apiKey);
             
             document.getElementById('menu').classList.add('hidden');
             document.getElementById('loader').classList.remove('hidden');
@@ -196,7 +245,7 @@ function startTimer() {
 
         if (timeLeft < 0) {
             clearInterval(timerInterval);
-            alert("Temps écoulé !");
+            alert(t('timeUp'));
             showFinalResults();
         }
     }, 1000);
@@ -204,7 +253,7 @@ function startTimer() {
 
 function updateStats() {
     const currentQ = currentQuestions[currentQuestionIndex];
-    if (!currentQ) return; // Exit if no current question
+    if (!currentQ) return;
     const currentTheme = currentQ.themeLabel;
     
     const remainingInTheme = currentQuestions.slice(currentQuestionIndex).filter(q => q.themeLabel === currentTheme).length;
@@ -218,20 +267,18 @@ function updateStats() {
 
 function showQuestion() {
     const q = currentQuestions[currentQuestionIndex];
-    if (!q) return; // Exit if the question doesn't exist
+    if (!q) return;
 
     updateStats();
     
-    // Cacher l'indice de la question précédente
     document.getElementById('hint-container').classList.add('hidden');
     
     document.getElementById('question-text').innerText = q.question;
     const container = document.getElementById('options-container');
     container.innerHTML = '';
 
-    // Gestion des boutons navigation
     document.getElementById('prev-btn').disabled = (currentQuestionIndex === 0);
-    document.getElementById('next-btn').innerText = (currentQuestionIndex === currentQuestions.length - 1) ? "Terminer" : "Suivant";
+    document.getElementById('next-btn').innerText = (currentQuestionIndex === currentQuestions.length - 1) ? t('finishButton') : t('nextButton');
 
     q.choix.forEach(choice => {
         const btn = document.createElement('button');
@@ -252,26 +299,20 @@ function showQuestion() {
 function validateAnswer(selected, correct, btn) {
     const q = currentQuestions[currentQuestionIndex];
     
-    // 1. Si l'utilisateur a déjà répondu, on ne fait rien
     if (q.userAnswer) return; 
 
-    // 2. On enregistre la réponse
     q.userAnswer = selected; 
 
-    // 3. On récupère TOUS les boutons de réponse
     const allButtons = document.querySelectorAll('.btn-choix');
 
-    // 4. On boucle sur tous les boutons pour les griser/désactiver
     allButtons.forEach(b => {
-        b.disabled = true; // C'est ici que le "grisé" se produit
+        b.disabled = true;
         
-        // On affiche la bonne réponse en vert pour l'utilisateur
         if (b.innerText === correct) {
             b.classList.add('correct');
         }
     });
 
-    // 5. Si l'utilisateur a eu faux, on marque son bouton en rouge
     if (selected !== correct) {
         btn.classList.add('wrong');
         errors++;
@@ -279,7 +320,6 @@ function validateAnswer(selected, correct, btn) {
         score++;
     }
     
-    // 6. Mise à jour immédiate du tableau de bord à droite
     updateStats(); 
 }
 
@@ -295,52 +335,59 @@ function nextQuestion() {
         currentQuestionIndex++;
         showQuestion();
     } else {
-        // Si c'est la dernière question, on affiche les résultats
         showFinalResults();
     }
 }
 
 function showFinalResults() {
-    if (timerInterval) clearInterval(timerInterval); // Stop timer when quiz ends
+    if (timerInterval) clearInterval(timerInterval);
     document.getElementById('quiz-container').classList.add('hidden');
     document.getElementById('results').classList.remove('hidden');
-    document.getElementById('score-display').innerText = `Score Final : ${score} / ${currentQuestions.length}`;
+    document.getElementById('score-display').innerText = t('scoreDisplay', { score: score, total: currentQuestions.length });
 }
 
-// Fonction pour afficher/masquer l'indice
 function toggleHint() {
     const container = document.getElementById('hint-container');
     const q = currentQuestions[currentQuestionIndex];
     
     if (container.classList.contains('hidden')) {
-        document.getElementById('hint-text').innerText = q.indice || "Pas d'indice disponible pour cette question.";
+        document.getElementById('hint-text').innerText = q.indice || t('noHint');
         container.classList.remove('hidden');
     } else {
         container.classList.add('hidden');
     }
 }
 
-// Dark Mode Toggle
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    const savedLang = localStorage.getItem('language');
+    const userLang = savedLang || new URLSearchParams(window.location.search).get('lang') || navigator.language.split('-')[0] || 'fr';
+    await setLanguage(userLang.startsWith('en') ? 'en' : 'fr');
+    
     initializeTheme();
     document.getElementById('quiz-mode').addEventListener('change', updateMenuVisibility);
     document.getElementById('mise-en-situation-choice').addEventListener('change', updateMenuVisibility);
+
+    document.getElementById('lang-fr').addEventListener('click', () => setLanguage('fr'));
+    document.getElementById('lang-en').addEventListener('click', () => setLanguage('en'));
 
     const savedApiKey = localStorage.getItem('apiKey');
     if (savedApiKey) {
         document.getElementById('api-key').value = savedApiKey;
     }
 
-    updateMenuVisibility(); // Set initial state of selectors
+    updateMenuVisibility();
 });
 
 function initializeTheme() {
     const themeToggle = document.getElementById('theme-toggle');
+    
+    // Apply theme from local storage or default
     const currentTheme = localStorage.getItem('theme') || 'light';
     applyTheme(currentTheme);
 
-    themeToggle.addEventListener('click', () => {
-        let newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+    // Listener for the toggle switch
+    themeToggle.addEventListener('change', () => {
+        const newTheme = themeToggle.checked ? 'dark' : 'light';
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme);
     });
@@ -350,9 +397,9 @@ function applyTheme(theme) {
     const themeToggle = document.getElementById('theme-toggle');
     if (theme === 'dark') {
         document.body.classList.add('dark-mode');
-        themeToggle.textContent = '☀️';
+        themeToggle.checked = true;
     } else {
         document.body.classList.remove('dark-mode');
-        themeToggle.textContent = '🌙';
+        themeToggle.checked = false;
     }
 }

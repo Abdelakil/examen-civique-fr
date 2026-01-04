@@ -3,93 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Préparation Examen Civique</title>
+    <title data-i18n-key="pageTitle">Préparation Examen Civique</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="google-site-verification" content="iwdARhQYsxTLYb9Mez_VJB0bDiQIwxO4g32A94bu5PM" />
   </head>
   <body>
     <header>
       <div class="header-content">
-        <h1>République Française</h1>
-        <p>Préparation CSP & Carte de Résident</p>
+        <h1 data-i18n-key="headerTitle">République Française</h1>
+        <p data-i18n-key="headerSubtitle">Préparation CSP & Carte de Résident</p>
       </div>
-      <button id="theme-toggle">🌙</button>
+      <div class="header-controls">
+        <div class="lang-switcher">
+          <button id="lang-fr" type="button" aria-label="Version française">FR</button>
+          <button id="lang-en" type="button" aria-label="English version">EN</button>
+        </div>
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider round"></span>
+        </label>
+      </div>
     </header>
 
     <main id="app">
       <section id="menu">
-        <h2>Préparation à l'examen</h2>
+        <h2 data-i18n-key="examPrepTitle">Préparation à l'examen</h2>
         <div class="menu-layout">
           <div class="quiz-settings">
-            <label for="card-type">Type de carte sollicitée :</label>
+            <label for="card-type" data-i18n-key="cardTypeLabel">Type de carte sollicitée :</label>
             <select id="card-type">
-              <option value="CSP">Carte de Séjour Pluriannuelle (CSP)</option>
-              <option value="CR">Carte de Résident (CR)</option>
+              <option value="CSP" data-i18n-key="cspOption">Carte de Séjour Pluriannuelle (CSP)</option>
+              <option value="CR" data-i18n-key="crOption">Carte de Résident (CR)</option>
             </select>
 
-            <label for="quiz-mode">Type de quiz :</label>
+            <label for="quiz-mode" data-i18n-key="quizTypeLabel">Type de quiz :</label>
             <select id="quiz-mode">
-              <option value="simulation">Simulation d'examen (40 questions)</option>
-              <option value="theme">Entraînement par thème</option>
+              <option value="simulation" data-i18n-key="simulationOption">Simulation d'examen (40 questions)</option>
+              <option value="theme" data-i18n-key="themeTrainingOption">Entraînement par thème</option>
             </select>
 
             <div id="timed-exam-container">
-              <label for="timed-exam-choice">Examen chronométré :</label>
+              <label for="timed-exam-choice" data-i18n-key="timedExamLabel">Examen chronométré :</label>
               <select id="timed-exam-choice">
-                <option value="no" selected>Non</option>
-                <option value="yes">Oui (45 minutes)</option>
+                <option value="no" selected data-i18n-key="noOption">Non</option>
+                <option value="yes" data-i18n-key="yesOption">Oui (45 minutes)</option>
               </select>
             </div>
 
             <div id="mise-en-situation-container">
-              <label for="mise-en-situation-choice">Questions "Mise en situation" (IA) :</label>
+              <label for="mise-en-situation-choice" data-i18n-key="scenarioQuestionsLabel">Questions "Mise en situation" (IA) :</label>
               <select id="mise-en-situation-choice">
-                <option value="no" selected>Non</option>
-                <option value="yes">Oui</option>
+                <option value="no" selected data-i18n-key="noOption">Non</option>
+                <option value="yes" data-i18n-key="yesOption">Oui</option>
               </select>
             </div>
 
             <div id="api-key-container" class="hidden">
-              <label for="api-key">Votre clé API Gemini :</label>
-              <input type="password" id="api-key" placeholder="Entrez votre clé API" />
+              <label for="api-key" data-i18n-key="geminiApiLabel">Votre clé API Gemini :</label>
+              <input type="password" id="api-key" data-i18n-key-placeholder="geminiApiPlaceholder" placeholder="Entrez votre clé API" />
             </div>
 
             <div id="theme-selector-container" class="hidden">
-              <label for="theme-choice">Choisissez un thème :</label>
+              <label for="theme-choice" data-i18n-key="themeChoiceLabel">Choisissez un thème :</label>
               <select id="theme-choice">
-                <option value="bloc1_principes_valeurs">
-                  Principes et valeurs de la République
-                </option>
-
-                <option value="bloc2_institutionnel_politique">
-                  Système institutionnel et politique
-                </option>
-                <option value="bloc3_droits_et_devoirs">
-                  Droits et devoirs
-                </option>
-                <option value="bloc4_histoire_geo_culture">
-                  Histoire, géographie et culture
-                </option>
-                <option value="bloc5_vivre_en_societe">
-                  Vivre dans la société française
-                </option>
+                <option value="bloc1_principes_valeurs" data-i18n-key="theme1">Principes et valeurs de la République</option>
+                <option value="bloc2_institutionnel_politique" data-i18n-key="theme2">Système institutionnel et politique</option>
+                <option value="bloc3_droits_et_devoirs" data-i18n-key="theme3">Droits et devoirs</option>
+                <option value="bloc4_histoire_geo_culture" data-i18n-key="theme4">Histoire, géographie et culture</option>
+                <option value="bloc5_vivre_en_societe" data-i18n-key="theme5">Vivre dans la société française</option>
               </select>
 
               <br />
-              <label for="question-count">Nombre de questions :</label>
+              <label for="question-count" data-i18n-key="questionCountLabel">Nombre de questions :</label>
               <input type="number" id="question-count" value="10" min="1" max="50" />
             </div>
 
-            <button onclick="initiateQuiz()">
-              Commencer
-            </button>
+            <button onclick="initiateQuiz()" data-i18n-key="startButton">Commencer</button>
           </div>
           <aside class="useful-links">
-            <h3>Liens utiles</h3>
+            <h3 data-i18n-key="usefulLinksTitle">Liens utiles</h3>
             <ul>
-              <li><a href="https://formation-civique.interieur.gouv.fr/examen-civique/" target="_blank">Examen Civique - Site officiel</a></li>
-              <li><a href="https://www.lefrancaisdesaffaires.fr/candidat/examen-civique/presentation/" target="_blank">Examen Civique - Inscription</a></li>
-              <li><a href="https://www.immigration.interieur.gouv.fr/Integration-et-Acces-a-la-nationalite/La-nationalite-francaise/Le-livret-du-citoyen" target="_blank">Le livret du citoyen</a></li>
+              <li><a href="https://formation-civique.interieur.gouv.fr/examen-civique/" target="_blank" data-i18n-key="officialSiteLink">Examen Civique - Site officiel</a></li>
+              <li><a href="https://www.lefrancaisdesaffaires.fr/candidat/examen-civique/presentation/" target="_blank" data-i18n-key="registrationLink">Examen Civique - Inscription</a></li>
+              <li><a href="https://www.immigration.interieur.gouv.fr/Integration-et-Acces-a-la-nationalite/La-nationalite-francaise/Le-livret-du-citoyen" target="_blank" data-i18n-key="citizenBookletLink">Le livret du citoyen</a></li>
             </ul>
           </aside>
         </div>
@@ -97,7 +93,7 @@
 
       <section id="loader" class="hidden">
         <div class="spinner"></div>
-        <p>Génération des questions en cours...</p>
+        <p data-i18n-key="generatingQuestions">Génération des questions en cours...</p>
       </section>
 
 <section id="quiz-container" class="hidden">
@@ -113,9 +109,9 @@
   <div id="options-container"></div>
   
   <div class="navigation-controls">
-      <button id="prev-btn" onclick="prevQuestion()">Précédent</button>
-      <button id="hint-btn" onclick="toggleHint()">💡 Indice</button>
-      <button id="next-btn" onclick="nextQuestion()">Suivant</button>
+      <button id="prev-btn" onclick="prevQuestion()" data-i18n-key="previousButton">Précédent</button>
+      <button id="hint-btn" onclick="toggleHint()" data-i18n-key="hintButton">💡 Indice</button>
+      <button id="next-btn" onclick="nextQuestion()" data-i18n-key="nextButton">Suivant</button>
   </div>
 </div>
 
@@ -123,27 +119,27 @@
       <table id="quiz-stats">
         <tbody>
           <tr>
-            <th>Thème actuel</th>
+            <th data-i18n-key="currentThemeLabel">Thème actuel</th>
             <td id="stat-theme">-</td>
           </tr>
           <tr>
-            <th>Reste (thème)</th>
+            <th data-i18n-key="themeProgressLabel">Reste (thème)</th>
             <td id="stat-theme-progress">-</td>
           </tr>
           <tr>
-            <th>Total restant</th>
+            <th data-i18n-key="totalLeftLabel">Total restant</th>
             <td id="stat-total-left">-</td>
           </tr>
           <tr id="timer-row" class="hidden">
-            <th>Temps restant</th>
+            <th data-i18n-key="timeRemainingLabel">Temps restant</th>
             <td id="stat-timer">-</td>
           </tr>
           <tr>
-            <th>Correct</th>
+            <th data-i18n-key="correctLabel">Correct</th>
             <td id="stat-correct-count" class="stat-correct">0</td>
           </tr>
           <tr>
-            <th>Erreurs</th>
+            <th data-i18n-key="errorsLabel">Erreurs</th>
             <td id="stat-wrong-count" class="stat-wrong">0</td>
           </tr>
         </tbody>
@@ -154,9 +150,9 @@
 </section>
 
       <section id="results" class="hidden">
-        <h2>Résultat</h2>
+        <h2 data-i18n-key="resultTitle">Résultat</h2>
         <p id="score-display"></p>
-        <button onclick="location.reload()">Retour à l'accueil</button>
+        <button onclick="location.reload()" data-i18n-key="backToHomeButton">Retour à l'accueil</button>
       </section>
     </main>
 

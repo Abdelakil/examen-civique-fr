@@ -77,30 +77,6 @@ header {
   box-shadow: var(--header-shadow);
   transition: background-color 0.3s;
 }
-
-#theme-toggle {
-  position: absolute;
-  top: 50%;
-  right: 30px;
-  transform: translateY(-50%);
-  background: transparent;
-  border: 1px solid var(--border-color);
-  color: var(--text-color);
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s;
-}
-
-#theme-toggle:hover {
-  background-color: var(--border-color);
-}
-
 .header-content {
   text-align: center;
 }
@@ -558,3 +534,133 @@ button:hover {
 .hidden {
   display: none !important;
 }
+
+/* --- Header Controls --- */
+.header-controls {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lang-switcher button {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lang-switcher button:hover {
+  background-color: var(--border-color);
+}
+
+.lang-switcher {
+  display: flex;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.lang-switcher button {
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.lang-switcher button:first-child {
+  border-right: 1px solid var(--border-color);
+}
+
+.lang-switcher button:hover {
+  background-color: var(--border-color);
+}
+
+.lang-switcher button.selected {
+  background-color: var(--blue-france);
+  color: white;
+}
+
+.dark-mode .lang-switcher button.selected {
+  background-color: var(--blue-france);
+  color: #E0E0E0;
+}
+
+
+/* The switch - the box around the slider */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider track */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+/* The slider thumb */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+  
+  /* SVG icon styling */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+  
+  /* Sun icon for light mode */
+  background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23242424" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3e%3ccircle cx="12" cy="12" r="5"%3e%3c/circle%3e%3cline x1="12" y1="1" x2="12" y2="3"%3e%3c/line%3e%3cline x1="12" y1="21" x2="12" y2="23"%3e%3c/line%3e%3cline x1="4.22" y1="4.22" x2="5.64" y2="5.64"%3e%3c/line%3e%3cline x1="18.36" y1="18.36" x2="19.78" y2="19.78"%3e%3c/line%3e%3cline x1="1" y1="12" x2="3" y2="12"%3e%3c/line%3e%3cline x1="21" y1="12" x2="23" y2="12"%3e%3c/line%3e%3cline x1="4.22" y1="19.78" x2="5.64" y2="18.36"%3e%3c/line%3e%3cline x1="18.36" y1="5.64" x2="19.78" y2="4.22"%3e%3c/line%3e%3c/svg%3e');
+  transform: rotate(0deg); /* Initial state for animation */
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--blue-france);
+}
+
+/* Dark mode state */
+input:checked + .slider {
+  background-color: var(--card-bg);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px) rotate(360deg);
+  background-color: #333;
+  
+  /* Moon icon for dark mode */
+  background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3e%3cpath d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"%3e%3c/path%3e%3c/svg%3e');
+}
+
