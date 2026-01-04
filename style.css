@@ -356,6 +356,12 @@ button[onclick="initiateQuiz()"], #next-btn, button[onclick="location.reload()"]
   transition: all 0.3s ease;
 }
 
+button[onclick="initiateQuiz()"] {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+
 button:hover {
   background: #000060;
   transform: translateY(-1px);
@@ -508,7 +514,10 @@ button:hover {
   background: rgba(107, 155, 255, 0.1);
 }
 
-#mise-en-situation-container, #api-key-container {
+#timed-exam-container,
+#mise-en-situation-container,
+#api-key-container,
+#theme-selector-container {
   margin-top: 15px;
 }
 
@@ -544,4 +553,8 @@ button:hover {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.hidden {
+  display: none !important;
 }

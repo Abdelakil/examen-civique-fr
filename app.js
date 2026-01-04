@@ -9,10 +9,10 @@ function updateMenuVisibility() {
     const isThemeMode = mode === 'theme';
     const isMiseEnSituation = document.getElementById('mise-en-situation-choice').value === 'yes';
 
-    document.getElementById('theme-selector-container').style.display = isThemeMode ? 'block' : 'none';
-    document.getElementById('timed-exam-container').style.display = isThemeMode ? 'none' : 'block';
-    document.getElementById('mise-en-situation-container').style.display = isThemeMode ? 'none' : 'block';
-    document.getElementById('api-key-container').style.display = !isThemeMode && isMiseEnSituation ? 'block' : 'none';
+    document.getElementById('theme-selector-container').classList.toggle('hidden', !isThemeMode);
+    document.getElementById('timed-exam-container').classList.toggle('hidden', isThemeMode);
+    document.getElementById('mise-en-situation-container').classList.toggle('hidden', isThemeMode);
+    document.getElementById('api-key-container').classList.toggle('hidden', isThemeMode || !isMiseEnSituation);
 }
 
 async function loadData(fileName) {
@@ -85,100 +85,120 @@ async function initiateQuiz() {
     const data = await loadData(cardType);
     if (!data) return;
 
-    const mode = document.getElementById('quiz-mode').value;
-    const isTimed = document.getElementById('timed-exam-choice').value === 'yes';
-    const useMiseEnSituation = document.getElementById('mise-en-situation-choice').value === 'yes';
+    const settings = getQuizSettings();
+    currentQuestions = await buildQuestions(data, settings);
 
-    currentQuestions = [];
+    if (currentQuestions.length === 0) {
+        return;
+    }
+
     score = 0;
     errors = 0;
     currentQuestionIndex = 0;
     
     if (timerInterval) clearInterval(timerInterval);
 
-    if (mode === 'simulation') {
-        // Bloc 1
-        currentQuestions.push(...pick(data.bloc1_principes_valeurs.devise_symboles, 3, "Principes & Valeurs"));
-        currentQuestions.push(...pick(data.bloc1_principes_valeurs.laicite, 2, "Principes & Valeurs"));
-        // Bloc 2
-        currentQuestions.push(...pick(data.bloc2_institutionnel_politique.democratie_vote, 3, "Institutions"));
-        currentQuestions.push(...pick(data.bloc2_institutionnel_politique.organisation_republique, 2, "Institutions"));
-        currentQuestions.push(...pick(data.bloc2_institutionnel_politique.institutions_europeennes, 1, "Institutions"));
-        // Bloc 3
-        currentQuestions.push(...pick(data.bloc3_droits_et_devoirs.droits_et_libertes_fondamentales, 2, "Droits & Devoirs"));
-        currentQuestions.push(...pick(data.bloc3_droits_et_devoirs.obligations_et_devoirs_du_citoyen, 3, "Droits & Devoirs"));
-        // Bloc 4
-        currentQuestions.push(...pick(data.bloc4_histoire_geo_culture.grandes_periodes_et_personnages_historiques, 3, "Histoire & Géo"));
-        currentQuestions.push(...pick(data.bloc4_histoire_geo_culture.territoires_et_geographie, 3, "Histoire & Géo"));
-        currentQuestions.push(...pick(data.bloc4_histoire_geo_culture.patrimoine_francais, 2, "Histoire & Géo"));
-        // Bloc 5
-        currentQuestions.push(...pick(data.bloc5_vivre_en_societe.sinstaller_et_resider_en_france, 1, "Vivre en France"));
-        currentQuestions.push(...pick(data.bloc5_vivre_en_societe.acces_aux_soins, 1, "Vivre en France"));
-        currentQuestions.push(...pick(data.bloc5_vivre_en_societe.travailler_en_france, 1, "Vivre en France"));
-        currentQuestions.push(...pick(data.bloc5_vivre_en_societe.autorite_parentale_et_systeme_educatif, 1, "Vivre en France"));
+    if (settings.isTimed) {
+        startTimer();
+    } else {
+        document.getElementById('timer-row').classList.add('hidden');
+    }
 
-        if (useMiseEnSituation) {
+    document.getElementById('menu').classList.add('hidden');
+    document.getElementById('quiz-container').classList.remove('hidden');
+    showQuestion();
+}
+
+function getQuizSettings() {
+    const cardType = document.getElementById('card-type').value;
+    const mode = document.getElementById('quiz-mode').value;
+    const isTimed = document.getElementById('timed-exam-choice').value === 'yes';
+    const useMiseEnSituation = document.getElementById('mise-en-situation-choice').value === 'yes';
+    const themeKey = document.getElementById('theme-choice').value;
+    const count = parseInt(document.getElementById('question-count').value);
+    const themeLabel = document.getElementById('theme-choice').options[document.getElementById('theme-choice').selectedIndex].text;
+
+    return { cardType, mode, isTimed, useMiseEnSituation, themeKey, count, themeLabel };
+}
+
+async function buildQuestions(data, settings) {
+    let questions = [];
+
+    if (settings.mode === 'simulation') {
+        const simulationConfig = [
+            { key: 'devise_symboles', count: 3, theme: "Principes & Valeurs" },
+            { key: 'laicite', count: 2, theme: "Principes & Valeurs" },
+            { key: 'democratie_vote', count: 3, theme: "Institutions" },
+            { key: 'organisation_republique', count: 2, theme: "Institutions" },
+            { key: 'institutions_europeennes', count: 1, theme: "Institutions" },
+            { key: 'droits_et_libertes_fondamentales', count: 2, theme: "Droits & Devoirs" },
+            { key: 'obligations_et_devoirs_du_citoyen', count: 3, theme: "Droits & Devoirs" },
+            { key: 'grandes_periodes_et_personnages_historiques', count: 3, theme: "Histoire & Géo" },
+            { key: 'territoires_et_geographie', count: 3, theme: "Histoire & Géo" },
+            { key: 'patrimoine_francais', count: 2, theme: "Histoire & Géo" },
+            { key: 'sinstaller_et_resider_en_france', count: 1, theme: "Vivre en France" },
+            { key: 'acces_aux_soins', count: 1, theme: "Vivre en France" },
+            { key: 'travailler_en_france', count: 1, theme: "Vivre en France" },
+            { key: 'autorite_parentale_et_systeme_educatif', count: 1, theme: "Vivre en France" }
+        ];
+
+        for (const config of simulationConfig) {
+            const bloc = Object.values(data).find(b => b[config.key]);
+            if (bloc) {
+                questions.push(...pick(bloc[config.key], config.count, config.theme));
+            }
+        }
+
+        if (settings.useMiseEnSituation) {
             const apiKey = document.getElementById('api-key').value;
             if (!apiKey) {
                 alert("Veuillez entrer votre clé API Gemini pour générer les questions 'Mise en situation'.");
-                return;
+                return [];
             }
             localStorage.setItem('apiKey', apiKey); // Save API key
             
-            // Show loading indicator
-            document.getElementById('menu').style.display = 'none';
-            document.getElementById('loader').style.display = 'block';
+            document.getElementById('menu').classList.add('hidden');
+            document.getElementById('loader').classList.remove('hidden');
 
             const aiQuestions = await generateMiseEnSituationQuestions(apiKey);
 
-            document.getElementById('loader').style.display = 'none';
+            document.getElementById('loader').classList.add('hidden');
 
             if (aiQuestions.length === 0) {
-                // Show menu again if AI questions fail
-                document.getElementById('menu').style.display = 'block';
-                return;
+                document.getElementById('menu').classList.remove('hidden');
+                return [];
             }
-            currentQuestions.push(...aiQuestions);
+            questions.push(...aiQuestions);
         }
-
-        if (isTimed) {
-            document.getElementById('timer-row').style.display = ''; // Show timer row
-            let timeLeft = 45 * 60; // 45 minutes in seconds
-            const timerDisplay = document.getElementById('stat-timer');
-
-            timerInterval = setInterval(() => {
-                const minutes = Math.floor(timeLeft / 60);
-                let seconds = timeLeft % 60;
-                seconds = seconds < 10 ? '0' + seconds : seconds;
-                timerDisplay.textContent = `${minutes}:${seconds}`;
-                timeLeft--;
-
-                if (timeLeft < 0) {
-                    clearInterval(timerInterval);
-                    alert("Temps écoulé !");
-                    showFinalResults();
-                }
-            }, 1000);
-        } else {
-            document.getElementById('timer-row').style.display = 'none'; // Hide timer row
-        }
-
     } else {
-        const themeKey = document.getElementById('theme-choice').value;
-        const count = parseInt(document.getElementById('question-count').value);
-        const themeLabel = document.getElementById('theme-choice').options[document.getElementById('theme-choice').selectedIndex].text;
-        
         let allThemeQuestions = [];
-        for (let sub in data[themeKey]) {
-            allThemeQuestions.push(...data[themeKey][sub]);
+        for (let sub in data[settings.themeKey]) {
+            allThemeQuestions.push(...data[settings.themeKey][sub]);
         }
-        currentQuestions = pick(allThemeQuestions, count, themeLabel);
-        document.getElementById('timer-row').style.display = 'none'; // Hide timer row
+        questions = pick(allThemeQuestions, settings.count, settings.themeLabel);
     }
 
-    document.getElementById('menu').style.display = 'none';
-    document.getElementById('quiz-container').style.display = 'block';
-    showQuestion();
+    return questions;
+}
+
+function startTimer() {
+    document.getElementById('timer-row').classList.remove('hidden');
+    let timeLeft = 45 * 60;
+    const timerDisplay = document.getElementById('stat-timer');
+
+    timerInterval = setInterval(() => {
+        const minutes = Math.floor(timeLeft / 60);
+        let seconds = timeLeft % 60;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        timerDisplay.textContent = `${minutes}:${seconds}`;
+        timeLeft--;
+
+        if (timeLeft < 0) {
+            clearInterval(timerInterval);
+            alert("Temps écoulé !");
+            showFinalResults();
+        }
+    }, 1000);
 }
 
 function updateStats() {
@@ -202,7 +222,7 @@ function showQuestion() {
     updateStats();
     
     // Cacher l'indice de la question précédente
-    document.getElementById('hint-container').style.display = 'none';
+    document.getElementById('hint-container').classList.add('hidden');
     
     document.getElementById('question-text').innerText = q.question;
     const container = document.getElementById('options-container');
@@ -281,8 +301,8 @@ function nextQuestion() {
 
 function showFinalResults() {
     if (timerInterval) clearInterval(timerInterval); // Stop timer when quiz ends
-    document.getElementById('quiz-container').style.display = 'none';
-    document.getElementById('results').style.display = 'block';
+    document.getElementById('quiz-container').classList.add('hidden');
+    document.getElementById('results').classList.remove('hidden');
     document.getElementById('score-display').innerText = `Score Final : ${score} / ${currentQuestions.length}`;
 }
 
@@ -291,28 +311,31 @@ function toggleHint() {
     const container = document.getElementById('hint-container');
     const q = currentQuestions[currentQuestionIndex];
     
-    if (container.style.display === 'none') {
+    if (container.classList.contains('hidden')) {
         document.getElementById('hint-text').innerText = q.indice || "Pas d'indice disponible pour cette question.";
-        container.style.display = 'block';
+        container.classList.remove('hidden');
     } else {
-        container.style.display = 'none';
+        container.classList.add('hidden');
     }
 }
 
 // Dark Mode Toggle
 document.addEventListener('DOMContentLoaded', () => {
+    initializeTheme();
     document.getElementById('quiz-mode').addEventListener('change', updateMenuVisibility);
     document.getElementById('mise-en-situation-choice').addEventListener('change', updateMenuVisibility);
 
-    const themeToggle = document.getElementById('theme-toggle');
-    const currentTheme = localStorage.getItem('theme') || 'light';
     const savedApiKey = localStorage.getItem('apiKey');
-
     if (savedApiKey) {
         document.getElementById('api-key').value = savedApiKey;
     }
 
     updateMenuVisibility(); // Set initial state of selectors
+});
+
+function initializeTheme() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const currentTheme = localStorage.getItem('theme') || 'light';
     applyTheme(currentTheme);
 
     themeToggle.addEventListener('click', () => {
@@ -320,14 +343,15 @@ document.addEventListener('DOMContentLoaded', () => {
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme);
     });
+}
 
-    function applyTheme(theme) {
-        if (theme === 'dark') {
-            document.body.classList.add('dark-mode');
-            themeToggle.textContent = '☀️';
-        } else {
-            document.body.classList.remove('dark-mode');
-            themeToggle.textContent = '🌙';
-        }
+function applyTheme(theme) {
+    const themeToggle = document.getElementById('theme-toggle');
+    if (theme === 'dark') {
+        document.body.classList.add('dark-mode');
+        themeToggle.textContent = '☀️';
+    } else {
+        document.body.classList.remove('dark-mode');
+        themeToggle.textContent = '🌙';
     }
-});
+}

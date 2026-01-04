@@ -33,7 +33,7 @@
               <option value="theme">Entraînement par thème</option>
             </select>
 
-            <div id="timed-exam-container" style="margin-top: 15px;">
+            <div id="timed-exam-container">
               <label for="timed-exam-choice">Examen chronométré :</label>
               <select id="timed-exam-choice">
                 <option value="no" selected>Non</option>
@@ -41,7 +41,7 @@
               </select>
             </div>
 
-            <div id="mise-en-situation-container" style="margin-top: 15px;">
+            <div id="mise-en-situation-container">
               <label for="mise-en-situation-choice">Questions "Mise en situation" (IA) :</label>
               <select id="mise-en-situation-choice">
                 <option value="no" selected>Non</option>
@@ -49,17 +49,18 @@
               </select>
             </div>
 
-            <div id="api-key-container" style="display: none; margin-top: 15px;">
+            <div id="api-key-container" class="hidden">
               <label for="api-key">Votre clé API Gemini :</label>
               <input type="password" id="api-key" placeholder="Entrez votre clé API" />
             </div>
 
-            <div id="theme-selector-container" style="display: none; margin-top: 15px">
+            <div id="theme-selector-container" class="hidden">
               <label for="theme-choice">Choisissez un thème :</label>
               <select id="theme-choice">
                 <option value="bloc1_principes_valeurs">
                   Principes et valeurs de la République
                 </option>
+
                 <option value="bloc2_institutionnel_politique">
                   Système institutionnel et politique
                 </option>
@@ -79,7 +80,7 @@
               <input type="number" id="question-count" value="10" min="1" max="50" />
             </div>
 
-            <button onclick="initiateQuiz()" style="margin-top: 20px; display: block; width: 100%">
+            <button onclick="initiateQuiz()">
               Commencer
             </button>
           </div>
@@ -94,18 +95,18 @@
         </div>
       </section>
 
-      <section id="loader" style="display: none;">
+      <section id="loader" class="hidden">
         <div class="spinner"></div>
         <p>Génération des questions en cours...</p>
       </section>
 
-<section id="quiz-container" style="display: none">
+<section id="quiz-container" class="hidden">
   <div class="quiz-layout">
     
 <div class="quiz-main-content">
   <h3 id="question-text"></h3>
   
-  <div id="hint-container" style="display: none;">
+  <div id="hint-container" class="hidden">
     <p id="hint-text"></p>
   </div>
 
@@ -133,7 +134,7 @@
             <th>Total restant</th>
             <td id="stat-total-left">-</td>
           </tr>
-          <tr id="timer-row" style="display: none;">
+          <tr id="timer-row" class="hidden">
             <th>Temps restant</th>
             <td id="stat-timer">-</td>
           </tr>
@@ -152,7 +153,7 @@
   </div>
 </section>
 
-      <section id="results" style="display: none">
+      <section id="results" class="hidden">
         <h2>Résultat</h2>
         <p id="score-display"></p>
         <button onclick="location.reload()">Retour à l'accueil</button>
