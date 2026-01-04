@@ -71,7 +71,8 @@ Assurez-vous que la sortie est un JSON valide et rien d'autre.`;
             question: q.question,
             choix: Array.isArray(q.choix) ? q.choix : [],
             reponse_correcte: q.reponse_correcte,
-            themeLabel: q.theme,
+            themeLabel: "Mise en situation: " + q.theme,
+            indice: q.indice
         }));
     } catch (error) {
         console.error("Erreur lors de la génération des questions :", error);
