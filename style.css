@@ -305,11 +305,55 @@ button:hover {
 
 /* --- RESPONSIVE --- */
 @media (max-width: 850px) {
+  main {
+    width: 90%;
+  }
+
   .quiz-layout {
     flex-direction: column;
+    gap: 20px;
   }
-  .quiz-sidebar { order: -1; width: 100%; }
-  #menu, #results, .quiz-main-content { padding: 25px; }
+  .quiz-sidebar { 
+    width: 100%; 
+  }
+  #menu, #results, .quiz-main-content { 
+    padding: 30px; 
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    min-height: -webkit-fill-available; /* iOS Safari viewport height fix */
+  }
+
+  header {
+    margin-bottom: 20px;
+    padding: 15px 0;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  #theme-toggle {
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.3rem;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  #menu, #results, .quiz-main-content {
+    padding: 25px 20px;
+  }
+  
+  .btn-choix {
+    padding: 15px;
+    font-size: 1rem;
+  }
 }
 
 .navigation-controls {
@@ -368,7 +412,6 @@ button:hover {
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
-  margin-left: 10px;
   transition: all 0.2s;
 }
 
