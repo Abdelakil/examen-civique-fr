@@ -179,7 +179,19 @@ select:focus {
   border-radius: 12px;
   box-shadow: var(--card-shadow);
   border: 1px solid var(--border-color);
-   transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
+  
+  /* Ajout pour une hauteur fixe */
+  display: flex;
+  flex-direction: column;
+  height: 520px; 
+}
+
+#options-container {
+  flex-grow: 1; /* Fait en sorte que ce conteneur prenne l'espace disponible */
+  overflow-y: auto; /* Ajoute un défilement si les options dépassent */
+  padding-right: 15px; /* Empêche la barre de défilement de coller au texte */
+  margin-right: -15px; /* Compense le padding pour garder l'alignement */
 }
 
 .quiz-sidebar {
@@ -190,7 +202,8 @@ select:focus {
 
 /* --- BOUTONS QCM --- */
 .btn-choix {
-  display: block;
+  display: flex; /* Changé pour Flexbox */
+  align-items: center; /* Centre le texte verticalement */
   width: 100%;
   padding: 18px 20px;
   margin: 15px 0;
@@ -203,6 +216,7 @@ select:focus {
   font-weight: 500;
   text-align: left;
   transition: all 0.25s ease;
+  min-height: 50px; /* Assure une hauteur minimale pour tous les boutons */
 }
 
 .btn-choix:hover {
@@ -313,8 +327,9 @@ button:hover {
     flex-direction: column;
     gap: 20px;
   }
-  .quiz-sidebar { 
+  .quiz-sidebar, .quiz-main-content { 
     width: 100%; 
+    box-sizing: border-box; /* Pour inclure padding et bordure dans la largeur */
   }
   #menu, #results, .quiz-main-content { 
     padding: 30px; 
