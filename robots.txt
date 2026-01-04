@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abdelakil.github.io/examen-civique-fr/sitemap.xml
