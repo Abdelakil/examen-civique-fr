@@ -18,82 +18,79 @@
     <main id="app">
       <section id="menu">
         <h2>Préparation à l'examen</h2>
+        <div class="menu-layout">
+          <div class="quiz-settings">
+            <label for="card-type">Type de carte sollicitée :</label>
+            <select id="card-type">
+              <option value="CSP">Carte de Séjour Pluriannuelle (CSP)</option>
+              <option value="CR">Carte de Résident (CR)</option>
+            </select>
 
-        <label for="card-type">Type de carte sollicitée :</label>
-        <select id="card-type">
-          <option value="CSP">Carte de Séjour Pluriannuelle (CSP)</option>
-          <option value="CR">Carte de Résident (CR)</option>
-        </select>
+            <label for="quiz-mode">Type de quiz :</label>
+            <select id="quiz-mode">
+              <option value="simulation">Simulation d'examen (40 questions)</option>
+              <option value="theme">Entraînement par thème</option>
+            </select>
 
-        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee" />
+            <div id="timed-exam-container" style="margin-top: 15px;">
+              <label for="timed-exam-choice">Examen chronométré :</label>
+              <select id="timed-exam-choice">
+                <option value="no" selected>Non</option>
+                <option value="yes">Oui (45 minutes)</option>
+              </select>
+            </div>
 
-        <label for="quiz-mode">Type de quiz :</label>
-        <select id="quiz-mode">
-          <option value="simulation">Simulation d'examen (40 questions)</option>
-          <option value="theme">Entraînement par thème</option>
-        </select>
+            <div id="mise-en-situation-container" style="margin-top: 15px;">
+              <label for="mise-en-situation-choice">Questions "Mise en situation" (IA) :</label>
+              <select id="mise-en-situation-choice">
+                <option value="no" selected>Non</option>
+                <option value="yes">Oui</option>
+              </select>
+            </div>
 
-        <div id="timed-exam-container" style="margin-top: 15px;">
-          <label for="timed-exam-choice">Examen chronométré :</label>
-          <select id="timed-exam-choice">
-            <option value="no" selected>Non</option>
-            <option value="yes">Oui (45 minutes)</option>
-          </select>
+            <div id="api-key-container" style="display: none; margin-top: 15px;">
+              <label for="api-key">Votre clé API Gemini :</label>
+              <input type="password" id="api-key" placeholder="Entrez votre clé API" />
+            </div>
+
+            <div id="theme-selector-container" style="display: none; margin-top: 15px">
+              <label for="theme-choice">Choisissez un thème :</label>
+              <select id="theme-choice">
+                <option value="bloc1_principes_valeurs">
+                  Principes et valeurs de la République
+                </option>
+                <option value="bloc2_institutionnel_politique">
+                  Système institutionnel et politique
+                </option>
+                <option value="bloc3_droits_et_devoirs">
+                  Droits et devoirs
+                </option>
+                <option value="bloc4_histoire_geo_culture">
+                  Histoire, géographie et culture
+                </option>
+                <option value="bloc5_vivre_en_societe">
+                  Vivre dans la société française
+                </option>
+              </select>
+
+              <br />
+              <label for="question-count">Nombre de questions :</label>
+              <input type="number" id="question-count" value="10" min="1" max="50" />
+            </div>
+
+            <button onclick="initiateQuiz()" style="margin-top: 20px; display: block; width: 100%">
+              Commencer
+            </button>
+          </div>
+          <aside class="useful-links">
+            <h3>Liens utiles</h3>
+            <ul>
+              <li><a href="https://formation-civique.interieur.gouv.fr/examen-civique/" target="_blank">Examen Civique - Site officiel</a></li>
+              <li><a href="https://www.lefrancaisdesaffaires.fr/candidat/examen-civique/presentation/" target="_blank">Examen Civique - Inscription</a></li>
+              <li><a href="https://www.immigration.interieur.gouv.fr/Integration-et-Acces-a-la-nationalite/La-nationalite-francaise/Le-livret-du-citoyen" target="_blank">Le livret du citoyen</a></li>
+            </ul>
+          </aside>
         </div>
-
-        <div id="mise-en-situation-container" style="margin-top: 15px;">
-          <label for="mise-en-situation-choice">Questions "Mise en situation" (IA) :</label>
-          <select id="mise-en-situation-choice">
-            <option value="no" selected>Non</option>
-            <option value="yes">Oui</option>
-          </select>
-        </div>
-
-        <div id="api-key-container" style="display: none; margin-top: 15px;">
-          <label for="api-key">Votre clé API Gemini :</label>
-          <input type="password" id="api-key" placeholder="Entrez votre clé API" />
-        </div>
-
-        <div
-          id="theme-selector-container"
-          style="display: none; margin-top: 15px"
-        >
-          <label for="theme-choice">Choisissez un thème :</label>
-          <select id="theme-choice">
-            <option value="bloc1_principes_valeurs">
-              Principes et valeurs de la République
-            </option>
-            <option value="bloc2_institutionnel_politique">
-              Système institutionnel et politique
-            </option>
-            <option value="bloc3_droits_et_devoirs">
-              Droits et devoirs
-            </option>
-            <option value="bloc4_histoire_geo_culture">
-              Histoire, géographie et culture
-            </option>
-            <option value="bloc5_vivre_en_societe">
-              Vivre dans la société française
-            </option>
-          </select>
-
-          <br />
-          <label for="question-count">Nombre de questions :</label>
-          <input
-            type="number"
-            id="question-count"
-            value="10"
-            min="1"
-            max="50"
-          />
-        </div>
-
-        <button
-          onclick="initiateQuiz()"
-          style="margin-top: 20px; display: block; width: 100%"
-        >
-          Commencer
-        </button>
       </section>
 
       <section id="loader" style="display: none;">

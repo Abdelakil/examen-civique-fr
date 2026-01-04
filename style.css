@@ -287,6 +287,62 @@ select:focus {
   transition: border-color 0.3s;
 }
 
+
+/* --- Menu Layout --- */
+.menu-layout {
+  display: flex;
+  gap: 40px;
+}
+
+.quiz-settings {
+  flex: 2;
+}
+
+.useful-links {
+  flex: 1;
+  padding-left: 40px;
+  border-left: 1px solid var(--border-color);
+}
+
+.useful-links h3 {
+  color: var(--blue-france);
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.useful-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.useful-links li {
+  margin-bottom: 15px;
+}
+
+.useful-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.useful-links a:hover {
+  color: var(--blue-france);
+  background-color: rgba(0, 33, 87, 0.08);
+  border-color: var(--border-color);
+  transform: translateX(3px);
+}
+
+.dark-mode .useful-links a:hover {
+    background-color: rgba(107, 155, 255, 0.1);
+}
+
 /* --- BOUTONS D'ACTION --- */
 button[onclick="initiateQuiz()"], #next-btn, button[onclick="location.reload()"] {
   background: var(--blue-france);
@@ -321,6 +377,18 @@ button:hover {
 @media (max-width: 850px) {
   main {
     width: 90%;
+  }
+
+  .menu-layout {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .useful-links {
+    padding-left: 0;
+    border-left: none;
+    padding-top: 30px;
+    border-top: 1px solid var(--border-color);
   }
 
   .quiz-layout {
