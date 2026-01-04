@@ -181,17 +181,14 @@ select:focus {
   border: 1px solid var(--border-color);
   transition: background-color 0.3s, border-color 0.3s;
   
-  /* Ajout pour une hauteur fixe */
+  /* Ajout pour une hauteur minimale */
   display: flex;
   flex-direction: column;
-  height: 520px; 
+  min-height: 520px; 
 }
 
 #options-container {
   flex-grow: 1; /* Fait en sorte que ce conteneur prenne l'espace disponible */
-  overflow-y: auto; /* Ajoute un défilement si les options dépassent */
-  padding-right: 15px; /* Empêche la barre de défilement de coller au texte */
-  margin-right: -15px; /* Compense le padding pour garder l'alignement */
 }
 
 .quiz-sidebar {
@@ -446,8 +443,6 @@ button:hover {
   display: flex;
   justify-content: space-between; /* Un à gauche, un à droite */
   margin-top: 30px;
-  border-top: 1px solid var(--border-color);
-  padding-top: 20px;
 }
 
 #prev-btn {
