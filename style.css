@@ -119,6 +119,7 @@ main {
   max-width: 1000px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 /* --- DESIGN DES CARTES (Menu et Résultats) --- */
@@ -185,10 +186,11 @@ select:focus {
   display: flex;
   flex-direction: column;
   min-height: 520px; 
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 #options-container {
-  flex-grow: 1; /* Fait en sorte que ce conteneur prenne l'espace disponible */
 }
 
 .quiz-sidebar {
@@ -201,6 +203,7 @@ select:focus {
 .btn-choix {
   display: flex; /* Changé pour Flexbox */
   align-items: center; /* Centre le texte verticalement */
+  justify-content: center; /* Centrer le contenu horizontalement */
   width: 100%;
   padding: 18px 20px;
   margin: 15px 0;
@@ -211,7 +214,7 @@ select:focus {
   border-radius: 10px;
   font-size: 1.05rem;
   font-weight: 500;
-  text-align: left;
+  text-align: center;
   transition: all 0.25s ease;
   min-height: 50px; /* Assure une hauteur minimale pour tous les boutons */
 }
@@ -441,7 +444,8 @@ button:hover {
 
 .navigation-controls {
   display: flex;
-  justify-content: space-between; /* Un à gauche, un à droite */
+  justify-content: center; /* Centrer les boutons */
+  gap: 15px;
   margin-top: 30px;
 }
 
