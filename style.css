@@ -334,6 +334,9 @@ button:hover {
   #menu, #results, .quiz-main-content { 
     padding: 30px; 
   }
+  #quiz-stats {
+    max-width: none;
+  }
 }
 
 @media (max-width: 600px) {
